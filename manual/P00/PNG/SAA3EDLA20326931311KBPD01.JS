@@ -1,0 +1,1 @@
+function ISAA3EDLA20326931311KBPD01(){var i=0;this.Title="Substituição do HO2S Primário";this.Name="SAA3EDLA20326931311KBPD01";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(386,50,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(301,258,13,0,"'Arial','sans-serif'",0,"<b>B<br>44 N&middot;m<br>(4,5 kgf&middot;m)</b>");}

@@ -1,0 +1,1 @@
+function ISAA3ED7A20336100000MAPD01(){var i=0;this.Title="Inspecção da Velocidade do Ralenti";this.Name="SAA3ED7A20336100000MAPD01";this.Width=475;this.Height=336;this.CallOut=new Array;this.CallOut[i++]=FS4(163,272,13,0,"'Arial','sans-serif'",0,"<b>C</b>");this.CallOut[i++]=FS4(39,307,13,0,"'Arial','sans-serif'",0,"<b></b>*: A ilustração apresenta o modelo LHD.");}

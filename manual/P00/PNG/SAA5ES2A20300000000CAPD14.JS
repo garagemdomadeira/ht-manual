@@ -1,0 +1,1 @@
+function ISAA5ES2A20300000000CAPD14(){var i=0;this.Title=" Sensor de Detonação";this.Name="SAA5ES2A20300000000CAPD14";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(43,269,13,0,"'Arial','sans-serif'",0,"<b>ELEMENTO PIEZO</b>");this.CallOut[i++]=FS4(314,18,13,0,"'Arial','sans-serif'",0,"<b>TERMINAL</b>");}

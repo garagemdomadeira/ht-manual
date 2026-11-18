@@ -1,0 +1,1 @@
+function ISAA2J20A20336335001KDPD15(){var i=0;this.Title=" Instalação:";this.Name="SAA2J20A20336335001KDPD15";this.Width=475;this.Height=353;this.CallOut=new Array;this.CallOut[i++]=FS4(263,16,13,0,"'Arial','sans-serif'",0,"<b>C</b>");this.CallOut[i++]=FS4(440,108,13,0,"'Arial','sans-serif'",0,"<b>B</b>");this.CallOut[i++]=FS4(168,322,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

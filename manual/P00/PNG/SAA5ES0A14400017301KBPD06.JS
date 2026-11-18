@@ -1,0 +1,1 @@
+function ISAA5ES0A14400017301KBPD06(){var i=0;this.Title="Substituição do Líquido de Arrefecimento - L15A1 (Modelo IN) e L15A6";this.Name="SAA5ES0A14400017301KBPD06";this.Width=475;this.Height=369;this.CallOut=new Array;this.CallOut[i++]=FS4(179,14,13,0,"'Arial','sans-serif'",0,"<b>A<br>78 N&middot;m <br>(8,0 kgf&middot;m)</b>");}

@@ -1,0 +1,1 @@
+function ISAA2J00J18526327891KBPD02(){var i=0;this.Title="Substituição da Portinhola de Enchimento do Combustível";this.Name="SAA2J00J18526327891KBPD02";this.Width=475;this.Height=356;this.CallOut=new Array;this.CallOut[i++]=FS4(436,159,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

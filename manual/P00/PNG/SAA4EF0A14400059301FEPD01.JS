@@ -1,0 +1,1 @@
+function ISAA4EF0A14400059301FEPD01(){var i=0;this.Title="Ensaio do Termostato";this.Name="SAA4EF0A14400059301FEPD01";this.Width=475;this.Height=397;this.CallOut=new Array;this.CallOut[i++]=FS4(416,210,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(412,52,13,0,"'Arial','sans-serif'",0,"<b>B</b>");}

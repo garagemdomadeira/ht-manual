@@ -1,0 +1,1 @@
+function ISAA4EQ0F00000057101MCPD04(){var i=0;this.Title=" Fabricadas em HATC";this.Name="SAA4EQ0F00000057101MCPD04";this.Width=475;this.Height=401;this.CallOut=new Array;this.CallOut[i++]=FS4(315,326,13,0,"'Arial','sans-serif'",0,"<b>A<br>11-13 N&middot;m<br>(1,1-1,3 kgf&middot;m)</b>");}

@@ -1,0 +1,1 @@
+function ISAA2EM0G24100040301KBPD01(){var i=0;this.Title="Substituição do Motor de Controlo do Modo";this.Name="SAA2EM0G24100040301KBPD01";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(445,227,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(117,32,13,0,"'Arial','sans-serif'",0,"<b>B</b>");}

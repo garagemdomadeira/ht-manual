@@ -1,0 +1,1 @@
+function ISAA4EQ0F18100057111KAPD01(){var i=0;this.Title="Remoção da Caixa da Direcção";this.Name="SAA4EQ0F18100057111KAPD01";this.Width=475;this.Height=343;this.CallOut=new Array;}

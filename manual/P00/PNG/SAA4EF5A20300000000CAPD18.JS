@@ -1,0 +1,1 @@
+function ISAA4EF5A20300000000CAPD18(){var i=0;this.Title=" Sensor (APP) da Posição do Pedal do Acelerador";this.Name="SAA4EF5A20300000000CAPD18";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(263,286,13,0,"'Arial','sans-serif'",0,"<b>SENSOR APP</b>");}

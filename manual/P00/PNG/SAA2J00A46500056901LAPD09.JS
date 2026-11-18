@@ -1,0 +1,1 @@
+function ISAA2J00A46500056901LAPD09(){var i=0;this.Title="Reparação Geral do Motor de Arranque";this.Name="SAA2J00A46500056901LAPD09";this.Width=475;this.Height=327;this.CallOut=new Array;this.CallOut[i++]=FS4(371,225,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(139,295,13,0,"'Arial','sans-serif'",0,"<b>B</b>");}

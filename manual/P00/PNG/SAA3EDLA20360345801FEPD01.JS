@@ -1,0 +1,1 @@
+function ISAA3EDLA20360345801FEPD01(){var i=0;this.Title="Inspecção e Ensaio da Válvula PCV";this.Name="SAA3EDLA20360345801FEPD01";this.Width=475;this.Height=417;this.CallOut=new Array;this.CallOut[i++]=FS4(217,16,13,0,"'Arial','sans-serif'",0,"<b>B</b>");this.CallOut[i++]=FS4(47,386,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

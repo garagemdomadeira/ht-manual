@@ -1,0 +1,1 @@
+function ISAA2EK0H46200053401KBPD04(){var i=0;this.Title=" Cinto de Segurança Dianteiro";this.Name="SAA2EK0H46200053401KBPD04";this.Width=475;this.Height=340;this.CallOut=new Array;this.CallOut[i++]=FS4(347,47,13,0,"'Arial','sans-serif'",0,"<b>8 x 1,25 mm<br>22 N&middot;m<br>(2,2 kgf&middot;m)</b>");this.CallOut[i++]=FS4(31,95,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

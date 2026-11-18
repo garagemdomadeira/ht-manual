@@ -1,0 +1,1 @@
+function ISAA2EM0G10500016711KDPD01(){var i=0;this.Title="Remoção e Instalação da ECU da Climatização";this.Name="SAA2EM0G10500016711KDPD01";this.Width=475;this.Height=417;this.CallOut=new Array;this.CallOut[i++]=FS4(90,38,13,0,"'Arial','sans-serif'",0,"<b>B</b>");this.CallOut[i++]=FS4(360,387,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

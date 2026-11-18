@@ -1,0 +1,1 @@
+function ISAA5ES0G24100050601FEPD01(){var i=0;this.Title="Ensaio do Motor de Controlo da Recirculação";this.Name="SAA5ES0G24100050601FEPD01";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(109,32,13,0,"'Arial','sans-serif'",0,"<b>MOTOR DE CONTROLO DA RECIRCULAÇÃO</b>");}

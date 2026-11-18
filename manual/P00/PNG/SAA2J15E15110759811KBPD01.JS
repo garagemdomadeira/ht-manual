@@ -1,0 +1,1 @@
+function ISAA2J15E15110759811KBPD01(){var i=0;this.Title="Substituição do Interruptor de Gama da Caixa de Velocidades";this.Name="SAA2J15E15110759811KBPD01";this.Width=475;this.Height=359;this.CallOut=new Array;}

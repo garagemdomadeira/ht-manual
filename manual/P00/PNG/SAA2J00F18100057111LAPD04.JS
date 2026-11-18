@@ -1,0 +1,1 @@
+function ISAA2J00F18100057111LAPD04(){var i=0;this.Title="Reparação Geral da Caixa da Direcção";this.Name="SAA2J00F18100057111LAPD04";this.Width=475;this.Height=609;this.CallOut=new Array;this.CallOut[i++]=FS4(218,578,13,0,"'Arial','sans-serif'",0,"<b>B</b>");this.CallOut[i++]=FS4(90,509,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

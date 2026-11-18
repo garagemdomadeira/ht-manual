@@ -1,0 +1,1 @@
+function ISAA4EQ0J54300065721FEPD01(){var i=0;this.Title=" Pára-brisas";this.Name="SAA4EQ0J54300065721FEPD01";this.Width=475;this.Height=369;this.CallOut=new Array;this.CallOut[i++]=FS4(377,108,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(29,302,13,0,"'Arial','sans-serif'",0,"<b>B</b>");}

@@ -1,0 +1,1 @@
+function ISAA2EK2E15117300000LCPD05(){var i=0;this.Title="Desmontagem da CVT";this.Name="SAA2EK2E15117300000LCPD05";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(388,290,13,0,"'Arial','sans-serif'",0,"<b>B</b>");this.CallOut[i++]=FS4(373,22,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

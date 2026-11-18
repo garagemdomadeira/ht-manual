@@ -1,0 +1,1 @@
+function ISAA2J15E15180117261KBPD01(){var i=0;this.Title="Substituição do Corpo da Válvula de Controlo";this.Name="SAA2J15E15180117261KBPD01";this.Width=475;this.Height=343;this.CallOut=new Array;this.CallOut[i++]=FS4(64,88,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(86,269,13,0,"'Arial','sans-serif'",0,"<b>B</b>");}

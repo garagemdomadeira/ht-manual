@@ -1,0 +1,1 @@
+function ISAA5EU0A14680363411KBPD01(){var i=0;this.Title="Substituição do Pressostato do Óleo VTEC";this.Name="SAA5EU0A14680363411KBPD01";this.Width=475;this.Height=353;this.CallOut=new Array;this.CallOut[i++]=FS4(27,135,13,0,"'Arial','sans-serif'",0,"<b>B</b>");this.CallOut[i++]=FS4(303,16,13,0,"'Arial','sans-serif'",0,"<b>A<br>22 N&middot;m<br>(2,2 kgf&middot;m)</b>");}

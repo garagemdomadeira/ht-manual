@@ -1,0 +1,1 @@
+function ISAA5ES0A20336100000MAPD02(){var i=0;this.Title=" Motor L15A1 para modelo IN e motor L15A6 ";this.Name="SAA5ES0A20336100000MAPD02";this.Width=475;this.Height=401;this.CallOut=new Array;this.CallOut[i++]=FS4(170,317,13,0,"'Arial','sans-serif'",0,"<b>C</b>");this.CallOut[i++]=FS4(39,367,13,0,"'Arial','sans-serif'",0,"<b></b>*: A ilustração apresenta o modelo LHD.");}

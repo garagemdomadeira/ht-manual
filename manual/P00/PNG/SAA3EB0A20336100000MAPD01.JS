@@ -1,0 +1,1 @@
+function ISAA3EB0A20336100000MAPD01(){var i=0;this.Title="Inspecção da Velocidade do Ralenti - Modelo Com Aquecedor";this.Name="SAA3EB0A20336100000MAPD01";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(436,158,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(70,51,13,0,"'Arial','sans-serif'",0,"<b>B</b>");}

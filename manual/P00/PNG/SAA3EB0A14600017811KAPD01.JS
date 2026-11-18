@@ -1,0 +1,1 @@
+function ISAA3EB0A14600017811KAPD01(){var i=0;this.Title="Remoção da Tampa da Cabeça do Motor";this.Name="SAA3EB0A14600017811KAPD01";this.Width=475;this.Height=336;this.CallOut=new Array;this.CallOut[i++]=FS4(313,17,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(343,305,13,0,"'Arial','sans-serif'",0,"<b>B</b>");}

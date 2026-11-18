@@ -1,0 +1,1 @@
+function ISAA3EE7K72100000000BBPD01(){var i=0;this.Title=" Se a MIL acendeu";this.Name="SAA3EE7K72100000000BBPD01";this.Width=475;this.Height=401;this.CallOut=new Array;this.CallOut[i++]=FS4(22,38,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(17,370,13,0,"'Arial','sans-serif'",0,"<b></b>*: A ilustração apresenta o modelo LHD.");}

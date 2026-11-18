@@ -1,0 +1,1 @@
+function ISAA4EQ2E15111412281KBPD07(){var i=0;this.Title="Substituição do Cabo das Mudanças da A/T";this.Name="SAA4EQ2E15111412281KBPD07";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(69,26,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(247,26,13,0,"'Arial','sans-serif'",0,"<b>B</b>");}

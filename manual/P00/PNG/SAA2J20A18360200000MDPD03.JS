@@ -1,0 +1,1 @@
+function ISAA2J20A18360200000MDPD03(){var i=0;this.Title=" Localizações do Código do Furo da Cabeça da Biela";this.Name="SAA2J20A18360200000MDPD03";this.Width=475;this.Height=340;this.CallOut=new Array;}

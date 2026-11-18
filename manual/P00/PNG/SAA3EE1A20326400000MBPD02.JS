@@ -1,0 +1,1 @@
+function ISAA3EE1A20326400000MBPD02(){var i=0;this.Title=" Sem o HDS";this.Name="SAA3EE1A20326400000MBPD02";this.Width=475;this.Height=369;this.CallOut=new Array;this.CallOut[i++]=FS4(105,321,13,0,"'Arial','sans-serif'",0,"<b>B</b>");this.CallOut[i++]=FS4(27,289,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

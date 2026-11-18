@@ -1,0 +1,1 @@
+function ISAA3EB0A14616700000KAPD01(){var i=0;this.Title="Remoção da Árvore de Cames";this.Name="SAA3EB0A14616700000KAPD01";this.Width=475;this.Height=417;this.CallOut=new Array;this.CallOut[i++]=FS4(444,77,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(301,17,13,0,"'Arial','sans-serif'",0,"<b>B</b>");}

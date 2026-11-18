@@ -1,0 +1,1 @@
+function ISAA4EQ0F00000057161KAPD02(){var i=0;this.Title=" Com SRS";this.Name="SAA4EQ0F00000057161KAPD02";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(415,40,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

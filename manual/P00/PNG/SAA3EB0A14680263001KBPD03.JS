@@ -1,0 +1,1 @@
+function ISAA3EB0A14680263001KBPD03(){var i=0;this.Title="Substituição da Guia da Válvula";this.Name="SAA3EB0A14680263001KBPD03";this.Width=475;this.Height=385;this.CallOut=new Array;this.CallOut[i++]=FS4(42,46,13,0,"'Arial','sans-serif'",0,"<b>07742-0010100</b>");}

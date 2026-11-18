@@ -1,0 +1,1 @@
+function ISAA4EQ0D14300014791MDPD01(){var i=0;this.Title=" Inspecção";this.Name="SAA4EQ0D14300014791MDPD01";this.Width=475;this.Height=369;this.CallOut=new Array;this.CallOut[i++]=FS4(419,253,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(426,276,13,0,"'Arial','sans-serif'",0,"<b>B</b>");}

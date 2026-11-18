@@ -1,0 +1,1 @@
+function ISAA2J20A14400059301KBPD01(){var i=0;this.Title=" Remoção:";this.Name="SAA2J20A14400059301KBPD01";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(260,90,13,0,"'Arial','sans-serif'",0,"<b>B</b>");this.CallOut[i++]=FS4(401,84,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

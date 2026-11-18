@@ -1,0 +1,1 @@
+function ISAA2EM0J32173660726KBPD01(){var i=0;this.Title="Substituição da Luz do Pisca de Direcção Lateral";this.Name="SAA2EM0J32173660726KBPD01";this.Width=475;this.Height=497;this.CallOut=new Array;this.CallOut[i++]=FS4(84,58,13,0,"'Arial','sans-serif'",0,"<b>C</b>");this.CallOut[i++]=FS4(27,436,13,0,"'Arial','sans-serif'",0,"<b>B</b>");}

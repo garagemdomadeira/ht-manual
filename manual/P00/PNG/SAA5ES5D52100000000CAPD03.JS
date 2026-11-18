@@ -1,0 +1,1 @@
+function ISAA5ES5D52100000000CAPD03(){var i=0;this.Title=" Características do TCS";this.Name="SAA5ES5D52100000000CAPD03";this.Width=950;this.Height=319;this.CallOut=new Array;this.CallOut[i++]=FS4(54,147,12,0,"'Arial','sans-serif'",0,"<b>SUPERFÍCIE DA ESTRADA NORMAL</b>");this.CallOut[i++]=FS4(689,138,12,0,"'Arial','sans-serif'",0,"<b>SUPERFÍCIE DA ESTRADA ESCORREGADIA</b>");}

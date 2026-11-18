@@ -1,0 +1,1 @@
+function ISAA2EK3J54200000000DEPD09(){var i=0;this.Title="Localizações dos Relés e Unidades de Controlo - Banco";this.Name="SAA2EK3J54200000000DEPD09";this.Width=950;this.Height=706;this.CallOut=new Array;this.CallOut[i++]=FS4(139,677,12,0,"'Arial','sans-serif'",0,"<b>UNIDADE OPDS (Modelo KQ)</b>");}

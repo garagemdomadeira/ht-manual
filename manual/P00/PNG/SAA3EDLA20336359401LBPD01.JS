@@ -1,0 +1,1 @@
+function ISAA3EDLA20336359401LBPD01(){var i=0;this.Title="Limpeza do Corpo da Borboleta";this.Name="SAA3EDLA20336359401LBPD01";this.Width=475;this.Height=385;this.CallOut=new Array;this.CallOut[i++]=FS4(209,16,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(252,355,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

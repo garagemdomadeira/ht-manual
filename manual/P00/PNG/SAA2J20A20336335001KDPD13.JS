@@ -1,0 +1,1 @@
+function ISAA2J20A20336335001KDPD13(){var i=0;this.Title=" Se o Colector da Admissão tiver sido Deslocado:";this.Name="SAA2J20A20336335001KDPD13";this.Width=475;this.Height=320;this.CallOut=new Array;}

@@ -1,0 +1,1 @@
+function ISAA2J20A20336335001KDPD03(){var i=0;this.Title=" Aquando da Deslocação do Colector da Admissão:";this.Name="SAA2J20A20336335001KDPD03";this.Width=475;this.Height=320;this.CallOut=new Array;}

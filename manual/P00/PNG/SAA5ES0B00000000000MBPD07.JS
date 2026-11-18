@@ -1,0 +1,1 @@
+function ISAA5ES0B00000000000MBPD07(){var i=0;this.Title=" Inspecção ao Sopé Traseiro";this.Name="SAA5ES0B00000000000MBPD07";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(317,108,13,0,"'Arial','sans-serif'",0,"<b>A<br>07NAJ-SS00301</b>");}

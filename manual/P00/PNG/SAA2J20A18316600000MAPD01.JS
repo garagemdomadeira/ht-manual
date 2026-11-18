@@ -1,0 +1,1 @@
+function ISAA2J20A18316600000MAPD01(){var i=0;this.Title="Inspecção da Folga Longitudinal da Biela e da Cambota";this.Name="SAA2J20A18316600000MAPD01";this.Width=475;this.Height=320;this.CallOut=new Array;}

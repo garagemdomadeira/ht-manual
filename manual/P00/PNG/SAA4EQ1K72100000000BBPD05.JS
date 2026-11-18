@@ -1,0 +1,1 @@
+function ISAA4EQ1K72100000000BBPD05(){var i=0;this.Title=" Como Diagnosticar no ECM";this.Name="SAA4EQ1K72100000000BBPD05";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(55,49,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(294,252,13,0,"'Arial','sans-serif'",0,"<b>B</b>");}

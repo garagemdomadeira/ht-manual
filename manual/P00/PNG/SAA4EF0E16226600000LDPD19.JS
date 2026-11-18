@@ -1,0 +1,1 @@
+function ISAA4EF0E16226600000LDPD19(){var i=0;this.Title=" Lado da União Exterior";this.Name="SAA4EF0E16226600000LDPD19";this.Width=475;this.Height=353;this.CallOut=new Array;this.CallOut[i++]=FS4(151,276,13,0,"'Arial','sans-serif'",0,"<b>10cm<br> </b>");this.CallOut[i++]=FS4(164,174,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

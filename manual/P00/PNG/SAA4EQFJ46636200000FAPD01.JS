@@ -1,0 +1,1 @@
+function ISAA4EQFJ46636200000FAPD01(){var i=0;this.Title="Diagnóstico de Avarias do Sistema Imobilizador";this.Name="SAA4EQFJ46636200000FAPD01";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(361,45,13,0,"'Arial','sans-serif'",0,"<b>B</b>");this.CallOut[i++]=FS4(398,111,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

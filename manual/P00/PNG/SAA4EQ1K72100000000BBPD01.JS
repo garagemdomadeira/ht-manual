@@ -1,0 +1,1 @@
+function ISAA4EQ1K72100000000BBPD01(){var i=0;this.Title=" Se a MIL acendeu";this.Name="SAA4EQ1K72100000000BBPD01";this.Width=475;this.Height=336;this.CallOut=new Array;this.CallOut[i++]=FS4(267,251,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

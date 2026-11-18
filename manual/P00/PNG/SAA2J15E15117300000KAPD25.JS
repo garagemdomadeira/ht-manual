@@ -1,0 +1,1 @@
+function ISAA2J15E15117300000KAPD25(){var i=0;this.Title="Remoção da CVT";this.Name="SAA2J15E15117300000KAPD25";this.Width=475;this.Height=369;this.CallOut=new Array;this.CallOut[i++]=FS4(60,34,13,0,"'Arial','sans-serif'",0,"<b>B</b>");this.CallOut[i++]=FS4(344,334,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

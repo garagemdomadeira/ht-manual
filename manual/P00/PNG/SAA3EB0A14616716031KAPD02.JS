@@ -1,0 +1,1 @@
+function ISAA3EB0A14616716031KAPD02(){var i=0;this.Title="Remoção da Roda Dentada da Árvore de Cames";this.Name="SAA3EB0A14616716031KAPD02";this.Width=475;this.Height=353;this.CallOut=new Array;}

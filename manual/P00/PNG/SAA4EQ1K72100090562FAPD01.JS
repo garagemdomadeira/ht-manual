@@ -1,0 +1,1 @@
+function ISAA4EQ1K72100090562FAPD01(){var i=0;this.Title="Diagnóstico de Avarias por DTC: P0562 (34), P0563 ";this.Name="SAA4EQ1K72100090562FAPD01";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(244,50,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

@@ -1,0 +1,1 @@
+function ISAA5ES0B00000000000MBPD09(){var i=0;this.Title=" Inspecção do Ângulo de Viragem";this.Name="SAA5ES0B00000000000MBPD09";this.Width=475;this.Height=320;this.CallOut=new Array;}

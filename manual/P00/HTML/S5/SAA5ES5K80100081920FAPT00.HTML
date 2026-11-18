@@ -1,0 +1,119 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN""http://www.w3.org/TR/html4/frameset.dtd">
+<html lang="pt">
+ <head>
+  <meta content="HONDA MOTOR Co.,Ltd." name="author"/>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+  <meta content="text/css" http-equiv="Content-Style-Type"/>
+  <meta content="text/javascript" http-equiv="Content-Script-Type"/>
+  <title>
+   Diagnóstico de Avarias por DTC: 92 (Com VSA)
+  </title>
+  <link href="../CTL/ESM_DISP.CSS" media="screen" rel="stylesheet"/>
+  <link href="../CTL/ESM_PRIN.CSS" media="print" rel="stylesheet"/>
+  <script src="../CTL/ILLUST.JS">
+  </script>
+  <script>
+   FIC();
+  </script>
+  <link href="https://unpkg.com/skeleton-css@2.0.4/css/skeleton.css" rel="stylesheet"/>
+  <body class="container">
+   <h2>
+    Diagnóstico de Avarias por DTC: 92
+   </h2>
+   <p>
+    <table cols="2" width="100%">
+     <tr>
+      <td class="DTC">
+       <b>
+        DTC 92:
+       </b>
+      </td>
+      <td class="DTC">
+       Sistema F-CAN
+      </td>
+     </tr>
+    </table>
+   </p>
+   <br/>
+   NOTA: Antes de efectuar este diagnóstico de avarias,
+   <a href="../E1/SAA3EE1K72100000000BBPT00.HTML">
+    efectue primeiramente um diagnóstico de avarias ao Sistema da PGM-FI.
+   </a>
+   <br/>
+   <p>
+    <p>
+     <table cols="2" width="100%">
+      <tr>
+       <td id="i010" nowrap="" valign="top" width="1%">
+        1.
+       </td>
+       <td valign="top" width="99%">
+        <a href="./SAA5ES5K80100000000BBPT00.HTML#iG10">
+         Elimine os DTC da memória utilizando o HDS.
+        </a>
+        <br/>
+       </td>
+      </tr>
+     </table>
+    </p>
+    <p>
+     <table cols="2" width="100%">
+      <tr>
+       <td id="i020" nowrap="" valign="top" width="1%">
+        2.
+       </td>
+       <td valign="top" width="99%">
+        Arranque e deixe em funcionamento o motor durante pelo menos 5 segundos e, em seguida, desligue o motor.
+        <br/>
+       </td>
+      </tr>
+     </table>
+    </p>
+    <p>
+     <table cols="2" width="100%">
+      <tr>
+       <td id="i030" nowrap="" valign="top" width="1%">
+        3.
+       </td>
+       <td valign="top" width="99%">
+        Verifique o DTC.
+        <br/>
+        <p>
+         <i>
+          É indicado o DTC 92?
+         </i>
+        </p>
+        <br/>
+        <p>
+         <b>
+          SIM
+         </b>
+         -
+         <a href="./SAA5ES5K721000U0122FAPT00.HTML">
+          Efectue o diagnóstico de avarias ao DTC U0122 para o Sistema da PGM-FI.
+         </a>
+         <span style="font-family:Wingdings;">
+          n
+         </span>
+        </p>
+        <br/>
+        <p>
+         <b>
+          NÃO
+         </b>
+         - O sistema está agora bom.
+         <span style="font-family:Wingdings;">
+          n
+         </span>
+        </p>
+       </td>
+      </tr>
+     </table>
+    </p>
+   </p>
+   <script>
+    Array.from(document.querySelectorAll("input[type=image]")).map(item=>{item.click(); item.remove()})
+   </script>
+  </body>
+ </head>
+</html>

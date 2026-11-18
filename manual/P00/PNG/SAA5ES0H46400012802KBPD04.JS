@@ -1,0 +1,1 @@
+function ISAA5ES0H46400012802KBPD04(){var i=0;this.Title=" Instalação";this.Name="SAA5ES0H46400012802KBPD04";this.Width=475;this.Height=353;this.CallOut=new Array;this.CallOut[i++]=FS4(411,259,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(72,272,13,0,"'Arial','sans-serif'",0,"<b>B</b>");this.CallOut[i++]=FS4(312,324,13,0,"'Arial','sans-serif'",0,"<b>C</b>");}

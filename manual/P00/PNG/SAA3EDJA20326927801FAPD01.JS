@@ -1,0 +1,1 @@
+function ISAA3EDJA20326927801FAPD01(){var i=0;this.Title="Ensaio do Injector do Combustível";this.Name="SAA3EDJA20326927801FAPD01";this.Width=475;this.Height=401;this.CallOut=new Array;this.CallOut[i++]=FS4(429,207,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

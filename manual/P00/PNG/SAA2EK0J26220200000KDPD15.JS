@@ -1,0 +1,1 @@
+function ISAA2EK0J26220200000KDPD15(){var i=0;this.Title=" Lado do passageiro:";this.Name="SAA2EK0J26220200000KDPD15";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(347,166,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(240,271,13,0,"'Arial','sans-serif'",0,"<b>21 mm</b>");}

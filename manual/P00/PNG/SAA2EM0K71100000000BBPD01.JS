@@ -1,0 +1,1 @@
+function ISAA2EM0K71100000000BBPD01(){var i=0;this.Title=" Como Recuperar um DTC";this.Name="SAA2EM0K71100000000BBPD01";this.Width=950;this.Height=319;this.CallOut=new Array;this.CallOut[i++]=FS4(564,135,12,0,"'Arial','sans-serif'",0,"<b>INDICADOR DO DTC</b>");this.CallOut[i++]=FS4(566,206,12,0,"'Arial','sans-serif'",0,"<b>UNIDADE DE CONTROLO DA CLIMATIZAÇÃO</b>");}

@@ -1,0 +1,1 @@
+function ISAA4EQ0J32133131661KBPD02(){var i=0;this.Title="Substituição do Solenóide de Comutação Máximos/Médios";this.Name="SAA4EQ0J32133131661KBPD02";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(309,22,13,0,"'Arial','sans-serif'",0,"<b>B</b>");this.CallOut[i++]=FS4(418,103,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

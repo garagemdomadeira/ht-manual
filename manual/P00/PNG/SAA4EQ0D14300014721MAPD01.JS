@@ -1,0 +1,1 @@
+function ISAA4EQ0D14300014721MAPD01(){var i=0;this.Title=" Excentricidade";this.Name="SAA4EQ0D14300014721MAPD01";this.Width=475;this.Height=385;this.CallOut=new Array;this.CallOut[i++]=FS4(185,324,13,0,"'Arial','sans-serif'",0,"<b>A<br>108 N&middot;m (11,0 kgf&middot;m)</b>");this.CallOut[i++]=FS4(258,19,13,0,"'Arial','sans-serif'",0,"<b>10 mm </b>");}

@@ -1,0 +1,1 @@
+function ISAA3EDLA20326936301KBPD01(){var i=0;this.Title="Substituição do Sensor de Detonação";this.Name="SAA3EDLA20326936301KBPD01";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(138,238,13,0,"'Arial','sans-serif'",0,"<b>B</b>");this.CallOut[i++]=FS4(235,288,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

@@ -1,0 +1,1 @@
+function ISAA4EQAK72200000000BBPD01(){var i=0;this.Title=" Como Recuperar os DTC da EPS";this.Name="SAA4EQAK72200000000BBPD01";this.Width=475;this.Height=369;this.CallOut=new Array;this.CallOut[i++]=FS4(172,332,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

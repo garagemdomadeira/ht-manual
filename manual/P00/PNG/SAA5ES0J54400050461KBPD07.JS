@@ -1,0 +1,1 @@
+function ISAA5ES0J54400050461KBPD07(){var i=0;this.Title="Substituição do Vidro Traseiro";this.Name="SAA5ES0J54400050461KBPD07";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(89,16,13,0,"'Arial','sans-serif'",0,"<b>B</b>");this.CallOut[i++]=FS4(16,213,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

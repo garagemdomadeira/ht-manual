@@ -1,0 +1,1 @@
+function ISAA4EQ2E15117300000LDPD18(){var i=0;this.Title="Montagem da CVT";this.Name="SAA4EQ2E15117300000LDPD18";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(41,48,13,0,"'Arial','sans-serif'",0,"<b>07TAE-P4V0130</b>");this.CallOut[i++]=FS4(395,16,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

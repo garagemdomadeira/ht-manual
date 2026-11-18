@@ -1,0 +1,1 @@
+function ISAA2EM0G10500057401KBPD01(){var i=0;this.Title="Substituição do Sensor da Luz Solar";this.Name="SAA2EM0G10500057401KBPD01";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(345,15,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(259,16,13,0,"'Arial','sans-serif'",0,"<b>B</b>");}

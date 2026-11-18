@@ -1,0 +1,1 @@
+function ISAA2EK0F00000057161KCPD01(){var i=0;this.Title="Instalação do Volante";this.Name="SAA2EK0F00000057161KCPD01";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(91,16,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(344,16,13,0,"'Arial','sans-serif'",0,"<b>B</b>");}

@@ -1,0 +1,1 @@
+function ISAA4EF0A14400017301KBPD04(){var i=0;this.Title="Substituição do Líquido de Arrefecimento";this.Name="SAA4EF0A14400017301KBPD04";this.Width=475;this.Height=320;this.CallOut=new Array;}

@@ -1,0 +1,1 @@
+function ISAA5ES5A20300000000CAPD10(){var i=0;this.Title=" Sensor da Posição da Árvore de Cames (CMP)";this.Name="SAA5ES5A20300000000CAPD10";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(328,16,13,0,"'Arial','sans-serif'",0,"<b>O-RING</b>");this.CallOut[i++]=FS4(359,228,13,0,"'Arial','sans-serif'",0,"<b>ÍMAN</b>");}

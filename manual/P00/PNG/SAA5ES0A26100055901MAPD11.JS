@@ -1,0 +1,1 @@
+function ISAA5ES0A26100055901MAPD11(){var i=0;this.Title="Inspecção das Velas - L15A1 (Modelo IN) e L15A6";this.Name="SAA5ES0A26100055901MAPD11";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(320,60,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

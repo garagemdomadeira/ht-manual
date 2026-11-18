@@ -1,0 +1,1 @@
+function ISAA5ES00000000K0031BAPD02(){var i=0;this.Title=" Volante:";this.Name="SAA5ES00000000K0031BAPD02";this.Width=950;this.Height=319;this.CallOut=new Array;this.CallOut[i++]=FS4(92,91,12,0,"'Arial','sans-serif'",0,"<b>CUIDADO COM O ENROLADOR DE CABO</b>");this.CallOut[i++]=FS4(690,18,12,0,"'Arial','sans-serif'",0,"<b>PERIGO DO MÓDULO DO CONDUTOR</b>");}

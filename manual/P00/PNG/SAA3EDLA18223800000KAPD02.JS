@@ -1,0 +1,1 @@
+function ISAA3EDLA18223800000KAPD02(){var i=0;this.Title=" Modelos RHD:";this.Name="SAA3EDLA18223800000KAPD02";this.Width=475;this.Height=353;this.CallOut=new Array;this.CallOut[i++]=FS4(35,239,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(429,263,13,0,"'Arial','sans-serif'",0,"<b>B</b>");}

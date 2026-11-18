@@ -1,0 +1,1 @@
+function ISAA2J20A18316600000MAPD03(){var i=0;this.Title=" Rectilineanidade";this.Name="SAA2J20A18316600000MAPD03";this.Width=475;this.Height=320;this.CallOut=new Array;}

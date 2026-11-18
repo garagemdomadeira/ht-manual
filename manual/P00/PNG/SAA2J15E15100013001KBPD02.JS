@@ -1,0 +1,1 @@
+function ISAA2J15E15100013001KBPD02(){var i=0;this.Title="Substituição do ATF";this.Name="SAA2J15E15100013001KBPD02";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(399,204,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

@@ -1,0 +1,1 @@
+function ISAA5ES8A20336100000MAPD01(){var i=0;this.Title=" Motor L13A1 (M/T) para modelos KQ, KK, KT, KB ";this.Name="SAA5ES8A20336100000MAPD01";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(433,61,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(46,156,13,0,"'Arial','sans-serif'",0,"<b>B</b>");}

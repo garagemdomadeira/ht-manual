@@ -1,0 +1,1 @@
+function ISAA4EQ0F00000057161KCPD06(){var i=0;this.Title=" Sem SRS";this.Name="SAA4EQ0F00000057161KCPD06";this.Width=475;this.Height=385;this.CallOut=new Array;this.CallOut[i++]=FS4(359,27,13,0,"'Arial','sans-serif'",0,"<b>B</b>");this.CallOut[i++]=FS4(180,13,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(440,355,13,0,"'Arial','sans-serif'",0,"<b>C</b>");}

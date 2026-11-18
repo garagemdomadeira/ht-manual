@@ -1,0 +1,1 @@
+function ISAA4EQ0K79100081244FAPD02(){var i=0;this.Title="Diagnóstico de Avarias por DTC: 24-4";this.Name="SAA4EQ0K79100081244FAPD02";this.Width=475;this.Height=433;this.CallOut=new Array;this.CallOut[i++]=FS4(187,386,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(310,393,13,0,"'Arial','sans-serif'",0,"<b>B</b>");}

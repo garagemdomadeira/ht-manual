@@ -1,0 +1,1148 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN""http://www.w3.org/TR/html4/frameset.dtd">
+<html lang="pt">
+ <head>
+  <meta content="HONDA MOTOR Co.,Ltd." name="author"/>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+  <meta content="text/css" http-equiv="Content-Style-Type"/>
+  <meta content="text/javascript" http-equiv="Content-Script-Type"/>
+  <title>
+   Descrição do Sistema da CVT - Controlos Electrónicos (L12A/L13A CVT)
+  </title>
+  <link href="../CTL/ESM_DISP.CSS" media="screen" rel="stylesheet"/>
+  <link href="../CTL/ESM_PRIN.CSS" media="print" rel="stylesheet"/>
+  <script src="../CTL/ILLUST.JS">
+  </script>
+  <script>
+   FIC();
+  </script>
+  <script src="../../PNG/SAA3ED2E15117700000CAPD01.JS">
+  </script>
+  <script src="../../PNG/SAA3ED2E15117700000CAPD02.JS">
+  </script>
+  <script src="../../PNG/SAA3ED2E15117700000CAPD03.JS">
+  </script>
+  <script src="../../PNG/SAA3ED2E15117700000CAPD04.JS">
+  </script>
+  <script src="../../PNG/SAA3ED2E15117700000CAPD90.JS">
+  </script>
+  <script src="../../PNG/SAA3ED2E15117700000CAPD91.JS">
+  </script>
+  <script>
+   <!--
+with(document){ESM.iDT[0]=new ISAA3ED2E15117700000CAPD01();ESM.iDT[1]=new ISAA3ED2E15117700000CAPD02();ESM.iDT[2]=new ISAA3ED2E15117700000CAPD03();ESM.iDT[3]=new ISAA3ED2E15117700000CAPD04();ESM.iDT[4]=new ISAA3ED2E15117700000CAPD90();ESM.iDT[5]=new ISAA3ED2E15117700000CAPD91();}//-->
+  </script>
+  <link href="https://unpkg.com/skeleton-css@2.0.4/css/skeleton.css" rel="stylesheet"/>
+  <body class="container">
+   <h2>
+    Descrição do Sistema da CVT - Controlos Electrónicos
+   </h2>
+   <h3>
+    <b>
+     Sistema de Controlo Electrónico
+    </b>
+   </h3>
+   <br/>
+   <a name="iT01">
+   </a>
+   <h4>
+    <b>
+     Ligações Eléctricas PCM -CVT de 6 posições
+    </b>
+   </h4>
+   <p class="FIG">
+    <div class="FIG">
+     <script>
+      FIL(1,gESM.iDT[0],512);
+     </script>
+    </div>
+   </p>
+   <h3>
+    <b>
+     Sistema de Controlo Electrónico (cont.)
+    </b>
+   </h3>
+   <br/>
+   <a name="iT02">
+   </a>
+   <h4>
+    <b>
+     Ligações Eléctricas PCM -CVT de 6 posições + Modo de 7 Velocidades
+    </b>
+   </h4>
+   <p class="FIG">
+    <div class="FIG">
+     <script>
+      FIL(2,gESM.iDT[1],512);
+     </script>
+    </div>
+   </p>
+   <a name="iT03">
+   </a>
+   <h4>
+    <b>
+     Sinais de Entrada e de Saída do PCM
+    </b>
+   </h4>
+   <p class="FIG">
+    <div class="FIG">
+     <script>
+      FIL(3,gESM.iDT[2],512);
+     </script>
+    </div>
+   </p>
+   <p>
+    <table cellspacing="0" class="All" width="100%">
+     <caption align="left">
+      <b>
+       FICHA A (31P) DO PCM
+      </b>
+     </caption>
+     <br/>
+     <thead>
+      <tr>
+       <th align="center" class="RB" valign="top" width="12%">
+        Número do Terminal
+       </th>
+       <th align="center" class="RB" valign="top" width="12%">
+        Cor do Fio
+       </th>
+       <th align="center" class="RB" valign="top" width="12%">
+        Sinal
+       </th>
+       <th align="center" class="RB" valign="top" width="27%">
+        Descrição
+       </th>
+       <th align="center" class="B" valign="top" width="38%">
+        Condições de Medição/Voltagem dos Terminais
+       </th>
+      </tr>
+     </thead>
+     <tbody>
+      <tr>
+       <td align="center" class="RB" valign="top" width="12%">
+        A2
+       </td>
+       <td align="center" class="RB" valign="top" width="12%">
+        YEL/BLK
+       </td>
+       <td align="center" class="RB" valign="top" width="12%">
+        IGP2
+       </td>
+       <td align="left" class="RB" valign="top" width="27%">
+        Circuito de alimentação do relé principal
+       </td>
+       <td align="left" class="B" valign="top" width="38%">
+        Com a ignição LIGADA (II): Voltagem da bateria
+        <br/>
+        Com a ignição DESLIGADA: 0 V
+       </td>
+      </tr>
+      <tr>
+       <td align="center" class="RB" valign="top" width="12%">
+        A3
+       </td>
+       <td align="center" class="RB" valign="top" width="12%">
+        YEL/BLK
+       </td>
+       <td align="center" class="RB" valign="top" width="12%">
+        IGP1
+       </td>
+       <td align="left" class="RB" valign="top" width="27%">
+        Circuito de alimentação do relé principal
+       </td>
+       <td align="left" class="B" valign="top" width="38%">
+        Com a ignição LIGADA (II): Voltagem da bateria
+        <br/>
+        Com a ignição DESLIGADA: 0 V
+       </td>
+      </tr>
+      <tr>
+       <td align="center" class="RB" valign="top" width="12%">
+        A4
+       </td>
+       <td align="center" class="RB" valign="top" width="12%">
+        BRN
+       </td>
+       <td align="center" class="RB" valign="top" width="12%">
+        PG2
+       </td>
+       <td align="left" class="RB" valign="top" width="27%">
+        Massa
+       </td>
+       <td align="left" class="B" valign="top" width="38%">
+       </td>
+      </tr>
+      <tr>
+       <td align="center" class="RB" valign="top" width="12%">
+        A5
+       </td>
+       <td align="center" class="RB" valign="top" width="12%">
+        BLK
+       </td>
+       <td align="center" class="RB" valign="top" width="12%">
+        PG1
+       </td>
+       <td align="left" class="RB" valign="top" width="27%">
+        Massa
+       </td>
+       <td align="left" class="B" valign="top" width="38%">
+       </td>
+      </tr>
+      <tr>
+       <td align="center" class="RB" valign="top" width="12%">
+        A10
+       </td>
+       <td align="center" class="RB" valign="top" width="12%">
+        GRN/BLK
+       </td>
+       <td align="center" class="RB" valign="top" width="12%">
+        SG2
+       </td>
+       <td align="left" class="RB" valign="top" width="27%">
+        Massa do sensor
+       </td>
+       <td align="left" class="B" valign="top" width="38%">
+       </td>
+      </tr>
+      <tr>
+       <td align="center" class="RB" valign="top" width="12%">
+        A11
+       </td>
+       <td align="center" class="RB" valign="top" width="12%">
+        GRN/WHT
+       </td>
+       <td align="center" class="RB" valign="top" width="12%">
+        SG1
+       </td>
+       <td align="left" class="RB" valign="top" width="27%">
+        Massa do sensor
+       </td>
+       <td align="left" class="B" valign="top" width="38%">
+       </td>
+      </tr>
+      <tr>
+       <td align="center" class="RB" valign="top" width="12%">
+        A18
+       </td>
+       <td align="center" class="RB" valign="top" width="12%">
+        BLU/WHT
+       </td>
+       <td align="center" class="RB" valign="top" width="12%">
+        VABS
+       </td>
+       <td align="left" class="RB" valign="top" width="27%">
+        Entrada de sinais do sensor da velocidade do veículo
+       </td>
+       <td align="left" class="B" valign="top" width="38%">
+        Com a ignição LIGADA (II): Cerca de 5 V
+        <br/>
+        Com a ignição DESLIGADA: 0 V
+       </td>
+      </tr>
+      <tr>
+       <td align="center" class="RB" valign="top" width="12%">
+        A20
+       </td>
+       <td align="center" class="RB" valign="top" width="12%">
+        YEL/BLU
+       </td>
+       <td align="center" class="RB" valign="top" width="12%">
+        VCC2
+       </td>
+       <td align="left" class="RB" valign="top" width="27%">
+        Circuito de alimentação para sensores
+       </td>
+       <td align="left" class="B" valign="top" width="38%">
+        Com a ignição LIGADA (II): Cerca de 5 V
+        <br/>
+        Com a ignição DESLIGADA: 0 V
+       </td>
+      </tr>
+      <tr>
+       <td align="center" class="RB" valign="top" width="12%">
+        A21
+       </td>
+       <td align="center" class="RB" valign="top" width="12%">
+        YEL/RED
+       </td>
+       <td align="center" class="RB" valign="top" width="12%">
+        VCC1
+       </td>
+       <td align="left" class="RB" valign="top" width="27%">
+        Circuito de alimentação para sensores
+       </td>
+       <td align="left" class="B" valign="top" width="38%">
+        Com a ignição LIGADA (II): Cerca de 5 V
+        <br/>
+        Com a ignição DESLIGADA: 0 V
+       </td>
+      </tr>
+      <tr>
+       <td align="center" class="RB" valign="top" width="12%">
+        A23
+       </td>
+       <td align="center" class="RB" valign="top" width="12%">
+        BRN/YEL
+       </td>
+       <td align="center" class="RB" valign="top" width="12%">
+        LG2
+       </td>
+       <td align="left" class="RB" valign="top" width="27%">
+        Massa
+       </td>
+       <td align="left" class="B" valign="top" width="38%">
+       </td>
+      </tr>
+      <tr>
+       <td align="center" class="R" valign="top" width="12%">
+        A24
+       </td>
+       <td align="center" class="R" valign="top" width="12%">
+        BRN/YEL
+       </td>
+       <td align="center" class="R" valign="top" width="12%">
+        LG1
+       </td>
+       <td align="left" class="R" valign="top" width="27%">
+        Massa
+       </td>
+       <td align="left" valign="top" width="38%">
+       </td>
+      </tr>
+     </tbody>
+    </table>
+   </p>
+   <br/>
+   <p>
+    <table cellspacing="0" class="All" width="100%">
+     <caption align="left">
+      <b>
+       FICHA B (24P) DO PCM
+      </b>
+     </caption>
+     <br/>
+     <thead>
+      <tr>
+       <th align="center" class="RB" valign="top" width="12%">
+        Número do Terminal
+       </th>
+       <th align="center" class="RB" valign="top" width="12%">
+        Cor do Fio
+       </th>
+       <th align="center" class="RB" valign="top" width="12%">
+        Sinal
+       </th>
+       <th align="center" class="RB" valign="top" width="27%">
+        Descrição
+       </th>
+       <th align="center" class="B" valign="top" width="38%">
+        Condições de Medição/Voltagem dos Terminais
+       </th>
+      </tr>
+     </thead>
+     <tbody>
+      <tr>
+       <td align="center" class="RB" valign="top" width="12%">
+        B7
+       </td>
+       <td align="center" class="RB" valign="top" width="12%">
+        GRN/WHT
+       </td>
+       <td align="center" class="RB" valign="top" width="12%">
+        DN LS +
+       </td>
+       <td align="left" class="RB" valign="top" width="27%">
+        Eléctrodo positivo da alimentação da válvula de controlo da pressão da polia secundária da CVT
+       </td>
+       <td align="left" class="B" valign="top" width="38%">
+        Com a ignição LIGADA (II): Sinal pulsante
+       </td>
+      </tr>
+      <tr>
+       <td align="center" class="RB" valign="top" width="12%">
+        B11
+       </td>
+       <td align="center" class="RB" valign="top" width="12%">
+        RED/WHT
+       </td>
+       <td align="center" class="RB" valign="top" width="12%">
+        IND M
+       </td>
+       <td align="left" class="RB" valign="top" width="27%">
+        Controlo do indicador [M]
+        <br/>
+        (CVT de 6 posições +Modo de 7 Velocidades)
+       </td>
+       <td align="left" class="B" valign="top" width="38%">
+        Quando o modo das mudanças manuais de 7 velocidades: Cerca de 6 V
+        <br/>
+        Em outro modo que não o das mudanças manuais: 0 V
+       </td>
+      </tr>
+      <tr>
+       <td align="center" class="RB" valign="top" width="12%">
+        B12
+       </td>
+       <td align="center" class="RB" valign="top" width="12%">
+        LT GRN
+       </td>
+       <td align="center" class="RB" valign="top" width="12%">
+        IND S
+       </td>
+       <td align="left" class="RB" valign="top" width="27%">
+        Controlo do indicador [S]
+        <br/>
+        (CVT de 6 posições +Modo de 7 Velocidades)
+       </td>
+       <td align="left" class="B" valign="top" width="38%">
+        Na posição [S]: Cerca de 6 V
+        <br/>
+        Em outra posição que não a posição [S]: 0 V
+       </td>
+      </tr>
+      <tr>
+       <td align="center" class="R" valign="top" width="12%">
+        B16
+       </td>
+       <td align="center" class="R" valign="top" width="12%">
+        YEL
+       </td>
+       <td align="center" class="R" valign="top" width="12%">
+        SC LS +
+       </td>
+       <td align="left" class="R" valign="top" width="27%">
+        Eléctrodo positivo da alimentação da válvula de controlo da pressão da embreagem de arranque da CVT
+       </td>
+       <td align="left" valign="top" width="38%">
+        Com a ignição LIGADA (II): Sinal pulsante
+       </td>
+      </tr>
+     </tbody>
+    </table>
+   </p>
+   <h3>
+    <b>
+     Sistema de Controlo Electrónico (cont.)
+    </b>
+   </h3>
+   <br/>
+   <a name="iT04">
+   </a>
+   <h4>
+    <b>
+     Entradas e saídas do PCM (cont)
+    </b>
+   </h4>
+   <p class="FIG">
+    <div class="FIG">
+     <script>
+      FIL(4,gESM.iDT[3],512);
+     </script>
+    </div>
+   </p>
+   <p>
+    <table cellspacing="0" class="All" width="100%">
+     <caption align="left">
+      <b>
+       FICHA B (24P) DO PCM
+      </b>
+     </caption>
+     <br/>
+     <thead>
+      <tr>
+       <th align="center" class="RB" valign="top" width="12%">
+        Número do Terminal
+       </th>
+       <th align="center" class="RB" valign="top" width="12%">
+        Cor do Fio
+       </th>
+       <th align="center" class="RB" valign="top" width="12%">
+        Sinal
+       </th>
+       <th align="center" class="RB" valign="top" width="27%">
+        Descrição
+       </th>
+       <th align="center" class="B" valign="top" width="38%">
+        Condições de Medição/Voltagem dos Terminais
+       </th>
+      </tr>
+     </thead>
+     <tbody>
+      <tr>
+       <td align="center" class="RB" valign="top" width="12%">
+        B19
+       </td>
+       <td align="center" class="RB" valign="top" width="12%">
+        LT GRN/RED
+       </td>
+       <td align="center" class="RB" valign="top" width="12%">
+        S-DN
+       </td>
+       <td align="left" class="RB" valign="top" width="27%">
+        Entrada do sinal do interruptor de mudança para baixa
+        <br/>
+        (CVT de 6 posições +Modo de 7 Velocidades)
+       </td>
+       <td align="left" class="B" valign="top" width="38%">
+        Com a ignição LIGADA (II):
+        <br/>
+        Interruptor das mudanças para baixa premido: 0 V
+        <br/>
+        Interruptor das mudanças para baixa solto: Cerca de 5 V
+       </td>
+      </tr>
+      <tr>
+       <td align="center" class="RB" valign="top" width="12%">
+        B20
+       </td>
+       <td align="center" class="RB" valign="top" width="12%">
+        YEL
+       </td>
+       <td align="center" class="RB" valign="top" width="12%">
+        S-UP
+       </td>
+       <td align="left" class="RB" valign="top" width="27%">
+        Entrada do sinal do interruptor de mudança para alta
+        <br/>
+        (CVT de 6 posições +Modo de 7 Velocidades)
+       </td>
+       <td align="left" class="B" valign="top" width="38%">
+        Com a ignição LIGADA (II):
+        <br/>
+        Interruptor das mudanças para alta premido: 0 V
+        <br/>
+        Interruptor das mudanças para alta solto: Cerca de 5 V
+       </td>
+      </tr>
+      <tr>
+       <td align="center" class="R" valign="top" width="12%">
+        B24
+       </td>
+       <td align="center" class="R" valign="top" width="12%">
+        BLU/WHT
+       </td>
+       <td align="center" class="R" valign="top" width="12%">
+        DR LS+
+       </td>
+       <td align="left" class="R" valign="top" width="27%">
+        Eléctrodo positivo da alimentação da válvula de controlo da pressão da polia primária da CVT
+       </td>
+       <td align="left" valign="top" width="38%">
+        Com a ignição LIGADA (II): Sinal pulsante
+       </td>
+      </tr>
+     </tbody>
+    </table>
+   </p>
+   <br/>
+   <p>
+    <table cellspacing="0" class="All" width="100%">
+     <caption align="left">
+      <b>
+       FICHA C (22P) DO PCM
+      </b>
+     </caption>
+     <br/>
+     <thead>
+      <tr>
+       <th align="center" class="RB" valign="top" width="12%">
+        Número do Terminal
+       </th>
+       <th align="center" class="RB" valign="top" width="12%">
+        Cor do Fio
+       </th>
+       <th align="center" class="RB" valign="top" width="12%">
+        Sinal
+       </th>
+       <th align="center" class="RB" valign="top" width="27%">
+        Descrição
+       </th>
+       <th align="center" class="B" valign="top" width="38%">
+        Condições de Medição/Voltagem dos Terminais
+       </th>
+      </tr>
+     </thead>
+     <tbody>
+      <tr>
+       <td align="center" class="RB" valign="top" width="12%">
+        C1
+       </td>
+       <td align="center" class="RB" valign="top" width="12%">
+        PNK/BLK
+       </td>
+       <td align="center" class="RB" valign="top" width="12%">
+        DN LS -
+       </td>
+       <td align="left" class="RB" valign="top" width="27%">
+        Eléctrodo negativo da alimentação da válvula de controlo da pressão da polia secundária da CVT
+       </td>
+       <td align="left" class="B" valign="top" width="38%">
+        Com a ignição LIGADA (II): Sinal pulsante
+       </td>
+      </tr>
+      <tr>
+       <td align="center" class="RB" valign="top" width="12%">
+        C3
+       </td>
+       <td align="center" class="RB" valign="top" width="12%">
+        BRN
+       </td>
+       <td align="center" class="RB" valign="top" width="12%">
+        CVT PG2
+       </td>
+       <td align="left" class="RB" valign="top" width="27%">
+        Massa
+       </td>
+       <td align="left" class="B" valign="top" width="38%">
+       </td>
+      </tr>
+      <tr>
+       <td align="center" class="RB" valign="top" width="12%">
+        C5
+       </td>
+       <td align="center" class="RB" valign="top" width="12%">
+        BLK
+       </td>
+       <td align="center" class="RB" valign="top" width="12%">
+        CVT PG1
+       </td>
+       <td align="left" class="RB" valign="top" width="27%">
+        Massa
+       </td>
+       <td align="left" class="B" valign="top" width="38%">
+       </td>
+      </tr>
+      <tr>
+       <td align="center" class="RB" valign="top" width="12%">
+        C6
+       </td>
+       <td align="center" class="RB" valign="top" width="12%">
+        GRN/BLK
+       </td>
+       <td align="center" class="RB" valign="top" width="12%">
+        SOL INH
+       </td>
+       <td align="left" class="RB" valign="top" width="27%">
+        Controlo do solenóide inibidor
+       </td>
+       <td align="left" class="B" valign="top" width="38%">
+        Com o solenóide inibidor LIGADO (II): Voltagem da bateria
+        <br/>
+        Com o solenóide inibidor DESLIGADO: 0 V
+       </td>
+      </tr>
+      <tr>
+       <td align="center" class="RB" valign="top" width="12%">
+        C7
+       </td>
+       <td align="center" class="RB" valign="top" width="12%">
+        RED/BLU
+       </td>
+       <td align="center" class="RB" valign="top" width="12%">
+        NDR
+       </td>
+       <td align="left" class="RB" valign="top" width="27%">
+        Entrada de sinais do sensor da velocidade da polia primária da CVT
+       </td>
+       <td align="left" class="B" valign="top" width="38%">
+        Com a ignição LIGADA (II): 0 V ou cerca de 5 V
+        <br/>
+        Com o motor ao ralenti na posição [N]: Cerca de 2,5 V
+       </td>
+      </tr>
+      <tr>
+       <td align="center" class="RB" valign="top" width="12%">
+        C8
+       </td>
+       <td align="center" class="RB" valign="top" width="12%">
+        PNK/BLU
+       </td>
+       <td align="center" class="RB" valign="top" width="12%">
+        SC LS -
+       </td>
+       <td align="left" class="RB" valign="top" width="27%">
+        Eléctrodo negativo de alimentação da válvula de controlo da pressão da embraiagem de arranque da CVT
+       </td>
+       <td align="left" class="B" valign="top" width="38%">
+        Com a ignição LIGADA (II): Sinal pulsante
+       </td>
+      </tr>
+      <tr>
+       <td align="center" class="RB" valign="top" width="12%">
+        C9
+       </td>
+       <td align="center" class="RB" valign="top" width="12%">
+        BLU/WHT
+       </td>
+       <td align="center" class="RB" valign="top" width="12%">
+        ATP S
+       </td>
+       <td align="left" class="RB" valign="top" width="27%">
+        Entrada de sinais do interruptor de gama da transmissão na posição [S]
+       </td>
+       <td align="left" class="B" valign="top" width="38%">
+        Na posição [S]: 0 V
+        <br/>
+        Em outra posição que não a posição [S]: Cerca de 5 V
+       </td>
+      </tr>
+      <tr>
+       <td align="center" class="RB" valign="top" width="12%">
+        C10
+       </td>
+       <td align="center" class="RB" valign="top" width="12%">
+        WHT
+       </td>
+       <td align="center" class="RB" valign="top" width="12%">
+        ATP R
+       </td>
+       <td align="left" class="RB" valign="top" width="27%">
+        Entrada de sinais do interruptor de gama da transmissão na posição [R]
+       </td>
+       <td align="left" class="B" valign="top" width="38%">
+        Na posição [R]: 0 V
+        <br/>
+        Em outra posição que não a posição [R]: Cerca de 10 V
+       </td>
+      </tr>
+      <tr>
+       <td align="center" class="RB" valign="top" width="12%">
+        C11
+       </td>
+       <td align="center" class="RB" valign="top" width="12%">
+        BLU
+       </td>
+       <td align="center" class="RB" valign="top" width="12%">
+        ATP L
+       </td>
+       <td align="left" class="RB" valign="top" width="27%">
+        Entrada de sinais do interruptor de gama da transmissão na posição [L]
+       </td>
+       <td align="left" class="B" valign="top" width="38%">
+        Na posição [L]: 0 V
+        <br/>
+        Em outra posição que não a posição [L]: Cerca de 10 V
+       </td>
+      </tr>
+      <tr>
+       <td align="center" class="R" valign="top" width="12%">
+        C12
+       </td>
+       <td align="center" class="R" valign="top" width="12%">
+        LT GRN
+       </td>
+       <td align="center" class="R" valign="top" width="12%">
+        ATP NP
+       </td>
+       <td align="left" class="R" valign="top" width="27%">
+        Entrada de sinais do interruptor de gama da transmissão nas posições [P] e [N]
+       </td>
+       <td align="left" valign="top" width="38%">
+        Nas posições [P] e [N]: 0 V
+        <br/>
+        Em outras posições que não as posições [P] e [N]: Cerca de  5 V
+       </td>
+      </tr>
+     </tbody>
+    </table>
+   </p>
+   <p>
+    <table cellspacing="0" class="All" width="100%">
+     <caption align="left">
+      <b>
+       FICHA C (22P) DO PCM
+      </b>
+     </caption>
+     <br/>
+     <thead>
+      <tr>
+       <th align="center" class="RB" valign="top" width="12%">
+        Número do Terminal
+       </th>
+       <th align="center" class="RB" valign="top" width="12%">
+        Cor do Fio
+       </th>
+       <th align="center" class="RB" valign="top" width="12%">
+        Sinal
+       </th>
+       <th align="center" class="RB" valign="top" width="27%">
+        Descrição
+       </th>
+       <th align="center" class="B" valign="top" width="38%">
+        Condições de Medição/Voltagem dos Terminais
+       </th>
+      </tr>
+     </thead>
+     <tbody>
+      <tr>
+       <td align="center" class="RB" valign="top" width="12%">
+        C13
+       </td>
+       <td align="center" class="RB" valign="top" width="12%">
+        YEL
+       </td>
+       <td align="center" class="RB" valign="top" width="12%">
+        INT M
+       </td>
+       <td align="left" class="RB" valign="top" width="27%">
+        Entrada do sinal (Modo de 7 Velocidades) do interruptor principal
+        <br/>
+        (CVT de 6 posições + Modo de 7 Velocidades)
+       </td>
+       <td align="left" class="B" valign="top" width="38%">
+        No Modo de 7 Velocidades: 0 V
+        <br/>
+        Libertado o Modo de 7 Velocidades: Cerca de 5 V
+       </td>
+      </tr>
+      <tr>
+       <td align="center" class="RB" valign="top" width="12%">
+        C15
+       </td>
+       <td align="center" class="RB" valign="top" width="12%">
+        WHT
+       </td>
+       <td align="center" class="RB" valign="top" width="12%">
+        NDN
+       </td>
+       <td align="left" class="RB" valign="top" width="27%">
+        Entrada de sinais do sensor da velocidade da polia secundária da CVT
+       </td>
+       <td align="left" class="B" valign="top" width="38%">
+        Com a ignição LIGADA (II): 0 V ou cerca de 5 V
+        <br/>
+        Com o motor ao ralenti na posição [N]: Cerca de 2,5 V
+       </td>
+      </tr>
+      <tr>
+       <td align="center" class="RB" valign="top" width="12%">
+        C16
+       </td>
+       <td align="center" class="RB" valign="top" width="12%">
+        GRN/YEL
+       </td>
+       <td align="center" class="RB" valign="top" width="12%">
+        DR LS -
+       </td>
+       <td align="left" class="RB" valign="top" width="27%">
+        Eléctrodo negativo da alimentação da válvula de controlo da pressão da polia primária da CVT
+       </td>
+       <td align="left" class="B" valign="top" width="38%">
+        Com a ignição LIGADA (II): Sinal pulsante
+       </td>
+      </tr>
+      <tr>
+       <td align="center" class="RB" valign="top" width="12%">
+        C20
+       </td>
+       <td align="center" class="RB" valign="top" width="12%">
+        PNK
+       </td>
+       <td align="center" class="RB" valign="top" width="12%">
+        ATP D
+       </td>
+       <td align="left" class="RB" valign="top" width="27%">
+        Entrada de sinais do interruptor de gama da transmissão na posição [D]
+       </td>
+       <td align="left" class="B" valign="top" width="38%">
+        Na posição [D]: 0 V
+        <br/>
+        Noutra posição que não a posição [D]: Cerca de 5 V
+       </td>
+      </tr>
+      <tr>
+       <td align="center" class="R" valign="top" width="12%">
+        C22
+       </td>
+       <td align="center" class="R" valign="top" width="12%">
+        WHT/RED
+       </td>
+       <td align="center" class="R" valign="top" width="12%">
+        VEL1
+       </td>
+       <td align="left" class="R" valign="top" width="27%">
+        Entrada de sinais do sensor da velocidade da CVT
+       </td>
+       <td align="left" valign="top" width="38%">
+        Com a ignição LIGADA (II): 0 V ou cerca de 5 V
+        <br/>
+        Em condução (rotação das rodas dianteiras): Cerca de 2,5 V
+       </td>
+      </tr>
+     </tbody>
+    </table>
+   </p>
+   <br/>
+   <p>
+    <table cellspacing="0" class="All" width="100%">
+     <caption align="left">
+      <b>
+       FICHA E (31P) DO PCM
+      </b>
+     </caption>
+     <br/>
+     <thead>
+      <tr>
+       <th align="center" class="RB" valign="top" width="12%">
+        Número do Terminal
+       </th>
+       <th align="center" class="RB" valign="top" width="12%">
+        Cor do Fio
+       </th>
+       <th align="center" class="RB" valign="top" width="12%">
+        Sinal
+       </th>
+       <th align="center" class="RB" valign="top" width="27%">
+        Descrição
+       </th>
+       <th align="center" class="B" valign="top" width="38%">
+        Condições de Medição/Voltagem dos Terminais
+       </th>
+      </tr>
+     </thead>
+     <tbody>
+      <tr>
+       <td align="center" class="RB" valign="top" width="12%">
+        E8
+       </td>
+       <td align="center" class="RB" valign="top" width="12%">
+        BLU/WHT
+       </td>
+       <td align="center" class="RB" valign="top" width="12%">
+        LED A
+       </td>
+       <td align="left" class="RB" valign="top" width="27%">
+        Controlo do indicador das mudanças
+        <br/>
+        (CVT de 6 posições +Modo de 7 Velocidades)
+       </td>
+       <td align="left" class="B" valign="top" width="38%">
+        Com a ignição LIGADA (II) e não no  Modo de 7 Velocidades: Cerca de 5 V
+        <br/>
+        No Modo de 7 Velocidades:
+        <ul>
+         <li>
+          4ª, 5ª, 6ª: Cerca de 5 V
+          <li>
+           1ª, 2ª, 3ª, 7ª: Cerca de 0,3 V
+          </li>
+         </li>
+        </ul>
+       </td>
+      </tr>
+      <tr>
+       <td align="center" class="RB" rowspan="2" valign="top" width="12%">
+        E9
+       </td>
+       <td align="center" class="RB" valign="top" width="12%">
+        YEL/BLK (modelos KE, KG, KR)
+       </td>
+       <td align="center" class="RB" rowspan="2" valign="top" width="12%">
+        IG 1
+       </td>
+       <td align="left" class="RB" rowspan="2" valign="top" width="27%">
+        Circuito de alimentação
+       </td>
+       <td align="left" class="B" rowspan="2" valign="top" width="38%">
+        Com a ignição LIGADA (II): Voltagem da bateria com a ignição DESLIGADA: 0 V
+       </td>
+      </tr>
+      <tr>
+       <td align="center" class="RB" valign="top" width="12%">
+        BLK/YEL (modelos KK, KQ, KT, KU)
+       </td>
+      </tr>
+      <tr>
+       <td align="center" class="RB" valign="top" width="12%">
+        E11
+       </td>
+       <td align="center" class="RB" valign="top" width="12%">
+        PNK
+       </td>
+       <td align="center" class="RB" valign="top" width="12%">
+        IND D
+       </td>
+       <td align="left" class="RB" valign="top" width="27%">
+        Controlo do indicador [D]
+       </td>
+       <td align="left" class="B" valign="top" width="38%">
+        Quando a ignição é LIGADA pela primeira vez (II): Cerca de 6 V para 2 segundos
+        <br/>
+        Na posição [D]: Cerca de 6 V
+       </td>
+      </tr>
+      <tr>
+       <td align="center" class="RB" valign="top" width="12%">
+        E13
+       </td>
+       <td align="center" class="RB" valign="top" width="12%">
+        BLU/RED
+       </td>
+       <td align="center" class="RB" valign="top" width="12%">
+        SLC
+       </td>
+       <td align="left" class="RB" valign="top" width="27%">
+        Controlo de bloqueio das mudanças
+       </td>
+       <td align="left" class="B" valign="top" width="38%">
+        Com a ignição LIGADA (II), na posição [P], com o pedal do travão carregado e o pedal do acelerador solto: Voltagem da bateria
+       </td>
+      </tr>
+      <tr>
+       <td align="center" class="RB" valign="top" width="12%">
+        E20
+       </td>
+       <td align="center" class="RB" valign="top" width="12%">
+        GRN/BLK
+       </td>
+       <td align="center" class="RB" valign="top" width="12%">
+        LED C
+       </td>
+       <td align="left" class="RB" valign="top" width="27%">
+        Controlo do indicador das mudanças
+        <br/>
+        (CVT de 6 posições +Modo de 7 Velocidades)
+       </td>
+       <td align="left" class="B" valign="top" width="38%">
+        Com a ignição LIGADA (II) e não no  Modo de 7 Velocidades Cerca de 5 V
+        <br/>
+        No Modo de 7 Velocidades:
+        <ul>
+         <li>
+          1ª, 3ª, 5ª: Cerca de 5 V
+          <li>
+           2ª, 4ª, 6ª, 7ª: Cerca de 0,3 V
+          </li>
+         </li>
+        </ul>
+       </td>
+      </tr>
+      <tr>
+       <td align="center" class="RB" valign="top" width="12%">
+        E21
+       </td>
+       <td align="center" class="RB" valign="top" width="12%">
+        RED/WHT
+       </td>
+       <td align="center" class="RB" valign="top" width="12%">
+        LED B
+       </td>
+       <td align="left" class="RB" valign="top" width="27%">
+        Controlo do indicador das mudanças
+        <br/>
+        (CVT de 6 posições +Modo de 7 Velocidades)
+       </td>
+       <td align="left" class="B" valign="top" width="38%">
+        Com a ignição LIGADA (II) e não no  Modo de 7 Velocidades Cerca de 5 V
+        <br/>
+        No Modo de 7 Velocidades:
+        <ul>
+         <li>
+          2ª, 3ª, 6ª: Cerca de 5 V
+          <li>
+           1ª, 4ª, 5ª, 7ª: Cerca de 0,3 V
+          </li>
+         </li>
+        </ul>
+       </td>
+      </tr>
+      <tr>
+       <td align="center" class="RB" valign="top" width="12%">
+        E22
+       </td>
+       <td align="center" class="RB" valign="top" width="12%">
+        WHT/BLK
+       </td>
+       <td align="center" class="RB" valign="top" width="12%">
+        BK SW
+       </td>
+       <td align="left" class="RB" valign="top" width="27%">
+        Entrada de sinais do interruptor da posição do pedal dos travões
+       </td>
+       <td align="left" class="B" valign="top" width="38%">
+        Pedal dos travões pressionado: Voltagem da bateria
+        <br/>
+        Pedal dos travões solto: 0 V
+       </td>
+      </tr>
+      <tr>
+       <td align="center" class="RB" valign="top" width="12%">
+        E23
+       </td>
+       <td align="center" class="RB" valign="top" width="12%">
+        RED/WHT
+       </td>
+       <td align="center" class="RB" valign="top" width="12%">
+        LINHA K
+       </td>
+       <td align="left" class="RB" valign="top" width="27%">
+        Linha de Comunicação do PCM para a DLC
+       </td>
+       <td align="left" class="B" valign="top" width="38%">
+        Com a ignição LIGADA (II): Voltagem da bateria
+       </td>
+      </tr>
+      <tr>
+       <td align="center" class="R" valign="top" width="12%">
+        E29
+       </td>
+       <td align="center" class="R" valign="top" width="12%">
+        BRN
+       </td>
+       <td align="center" class="R" valign="top" width="12%">
+        SCS
+       </td>
+       <td align="left" class="R" valign="top" width="27%">
+        Entrada de sinais do terminal SCS
+       </td>
+       <td align="left" valign="top" width="38%">
+        Com o interruptor da ignição LIGADO (II)
+        <ul>
+         <li>
+          Terminais SCS abertos: Cerca de 5 V
+          <li>
+           Terminais SCS com curto-circuito à massa:  0 V
+          </li>
+         </li>
+        </ul>
+       </td>
+      </tr>
+     </tbody>
+    </table>
+   </p>
+   <a name="iT05">
+   </a>
+   <h4>
+    <b>
+     Diagrama do Circuito-CVT de 6 posições
+    </b>
+   </h4>
+   <p class="FIG">
+    <div class="FIG">
+     <script>
+      FIL(5,gESM.iDT[4],512);
+     </script>
+    </div>
+   </p>
+   <br/>
+   <a name="iT06">
+   </a>
+   <h4>
+    <b>
+     Diagrama do Circuito-CVT de 6 posições + Modo de 7 Velocidades
+    </b>
+   </h4>
+   <p class="FIG">
+    <div class="FIG">
+     <script>
+      FIL(6,gESM.iDT[5],512);
+     </script>
+    </div>
+   </p>
+   <br/>
+   <script>
+    Array.from(document.querySelectorAll("input[type=image]")).map(item=>{item.click(); item.remove()})
+   </script>
+  </body>
+ </head>
+</html>

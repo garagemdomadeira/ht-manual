@@ -1,0 +1,1 @@
+function ISAA5ES0J26220200000KDPD07(){var i=0;this.Title=" RHD";this.Name="SAA5ES0J26220200000KDPD07";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(398,171,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(186,262,13,0,"'Arial','sans-serif'",0,"<b>B</b>");}

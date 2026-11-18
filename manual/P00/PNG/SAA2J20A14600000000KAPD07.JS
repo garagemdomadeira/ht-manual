@@ -1,0 +1,1 @@
+function ISAA2J20A14600000000KAPD07(){var i=0;this.Title="Remoção da Cabeça do Motor";this.Name="SAA2J20A14600000000KAPD07";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(366,16,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

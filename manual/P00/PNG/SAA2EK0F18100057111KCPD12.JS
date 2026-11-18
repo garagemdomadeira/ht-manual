@@ -1,0 +1,1 @@
+function ISAA2EK0F18100057111KCPD12(){var i=0;this.Title="Instalação da Caixa da Direcção";this.Name="SAA2EK0F18100057111KCPD12";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(280,277,13,0,"'Arial','sans-serif'",0,"<b>B</b>");}

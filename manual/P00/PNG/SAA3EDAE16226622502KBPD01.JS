@@ -1,0 +1,1 @@
+function ISAA3EDAE16226622502KBPD01(){var i=0;this.Title="Substituição do Amortecedor Dinâmico do Veio da Caixa de Velocidades";this.Name="SAA3EDAE16226622502KBPD01";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(101,200,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

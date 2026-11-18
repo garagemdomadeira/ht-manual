@@ -1,0 +1,1 @@
+function ISAA5ES7J16126721301KBPD02(){var i=0;this.Title=" Modelo KH";this.Name="SAA5ES7J16126721301KBPD02";this.Width=475;this.Height=353;this.CallOut=new Array;this.CallOut[i++]=FS4(405,267,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(157,60,13,0,"'Arial','sans-serif'",0,"<b>B</b>");this.CallOut[i++]=FS4(110,98,13,0,"'Arial','sans-serif'",0,"<b>C</b>");}

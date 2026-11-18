@@ -1,0 +1,1 @@
+function ISAA3EB0A14666300000KCPD01(){var i=0;this.Title="Instalação do Conjunto do Balanceiro";this.Name="SAA3EB0A14666300000KCPD01";this.Width=475;this.Height=385;this.CallOut=new Array;this.CallOut[i++]=FS4(417,64,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(54,86,13,0,"'Arial','sans-serif'",0,"<b>B</b>");}

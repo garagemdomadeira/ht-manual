@@ -1,0 +1,1 @@
+function ISAA5ES0A20300000000CAPD11(){var i=0;this.Title=" Sensor da Temperatura do Líquido de Arrefecimento do Motor (ECT)";this.Name="SAA5ES0A20300000000CAPD11";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(338,65,13,0,"'Arial','sans-serif'",0,"<b>TERMISTOR</b>");this.CallOut[i++]=FS4(17,247,13,0,"'Arial','sans-serif'",0,"<b>TERMINAL</b>");}

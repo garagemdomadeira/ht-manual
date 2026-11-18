@@ -1,0 +1,1 @@
+function ISAA2EL1A20336100000MAPD02(){var i=0;this.Title="Inspecção da Velocidade do Ralenti";this.Name="SAA2EL1A20336100000MAPD02";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(186,265,13,0,"'Arial','sans-serif'",0,"<b>D</b>");this.CallOut[i++]=FS4(418,221,13,0,"'Arial','sans-serif'",0,"<b>C</b>");}

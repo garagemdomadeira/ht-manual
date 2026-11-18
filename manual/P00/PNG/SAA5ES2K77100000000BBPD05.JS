@@ -1,0 +1,1 @@
+function ISAA5ES2K77100000000BBPD05(){var i=0;this.Title=" Como Eliminar os DTC da A/T com o HDS";this.Name="SAA5ES2K77100000000BBPD05";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(417,239,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

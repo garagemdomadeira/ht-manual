@@ -1,0 +1,1 @@
+function ISAA2J00A20336312602KBPD01(){var i=0;this.Title="Substituição do Elemento do Filtro do Ar";this.Name="SAA2J00A20336312602KBPD01";this.Width=475;this.Height=372;this.CallOut=new Array;this.CallOut[i++]=FS4(259,14,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(438,289,13,0,"'Arial','sans-serif'",0,"<b>B</b>");}

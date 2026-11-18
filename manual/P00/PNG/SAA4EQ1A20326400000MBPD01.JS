@@ -1,0 +1,1 @@
+function ISAA4EQ1A20326400000MBPD01(){var i=0;this.Title=" Com o HDS";this.Name="SAA4EQ1A20326400000MBPD01";this.Width=475;this.Height=369;this.CallOut=new Array;this.CallOut[i++]=FS4(105,321,13,0,"'Arial','sans-serif'",0,"<b>B</b>");this.CallOut[i++]=FS4(27,289,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

@@ -1,0 +1,1 @@
+function ISAA2J15E15117747169FEPD01(){var i=0;this.Title="Ensaio da Válvula de Controlo da Pressão da Polia da CVT";this.Name="SAA2J15E15117747169FEPD01";this.Width=475;this.Height=423;this.CallOut=new Array;this.CallOut[i++]=FS4(244,14,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

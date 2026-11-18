@@ -1,0 +1,1 @@
+function ISAA4EQ0F18100057111KAPD13(){var i=0;this.Title=" RHD :";this.Name="SAA4EQ0F18100057111KAPD13";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(141,290,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(196,16,13,0,"'Arial','sans-serif'",0,"<b>D</b>");}

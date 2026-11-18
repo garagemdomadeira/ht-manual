@@ -1,0 +1,1 @@
+function ISAA2EK0F18100057111KAPD11(){var i=0;this.Title="Remoção da Caixa da Direcção";this.Name="SAA2EK0F18100057111KAPD11";this.Width=475;this.Height=327;this.CallOut=new Array;this.CallOut[i++]=FS4(81,277,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(402,298,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

@@ -1,0 +1,1 @@
+function ISAA2J20A18360200000MDPD06(){var i=0;this.Title=" Montagem";this.Name="SAA2J20A18360200000MDPD06";this.Width=475;this.Height=353;this.CallOut=new Array;this.CallOut[i++]=FS4(90,128,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

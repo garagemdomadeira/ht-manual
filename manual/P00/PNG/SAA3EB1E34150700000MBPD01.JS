@@ -1,0 +1,1 @@
+function ISAA3EB1E34150700000MBPD01(){var i=0;this.Title="Afinação da Folga de Impulso do Diferencial da M/T";this.Name="SAA3EB1E34150700000MBPD01";this.Width=475;this.Height=439;this.CallOut=new Array;this.CallOut[i++]=FS4(285,120,13,0,"'Arial','sans-serif'",0,"<b>07746-0030100</b>");}

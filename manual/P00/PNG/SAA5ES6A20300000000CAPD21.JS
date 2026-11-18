@@ -1,0 +1,1 @@
+function ISAA5ES6A20300000000CAPD21(){var i=0;this.Title=" Sensor de Detonação";this.Name="SAA5ES6A20300000000CAPD21";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(43,269,13,0,"'Arial','sans-serif'",0,"<b>ELEMENTO PIEZO</b>");}

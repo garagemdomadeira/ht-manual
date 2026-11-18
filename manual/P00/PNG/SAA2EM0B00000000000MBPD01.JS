@@ -1,0 +1,1 @@
+function ISAA2EM0B00000000000MBPD01(){var i=0;this.Title=" Inspecção do Avanço Dianteiro";this.Name="SAA2EM0B00000000000MBPD01";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(328,86,13,0,"'Arial','sans-serif'",0,"<b>A<br>07NAJ-SS00301</b>");}

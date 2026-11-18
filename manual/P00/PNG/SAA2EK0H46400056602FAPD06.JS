@@ -1,0 +1,1 @@
+function ISAA2EK0H46400056602FAPD06(){var i=0;this.Title=" O Indicador SRS Não Se Acende";this.Name="SAA2EK0H46400056602FAPD06";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(120,16,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

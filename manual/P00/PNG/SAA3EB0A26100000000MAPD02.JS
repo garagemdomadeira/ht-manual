@@ -1,0 +1,1 @@
+function ISAA3EB0A26100000000MAPD02(){var i=0;this.Title="Inspecção do Ponto de Ignição";this.Name="SAA3EB0A26100000000MAPD02";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(442,289,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(360,133,13,0,"'Arial','sans-serif'",0,"<b>B</b>");}

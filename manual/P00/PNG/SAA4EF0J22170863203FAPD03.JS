@@ -1,0 +1,1 @@
+function ISAA4EF0J22170863203FAPD03(){var i=0;this.Title=" M/T:";this.Name="SAA4EF0J22170863203FAPD03";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(346,84,13,0,"'Arial','sans-serif'",0,"<b>D</b>");this.CallOut[i++]=FS4(74,29,13,0,"'Arial','sans-serif'",0,"<b>07LAJ-PT3020A</b>");}

@@ -1,0 +1,1 @@
+function ISAA2J20A18316217201MDPD02(){var i=0;this.Title=" Localização dos Códigos dos Moentes da Biela (Letras)";this.Name="SAA2J20A18316217201MDPD02";this.Width=475;this.Height=320;this.CallOut=new Array;}

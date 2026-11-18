@@ -1,0 +1,1 @@
+function ISAA3EDLA20336359411MBPD01(){var i=0;this.Title="Afinação do Cabo do Acelerador";this.Name="SAA3EDLA20336359411MBPD01";this.Width=475;this.Height=433;this.CallOut=new Array;this.CallOut[i++]=FS4(396,35,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(39,402,13,0,"'Arial','sans-serif'",0,"<b></b>*: A ilustração apresenta o modelo LHD.");}

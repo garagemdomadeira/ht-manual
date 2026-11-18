@@ -1,0 +1,1 @@
+function ISAA2J20A20336335001KDPD14(){var i=0;this.Title=" Se o Colector da Admissão tiver sido Substituído:";this.Name="SAA2J20A20336335001KDPD14";this.Width=475;this.Height=353;this.CallOut=new Array;}

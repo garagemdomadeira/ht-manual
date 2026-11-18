@@ -1,0 +1,1 @@
+function ISAA5ES0G10500057401FEPD01(){var i=0;this.Title="Teste do Sensor da Luz Solar";this.Name="SAA5ES0G10500057401FEPD01";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(145,19,13,0,"'Arial','sans-serif'",0,"<b>LT GRN</b>");this.CallOut[i++]=FS4(12,20,13,0,"'Arial','sans-serif'",0,"<b>ORN</b>");}

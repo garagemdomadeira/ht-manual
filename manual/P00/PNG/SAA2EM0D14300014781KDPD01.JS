@@ -1,0 +1,1 @@
+function ISAA2EM0D14300014781KDPD01(){var i=0;this.Title="Remoção/Instalação da Bomba Principal";this.Name="SAA2EM0D14300014781KDPD01";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(404,51,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(11,243,13,0,"'Arial','sans-serif'",0,"<b>6 x 1,0 mm<br>9,8 N&middot;m<br>(1,0 kgf&middot;m)</b>");}

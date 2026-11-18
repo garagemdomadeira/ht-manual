@@ -1,0 +1,1 @@
+function ISAA2J00J46166453902KDPD03(){var i=0;this.Title="Remoção/Instalação do Banco Traseiro";this.Name="SAA2J00J46166453902KDPD03";this.Width=475;this.Height=423;this.CallOut=new Array;this.CallOut[i++]=FS4(16,16,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(450,16,13,0,"'Arial','sans-serif'",0,"<b>B</b>");}

@@ -1,0 +1,1 @@
+function ISAA3EB0A14680200000MBPD05(){var i=0;this.Title="Afinação da Folga da Válvula";this.Name="SAA3EB0A14680200000MBPD05";this.Width=475;this.Height=353;this.CallOut=new Array;this.CallOut[i++]=FS4(348,317,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

@@ -1,0 +1,1 @@
+function ISAA2J00A20326400000MBPD02(){var i=0;this.Title="Despressurização do Combustível";this.Name="SAA2J00A20326400000MBPD02";this.Width=475;this.Height=404;this.CallOut=new Array;this.CallOut[i++]=FS4(22,318,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(112,354,13,0,"'Arial','sans-serif'",0,"<b>B</b>");}

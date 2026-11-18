@@ -1,0 +1,1 @@
+function ISAA2J20A32200043715KCPD01(){var i=0;this.Title="Instalação do Separador de Óleo do Motor/Ar";this.Name="SAA2J20A32200043715KCPD01";this.Width=475;this.Height=385;this.CallOut=new Array;this.CallOut[i++]=FS4(282,355,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

@@ -1,0 +1,1 @@
+function ISAA2EK0H46400056602FAPD26(){var i=0;this.Title=" O Indicador SRS Mantém-se Aceso Quando no Método de Menu &quot;SRS&quot;";this.Name="SAA2EK0H46400056602FAPD26";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(448,273,13,0,"'Arial','sans-serif'",0,"<b>B</b>");this.CallOut[i++]=FS4(19,138,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

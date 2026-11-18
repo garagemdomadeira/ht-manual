@@ -1,0 +1,1 @@
+function ISAA5ES0J10311113153KBPD01(){var i=0;this.Title="Substituição da Ficha da Unidade Áudio";this.Name="SAA5ES0J10311113153KBPD01";this.Width=950;this.Height=435;this.CallOut=new Array;this.CallOut[i++]=FS4(391,17,12,0,"'Arial','sans-serif'",0,"<b>FICHA DE 20P DA UNIDADE ÁUDIO</b>");}

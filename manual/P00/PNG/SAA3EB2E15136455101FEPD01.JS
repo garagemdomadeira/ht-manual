@@ -1,0 +1,1 @@
+function ISAA3EB2E15136455101FEPD01(){var i=0;this.Title="Ensaio do Solenóide de Bloqueio das Mudanças da A/T";this.Name="SAA3EB2E15136455101FEPD01";this.Width=475;this.Height=401;this.CallOut=new Array;this.CallOut[i++]=FS4(276,18,13,0,"'Arial','sans-serif'",0,"<b></b>Lado do terminal dos<br>terminais macho");}

@@ -1,0 +1,1 @@
+function ISAA2EM0H46400012802KBPD03(){var i=0;this.Title=" Instalação";this.Name="SAA2EM0H46400012802KBPD03";this.Width=475;this.Height=381;this.CallOut=new Array;this.CallOut[i++]=FS4(419,301,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(180,321,13,0,"'Arial','sans-serif'",0,"<b>B<br>9,8 N&middot;m <br>(1,0 kgf&middot;m)</b>");}

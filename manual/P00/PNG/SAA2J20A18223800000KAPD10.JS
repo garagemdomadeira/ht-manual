@@ -1,0 +1,1 @@
+function ISAA2J20A18223800000KAPD10(){var i=0;this.Title="Remoção do Motor";this.Name="SAA2J20A18223800000KAPD10";this.Width=475;this.Height=426;this.CallOut=new Array;this.CallOut[i++]=FS4(13,343,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(372,387,13,0,"'Arial','sans-serif'",0,"<b>B</b>");}

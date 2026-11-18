@@ -1,0 +1,1 @@
+function ISAA2J00A14100000000FAPD01(){var i=0;this.Title=" Ensaio do Circuito do Alternador e Regulador";this.Name="SAA2J00A14100000000FAPD01";this.Width=475;this.Height=404;this.CallOut=new Array;}

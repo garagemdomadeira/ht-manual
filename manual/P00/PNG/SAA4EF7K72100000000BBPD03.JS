@@ -1,0 +1,1 @@
+function ISAA4EF7K72100000000BBPD03(){var i=0;this.Title=" Desmemorize o ECM/PCM retirando o fusível.";this.Name="SAA4EF7K72100000000BBPD03";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(55,270,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(259,249,13,0,"'Arial','sans-serif'",0,"<b>B</b>");}

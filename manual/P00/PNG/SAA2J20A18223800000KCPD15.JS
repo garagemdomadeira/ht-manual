@@ -1,0 +1,1 @@
+function ISAA2J20A18223800000KCPD15(){var i=0;this.Title=" Modelos RHD:";this.Name="SAA2J20A18223800000KCPD15";this.Width=475;this.Height=385;this.CallOut=new Array;this.CallOut[i++]=FS4(37,284,13,0,"'Arial','sans-serif'",0,"<b>B</b>");this.CallOut[i++]=FS4(187,353,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(365,354,13,0,"'Arial','sans-serif'",0,"<b>B</b>");}

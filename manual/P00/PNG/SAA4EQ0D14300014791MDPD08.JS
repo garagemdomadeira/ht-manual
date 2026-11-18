@@ -1,0 +1,1 @@
+function ISAA4EQ0D14300014791MDPD08(){var i=0;this.Title=" Substituição";this.Name="SAA4EQ0D14300014791MDPD08";this.Width=475;this.Height=385;this.CallOut=new Array;this.CallOut[i++]=FS4(179,332,13,0,"'Arial','sans-serif'",0,"<b>6 x 1,0 mm<br>9,8 N&middot;m (1,0 kgf&middot;m)</b>");this.CallOut[i++]=FS4(318,85,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

@@ -1,0 +1,1 @@
+function ISAA4EF5A20300000000CAPD15(){var i=0;this.Title=" Sensor de Detonação";this.Name="SAA4EF5A20300000000CAPD15";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(60,250,13,0,"'Arial','sans-serif'",0,"<b>TERMINAL</b>");this.CallOut[i++]=FS4(355,19,13,0,"'Arial','sans-serif'",0,"<b>DISCO<br>ELÉCTRICO DE<br>CERÂMICA<br>PIEZO</b>");}

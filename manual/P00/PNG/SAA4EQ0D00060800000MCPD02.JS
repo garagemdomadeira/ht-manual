@@ -1,0 +1,1 @@
+function ISAA4EQ0D00060800000MCPD02(){var i=0;this.Title=" Afinação";this.Name="SAA4EQ0D00060800000MCPD02";this.Width=475;this.Height=529;this.CallOut=new Array;this.CallOut[i++]=FS4(451,446,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(415,502,13,0,"'Arial','sans-serif'",0,"<b>B</b>");}

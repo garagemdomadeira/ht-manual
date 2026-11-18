@@ -1,0 +1,1 @@
+function ISAA2EK0J32100017101FHPD02(){var i=0;this.Title=" Versão RHD excepto modelo KE:";this.Name="SAA2EK0J32100017101FHPD02";this.Width=950;this.Height=319;this.CallOut=new Array;this.CallOut[i++]=FS4(500,54,12,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(551,100,12,0,"'Arial','sans-serif'",0,"<b>B</b>");}

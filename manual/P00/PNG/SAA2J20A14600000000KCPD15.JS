@@ -1,0 +1,1 @@
+function ISAA2J20A14600000000KCPD15(){var i=0;this.Title="Instalação da Cabeça do Motor";this.Name="SAA2J20A14600000000KCPD15";this.Width=475;this.Height=372;this.CallOut=new Array;this.CallOut[i++]=FS4(433,17,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(177,337,13,0,"'Arial','sans-serif'",0,"<b>B</b>");}

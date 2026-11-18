@@ -1,0 +1,1 @@
+function ISAA2J00A20326428001KDPD03(){var i=0;this.Title="Instalação da Linha do Combustível/Uniões de Ligação Rápida";this.Name="SAA2J00A20326428001KDPD03";this.Width=475;this.Height=433;this.CallOut=new Array;this.CallOut[i++]=FS4(45,108,13,0,"'Arial','sans-serif'",0,"<b>B</b>");this.CallOut[i++]=FS4(425,383,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

@@ -1,0 +1,1 @@
+function ISAA5ES0G24100012701KBPD01(){var i=0;this.Title="Substituição do Motor de Controlo da Mistura do Ar";this.Name="SAA5ES0G24100012701KBPD01";this.Width=475;this.Height=401;this.CallOut=new Array;this.CallOut[i++]=FS4(435,231,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(230,13,13,0,"'Arial','sans-serif'",0,"<b>B</b>");}

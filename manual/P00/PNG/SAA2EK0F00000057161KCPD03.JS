@@ -1,0 +1,1 @@
+function ISAA2EK0F00000057161KCPD03(){var i=0;this.Title="Instalação do Volante";this.Name="SAA2EK0F00000057161KCPD03";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(391,117,13,0,"'Arial','sans-serif'",0,"<b>B</b>");this.CallOut[i++]=FS4(206,14,13,0,"'Arial','sans-serif'",0,"<b>A<br>39 N&middot;m (4,0 kgf&middot;m)</b>");}

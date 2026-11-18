@@ -1,0 +1,1 @@
+function ISAA5ES6A20300000000CAPD65(){var i=0;this.Title=" Afinador da Mistura ao Ralenti (IMA) (Modelo IN)";this.Name="SAA5ES6A20300000000CAPD65";this.Width=475;this.Height=369;this.CallOut=new Array;}

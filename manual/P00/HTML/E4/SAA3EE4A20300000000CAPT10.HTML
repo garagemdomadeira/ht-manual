@@ -1,0 +1,2552 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN""http://www.w3.org/TR/html4/frameset.dtd">
+<html lang="pt">
+ <head>
+  <meta content="HONDA MOTOR Co.,Ltd." name="author"/>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+  <meta content="text/css" http-equiv="Content-Style-Type"/>
+  <meta content="text/javascript" http-equiv="Content-Script-Type"/>
+  <title>
+   Descrição do Sistema do Combustível e Emissões (5MT-KG/KE/KR)
+  </title>
+  <link href="../CTL/ESM_DISP.CSS" media="screen" rel="stylesheet"/>
+  <link href="../CTL/ESM_PRIN.CSS" media="print" rel="stylesheet"/>
+  <script src="../CTL/ILLUST.JS">
+  </script>
+  <script>
+   FIC();
+  </script>
+  <script src="../../PNG/SAA3EE4A20300000000CAPD01.JS">
+  </script>
+  <script src="../../PNG/SAA3EE4A20300000000CAPD02.JS">
+  </script>
+  <script src="../../PNG/SAA3EE4A20300000000CAPD03.JS">
+  </script>
+  <script src="../../PNG/SAA3EE4A20300000000CAPD04.JS">
+  </script>
+  <script src="../../PNG/SAA3EE4A20300000000CAPD05.JS">
+  </script>
+  <script src="../../PNG/SAA3EE4A20300000000CAPD06.JS">
+  </script>
+  <script src="../../PNG/SAA3EE4A20300000000CAPD07.JS">
+  </script>
+  <script src="../../PNG/SAA3EE4A20300000000CAPD08.JS">
+  </script>
+  <script src="../../PNG/SAA3EE4A20300000000CAPD09.JS">
+  </script>
+  <script src="../../PNG/SAA3EE4A20300000000CAPD10.JS">
+  </script>
+  <script src="../../PNG/S7A1E90A20300000000CAPD08.JS">
+  </script>
+  <script src="../../PNG/S5A1A00A20300000000CAPD10.JS">
+  </script>
+  <script src="../../PNG/SAA2E0HA20300000000CAPD10.JS">
+  </script>
+  <script src="../../PNG/SAA3EE4A20300000000CAPD11.JS">
+  </script>
+  <script src="../../PNG/SAA3EE4A20300000000CAPD12.JS">
+  </script>
+  <script src="../../PNG/SAA3EE4A20300000000CAPD13.JS">
+  </script>
+  <script src="../../PNG/SAA3EE4A20300000000CAPD14.JS">
+  </script>
+  <script src="../../PNG/SAA3EE4A20300000000CAPD15.JS">
+  </script>
+  <script src="../../PNG/SAA3EE4A20300000000CAPD16.JS">
+  </script>
+  <script src="../../PNG/SAA2E0HA20300000000CAPD17.JS">
+  </script>
+  <script src="../../PNG/SAA3EE4A20300000000CAPD17.JS">
+  </script>
+  <script src="../../PNG/SAA3EE4A20300000000CAPD18.JS">
+  </script>
+  <script src="../../PNG/SAA3EE4A20300000000CAPD19.JS">
+  </script>
+  <script src="../../PNG/SAA3EE4A20300000000CAPD20.JS">
+  </script>
+  <script>
+   <!--
+with(document){ESM.iDT[0]=new ISAA3EE4A20300000000CAPD01();ESM.iDT[1]=new ISAA3EE4A20300000000CAPD02();ESM.iDT[2]=new ISAA3EE4A20300000000CAPD03();ESM.iDT[3]=new ISAA3EE4A20300000000CAPD04();ESM.iDT[4]=new ISAA3EE4A20300000000CAPD05();ESM.iDT[5]=new ISAA3EE4A20300000000CAPD06();ESM.iDT[6]=new ISAA3EE4A20300000000CAPD07();ESM.iDT[7]=new ISAA3EE4A20300000000CAPD08();ESM.iDT[8]=new ISAA3EE4A20300000000CAPD09();ESM.iDT[9]=new ISAA3EE4A20300000000CAPD10();ESM.iDT[10]=new IS7A1E90A20300000000CAPD08();ESM.iDT[11]=new IS5A1A00A20300000000CAPD10();ESM.iDT[12]=new ISAA2E0HA20300000000CAPD10();ESM.iDT[13]=new ISAA3EE4A20300000000CAPD11();ESM.iDT[14]=new ISAA3EE4A20300000000CAPD12();ESM.iDT[15]=new ISAA3EE4A20300000000CAPD13();ESM.iDT[16]=new ISAA3EE4A20300000000CAPD14();ESM.iDT[17]=new ISAA3EE4A20300000000CAPD15();ESM.iDT[18]=new ISAA3EE4A20300000000CAPD16();ESM.iDT[19]=new ISAA2E0HA20300000000CAPD17();ESM.iDT[20]=new ISAA3EE4A20300000000CAPD17();ESM.iDT[21]=new ISAA3EE4A20300000000CAPD18();ESM.iDT[22]=new ISAA3EE4A20300000000CAPD19();ESM.iDT[23]=new ISAA3EE4A20300000000CAPD20();}//-->
+  </script>
+  <link href="https://unpkg.com/skeleton-css@2.0.4/css/skeleton.css" rel="stylesheet"/>
+  <body class="container">
+   <h2>
+    Descrição do Sistema do Combustível e Emissões
+   </h2>
+   <a name="iS01">
+   </a>
+   <h3>
+    <b>
+     Sistema de Controlo Electrónico
+    </b>
+   </h3>
+   <br/>
+   As funções dos sistemas de controlo de combustível e das emissões são geridas pelo Módulo de Controlo do Motor (ECM).
+   <br/>
+   <br/>
+   <a name="iT01">
+   </a>
+   <h4>
+    <b>
+     Função de Avaria Segura
+    </b>
+   </h4>
+   Quando ocorre uma anomalia no sinal de um sensor, o ECM ignora esse sinal e assume um valor pré-programado para esse sensor que permite que o motor continue a funcionar.
+   <br/>
+   <br/>
+   <a name="iT02">
+   </a>
+   <h4>
+    <b>
+     Função de Apoio
+    </b>
+   </h4>
+   Quando ocorre uma anomalia no ECM, os injectores do combustível são controlados por um circuito de apoio independente do sistema, para assegurar as condições mínimas de condução.
+   <br/>
+   <br/>
+   <a name="iT03">
+   </a>
+   <h4>
+    <b>
+     Auto-diagnóstico
+    </b>
+   </h4>
+   Quando ocorrer uma anomalia no sinal de um sensor, o ECM fornece massa para a Lâmpada Indicadora de Mau Funcionamento (MIL) e armazena o Código de Diagnóstico de Avarias (DTC) numa memória volátil. Quando a ignição é inicialmente ligada, o ECM fornece massa à MIL durante dois segundos, para verificação do estado da lâmpada MIL.
+   <br/>
+   <br/>
+   <a name="iT04">
+   </a>
+   <h4>
+    <b>
+     Método de Detecção de Dois Ciclos de Condução
+    </b>
+   </h4>
+   Para evitar indicações falsas, o ”método de detecção de dois ciclos de condução'' é utilizado para algumas funções de diagnóstico automático. Quando ocorre uma anomalia, o ECM armazena-a na respectiva memória. Quando se repetir a mesma anomalia após se DESLIGAR e voltar a LIGAR (II) a ignição, o ECM informa o condutor, acendendo a MIL.
+   <br/>
+   <br/>
+   <a name="iT05">
+   </a>
+   <h4>
+    <b>
+     Modo de Encerramento Automático (SSD)
+    </b>
+   </h4>
+   Depois de desligar a ignição, o ECM permanece LIGADO (até 10 segundos).
+   <br/>
+   Se a ficha ECM estiver desligada durante este modo, o ECM pode ficar danificado.
+   <br/>
+   Se necessitar de desligar a ficha do ECM, desligue o cabo negativo da bateria ou aguarde 10 segundos após desligar a ignição.
+   <br/>
+   <a name="iS02">
+   </a>
+   <h3>
+    <b>
+     Sinais de Entrada e Saída do ECM na Ficha N.º 1 (9P)
+    </b>
+   </h3>
+   <p class="FIG">
+    <div class="FIG">
+     <script>
+      FIL(1,gESM.iDT[0],512);
+     </script>
+    </div>
+   </p>
+   NOTA: A voltagem standard da bateria é de 12 V.
+   <br/>
+   <br/>
+   <p>
+    <table cellspacing="0" class="All" width="100%">
+     <thead>
+      <tr>
+       <th align="center" class="RB" valign="top" width="8%">
+        Número do Terminal do ECM
+       </th>
+       <th align="center" class="RB" valign="top" width="8%">
+        Número do Terminal da Caixa de Terminais
+       </th>
+       <th align="center" class="RB" valign="top" width="8%">
+        Cor do fio
+       </th>
+       <th align="center" class="RB" valign="top" width="24%">
+        Nome do terminal
+       </th>
+       <th align="center" class="RB" valign="top" width="25%">
+        Descrição
+       </th>
+       <th align="center" class="B" valign="top" width="25%">
+        Sinal
+       </th>
+      </tr>
+     </thead>
+     <tbody>
+      <tr>
+       <td align="center" class="RB" valign="top" width="8%">
+        4
+       </td>
+       <td align="center" class="RB" valign="top" width="8%">
+        4
+       </td>
+       <td align="left" class="RB" valign="top" width="8%">
+        BRN
+       </td>
+       <td align="left" class="RB" valign="top" width="24%">
+        PG1 (MASSA DA ALIMENTAÇÃO)
+       </td>
+       <td align="left" class="RB" valign="top" width="25%">
+        Massa para o circuito do ECM
+       </td>
+       <td align="left" class="B" valign="top" width="25%">
+        Menos de 1,0 V em todos os instantes
+       </td>
+      </tr>
+      <tr>
+       <td align="center" class="RB" valign="top" width="8%">
+        5
+       </td>
+       <td align="center" class="RB" valign="top" width="8%">
+        5
+       </td>
+       <td align="left" class="RB" valign="top" width="8%">
+        BRN
+       </td>
+       <td align="left" class="RB" valign="top" width="24%">
+        PG2 (MASSA DA ALIMENTAÇÃO)
+       </td>
+       <td align="left" class="RB" valign="top" width="25%">
+        Massa para o circuito do ECM
+       </td>
+       <td align="left" class="B" valign="top" width="25%">
+        Menos de 1,0 V em todos os instantes
+       </td>
+      </tr>
+      <tr>
+       <td align="center" class="RB" valign="top" width="8%">
+        7
+       </td>
+       <td align="center" class="RB" valign="top" width="8%">
+        7
+       </td>
+       <td align="left" class="RB" valign="top" width="8%">
+        WHT/RED
+       </td>
+       <td align="left" class="RB" valign="top" width="24%">
+        UBD (FONTE DE ALIMENTAÇÃO)
+       </td>
+       <td align="left" class="RB" valign="top" width="25%">
+        Fonte de alimentação para o circuito do ECM
+       </td>
+       <td align="left" class="B" valign="top" width="25%">
+        Voltagem da bateria em todos os instantes
+       </td>
+      </tr>
+      <tr>
+       <td align="center" class="R" valign="top" width="8%">
+        8
+       </td>
+       <td align="center" class="R" valign="top" width="8%">
+        8
+       </td>
+       <td align="left" class="R" valign="top" width="8%">
+        BRN/YEL
+       </td>
+       <td align="left" class="R" valign="top" width="24%">
+        LG3 (MASSA LÓGICA)
+       </td>
+       <td align="left" class="R" valign="top" width="25%">
+        Massa para o circuito do ECM
+       </td>
+       <td align="left" valign="top" width="25%">
+        Menos de 1,0 V em todos os instantes
+       </td>
+      </tr>
+     </tbody>
+    </table>
+   </p>
+   <a name="iS03">
+   </a>
+   <h3>
+    <b>
+     Sinais de Entrada e Saída do ECM na Ficha N.º 3 (52P)
+    </b>
+   </h3>
+   <p class="FIG">
+    <div class="FIG">
+     <script>
+      FIL(2,gESM.iDT[1],512);
+     </script>
+    </div>
+   </p>
+   NOTA: A voltagem standard da bateria é de 12 V.
+   <br/>
+   <br/>
+   <p>
+    <table cellspacing="0" class="All" width="100%">
+     <thead>
+      <tr>
+       <th align="center" class="RB" valign="top" width="8%">
+        Número do Terminal do ECM
+       </th>
+       <th align="center" class="RB" valign="top" width="8%">
+        Número do Terminal da Caixa de Terminais
+       </th>
+       <th align="center" class="RB" valign="top" width="8%">
+        Cor do fio
+       </th>
+       <th align="center" class="RB" valign="top" width="24%">
+        Nome do terminal
+       </th>
+       <th align="center" class="RB" valign="top" width="25%">
+        Descrição
+       </th>
+       <th align="center" class="B" valign="top" width="25%">
+        Sinal
+       </th>
+      </tr>
+     </thead>
+     <tbody>
+      <tr>
+       <td align="center" class="RB" valign="top" width="8%">
+        1
+       </td>
+       <td align="center" class="RB" valign="top" width="8%">
+        30
+       </td>
+       <td align="left" class="RB" valign="top" width="8%">
+        BRN/YEL
+       </td>
+       <td align="left" class="RB" valign="top" width="24%">
+        CKPG (MASSA DO SENSOR DA POSIÇÃO DA CAMBOTA (CKP))
+       </td>
+       <td align="left" class="RB" valign="top" width="25%">
+        Massa para o sensor CKP
+       </td>
+       <td align="left" class="B" valign="top" width="25%">
+        Menos de 1,0 V em todos os instantes
+       </td>
+      </tr>
+      <tr>
+       <td align="center" class="RB" valign="top" width="8%">
+        3
+       </td>
+       <td align="center" class="RB" valign="top" width="8%">
+        32
+       </td>
+       <td align="left" class="RB" valign="top" width="8%">
+        BLU/RED
+       </td>
+       <td align="left" class="RB" valign="top" width="24%">
+        VCC4 (VOLTAGEM DO SENSOR)
+       </td>
+       <td align="left" class="RB" valign="top" width="25%">
+        Fornece a voltagem do sensor
+       </td>
+       <td align="left" class="B" valign="top" width="25%">
+        Com a ignição LIGADA (II): cerca de 5 V
+        <br/>
+        Com a ignição DESLIGADA: 0 V
+       </td>
+      </tr>
+      <tr>
+       <td align="center" class="RB" valign="top" width="8%">
+        4
+       </td>
+       <td align="center" class="RB" valign="top" width="8%">
+        33
+       </td>
+       <td align="left" class="RB" valign="top" width="8%">
+        YEL/GRN
+       </td>
+       <td align="left" class="RB" valign="top" width="24%">
+        VCC3 (VOLTAGEM DO SENSOR)
+       </td>
+       <td align="left" class="RB" valign="top" width="25%">
+        Fornece a voltagem do sensor
+       </td>
+       <td align="left" class="B" valign="top" width="25%">
+        Com a ignição LIGADA (II): cerca de 5 V
+        <br/>
+        Com a ignição DESLIGADA: 0 V
+       </td>
+      </tr>
+      <tr>
+       <td align="center" class="RB" valign="top" width="8%">
+        5
+       </td>
+       <td align="center" class="RB" valign="top" width="8%">
+        34
+       </td>
+       <td align="left" class="RB" valign="top" width="8%">
+        WHT/GRN
+       </td>
+       <td align="left" class="RB" valign="top" width="24%">
+        ALTC (CONTROLO DO ALTERNADOR)
+       </td>
+       <td align="left" class="RB" valign="top" width="25%">
+        Transmite o sinal de controlo do alternador
+       </td>
+       <td align="left" class="B" valign="top" width="25%">
+        Com o motor totalmente aquecido e em funcionamento:
+        <br/>
+        voltagem da bateria (consoante a carga eléctrica)
+       </td>
+      </tr>
+      <tr>
+       <td align="center" class="RB" valign="top" width="8%">
+        6
+       </td>
+       <td align="center" class="RB" valign="top" width="8%">
+        35
+       </td>
+       <td align="left" class="RB" valign="top" width="8%">
+        GRN
+       </td>
+       <td align="left" class="RB" valign="top" width="24%">
+        CMP (SENSOR DA POSIÇÃO DA ÁRVORE DE CAMES (CMP))
+       </td>
+       <td align="left" class="RB" valign="top" width="25%">
+        Detecta o sinal do sensor CMP
+       </td>
+       <td align="left" class="B" valign="top" width="25%">
+        Com o motor em funcionamento: impulsos
+       </td>
+      </tr>
+      <tr>
+       <td align="center" class="RB" valign="top" width="8%">
+        7
+       </td>
+       <td align="center" class="RB" valign="top" width="8%">
+        36
+       </td>
+       <td align="left" class="RB" valign="top" width="8%">
+        WHT/BLK
+       </td>
+       <td align="left" class="RB" valign="top" width="24%">
+        IGPLS3E (IMPULSO DA BOBINA DA IGNIÇÃO TRASEIRA N.º 3)
+       </td>
+       <td align="left" class="RB" valign="top" width="25%">
+        Acciona a bobina da ignição traseira N.º 3
+       </td>
+       <td align="left" class="B" rowspan="3" valign="top" width="25%">
+        Com a ignição LIGADA (II): 0 V
+        <br/>
+        Com o motor em funcionamento: impulsos
+       </td>
+      </tr>
+      <tr>
+       <td align="center" class="RB" valign="top" width="8%">
+        8
+       </td>
+       <td align="center" class="RB" valign="top" width="8%">
+        37
+       </td>
+       <td align="left" class="RB" valign="top" width="8%">
+        WHT/GRN
+       </td>
+       <td align="left" class="RB" valign="top" width="24%">
+        IGPLS2E (IMPULSO DA BOBINA DA IGNIÇÃO TRASEIRA N.º 2)
+       </td>
+       <td align="left" class="RB" valign="top" width="25%">
+        Acciona a bobina da ignição traseira N.º 2
+       </td>
+      </tr>
+      <tr>
+       <td align="center" class="RB" valign="top" width="8%">
+        9
+       </td>
+       <td align="center" class="RB" valign="top" width="8%">
+        38
+       </td>
+       <td align="left" class="RB" valign="top" width="8%">
+        WHT
+       </td>
+       <td align="left" class="RB" valign="top" width="24%">
+        IGPLS1I (IMPULSO DA BOBINA DA IGNIÇÃO DIANTEIRA N.º 1)
+       </td>
+       <td align="left" class="RB" valign="top" width="25%">
+        Acciona a bobina da ignição dianteira N.º 1
+       </td>
+      </tr>
+      <tr>
+       <td align="center" class="RB" valign="top" width="8%">
+        10
+       </td>
+       <td align="center" class="RB" valign="top" width="8%">
+        39
+       </td>
+       <td align="left" class="RB" valign="top" width="8%">
+        BRN
+       </td>
+       <td align="left" class="RB" valign="top" width="24%">
+        INJ1 (INJECTOR N.º 1)
+       </td>
+       <td align="left" class="RB" valign="top" width="25%">
+        Acciona o injector N.º 1
+       </td>
+       <td align="left" class="B" rowspan="4" valign="top" width="25%">
+        Ao ralenti: controlada pelo funcionamento
+       </td>
+      </tr>
+      <tr>
+       <td align="center" class="RB" valign="top" width="8%">
+        11
+       </td>
+       <td align="center" class="RB" valign="top" width="8%">
+        40
+       </td>
+       <td align="left" class="RB" valign="top" width="8%">
+        BLU
+       </td>
+       <td align="left" class="RB" valign="top" width="24%">
+        INJ3 (INJECTOR N.º 3)
+       </td>
+       <td align="left" class="RB" valign="top" width="25%">
+        Acciona o injector N.º 3
+       </td>
+      </tr>
+      <tr>
+       <td align="center" class="RB" valign="top" width="8%">
+        12
+       </td>
+       <td align="center" class="RB" valign="top" width="8%">
+        41
+       </td>
+       <td align="left" class="RB" valign="top" width="8%">
+        YEL
+       </td>
+       <td align="left" class="RB" valign="top" width="24%">
+        INJ4 (INJECTOR N.º 4)
+       </td>
+       <td align="left" class="RB" valign="top" width="25%">
+        Acciona o injector N.º 4
+       </td>
+      </tr>
+      <tr>
+       <td align="center" class="RB" valign="top" width="8%">
+        13
+       </td>
+       <td align="center" class="RB" valign="top" width="8%">
+        42
+       </td>
+       <td align="left" class="RB" valign="top" width="8%">
+        RED
+       </td>
+       <td align="left" class="RB" valign="top" width="24%">
+        INJ2 (INJECTOR N.º 2)
+       </td>
+       <td align="left" class="RB" valign="top" width="25%">
+        Acciona o injector N.º 2
+       </td>
+      </tr>
+      <tr>
+       <td align="center" class="RB" valign="top" width="8%">
+        14
+       </td>
+       <td align="center" class="RB" valign="top" width="8%">
+        43
+       </td>
+       <td align="left" class="RB" valign="top" width="8%">
+        BLU
+       </td>
+       <td align="left" class="RB" valign="top" width="24%">
+        CKP (SENSOR DA POSIÇÃO DA CAMBOTA (CKP))
+       </td>
+       <td align="left" class="RB" valign="top" width="25%">
+        Detecta o sinal do sensor CKP
+       </td>
+       <td align="left" class="B" valign="top" width="25%">
+        Com o motor em funcionamento: impulsos
+       </td>
+      </tr>
+      <tr>
+       <td align="center" class="RB" valign="top" width="8%">
+        16
+       </td>
+       <td align="center" class="RB" valign="top" width="8%">
+        45
+       </td>
+       <td align="left" class="RB" valign="top" width="8%">
+        YEL/BLU
+       </td>
+       <td align="left" class="RB" valign="top" width="24%">
+        VCC2 (VOLTAGEM DO SENSOR)
+       </td>
+       <td align="left" class="RB" valign="top" width="25%">
+        Fornece a voltagem do sensor
+       </td>
+       <td align="left" class="B" valign="top" width="25%">
+        Com a ignição LIGADA (II): cerca de 5 V
+        <br/>
+        Com a ignição DESLIGADA: 0 V
+       </td>
+      </tr>
+      <tr>
+       <td align="center" class="RB" valign="top" width="8%">
+        17
+       </td>
+       <td align="center" class="RB" valign="top" width="8%">
+        46
+       </td>
+       <td align="left" class="RB" valign="top" width="8%">
+        YEL/RED
+       </td>
+       <td align="left" class="RB" valign="top" width="24%">
+        VCC1 (VOLTAGEM DO SENSOR)
+       </td>
+       <td align="left" class="RB" valign="top" width="25%">
+        Fornece a voltagem do sensor
+       </td>
+       <td align="left" class="B" valign="top" width="25%">
+        Com a ignição LIGADA (II): cerca de 5 V
+        <br/>
+        Com a ignição DESLIGADA: 0 V
+       </td>
+      </tr>
+      <tr>
+       <td align="center" class="RB" valign="top" width="8%">
+        19
+       </td>
+       <td align="center" class="RB" valign="top" width="8%">
+        48
+       </td>
+       <td align="left" class="RB" valign="top" width="8%">
+        WHT/RED
+       </td>
+       <td align="left" class="RB" valign="top" width="24%">
+        ALTF (SINAL FR DO ALTERNADOR)
+       </td>
+       <td align="left" class="RB" valign="top" width="25%">
+        Detecta o sinal FR do alternador
+       </td>
+       <td align="left" class="B" valign="top" width="25%">
+        Com o motor em funcionamento: 0 V-5 V (consoante a carga eléctrica)
+       </td>
+      </tr>
+      <tr>
+       <td align="center" class="RB" valign="top" width="8%">
+        20
+       </td>
+       <td align="center" class="RB" valign="top" width="8%">
+        49
+       </td>
+       <td align="left" class="RB" valign="top" width="8%">
+        WHT
+       </td>
+       <td align="left" class="RB" valign="top" width="24%">
+        IGPLS1E (IMPULSO DA BOBINA DA IGNIÇÃO TRASEIRA N.º 1)
+       </td>
+       <td align="left" class="RB" valign="top" width="25%">
+        Acciona a bobina da ignição traseira N.º 1
+       </td>
+       <td align="left" class="B" rowspan="5" valign="top" width="25%">
+        Com a ignição LIGADA (II): 0 V
+        <br/>
+        Com o motor em funcionamento: impulsos
+       </td>
+      </tr>
+      <tr>
+       <td align="center" class="RB" valign="top" width="8%">
+        21
+       </td>
+       <td align="center" class="RB" valign="top" width="8%">
+        50
+       </td>
+       <td align="left" class="RB" valign="top" width="8%">
+        WHT/BLU
+       </td>
+       <td align="left" class="RB" valign="top" width="24%">
+        IGPLS4E (IMPULSO DA BOBINA DA IGNIÇÃO TRASEIRA N.º 4)
+       </td>
+       <td align="left" class="RB" valign="top" width="25%">
+        Acciona a bobina da ignição traseira N.º 4
+       </td>
+      </tr>
+      <tr>
+       <td align="center" class="RB" valign="top" width="8%">
+        22
+       </td>
+       <td align="center" class="RB" valign="top" width="8%">
+        51
+       </td>
+       <td align="left" class="RB" valign="top" width="8%">
+        WHT/BLK
+       </td>
+       <td align="left" class="RB" valign="top" width="24%">
+        IGPLS3I (IMPULSO DA BOBINA DA IGNIÇÃO DIANTEIRA N.º 3)
+       </td>
+       <td align="left" class="RB" valign="top" width="25%">
+        Acciona a bobina da ignição dianteira N.º 3
+       </td>
+      </tr>
+      <tr>
+       <td align="center" class="RB" valign="top" width="8%">
+        23
+       </td>
+       <td align="center" class="RB" valign="top" width="8%">
+        52
+       </td>
+       <td align="left" class="RB" valign="top" width="8%">
+        WHT/GRN
+       </td>
+       <td align="left" class="RB" valign="top" width="24%">
+        IGPLS2I (IMPULSO DA BOBINA DA IGNIÇÃO DIANTEIRA N.º 2)
+       </td>
+       <td align="left" class="RB" valign="top" width="25%">
+        Acciona a bobina da ignição dianteira N.º 2
+       </td>
+      </tr>
+      <tr>
+       <td align="center" class="RB" valign="top" width="8%">
+        24
+       </td>
+       <td align="center" class="RB" valign="top" width="8%">
+        53
+       </td>
+       <td align="left" class="RB" valign="top" width="8%">
+        WHT/BLU
+       </td>
+       <td align="left" class="RB" valign="top" width="24%">
+        IGPLS4I (IMPULSO DA BOBINA DA IGNIÇÃO DIANTEIRA N.º 4)
+       </td>
+       <td align="left" class="RB" valign="top" width="25%">
+        Acciona a bobina da ignição dianteira N.º 4
+       </td>
+      </tr>
+      <tr>
+       <td align="center" class="R" valign="top" width="8%">
+        25
+       </td>
+       <td align="center" class="R" valign="top" width="8%">
+        54
+       </td>
+       <td align="left" class="R" valign="top" width="8%">
+        GRN
+       </td>
+       <td align="left" class="R" valign="top" width="24%">
+        FANC (CONTROLO DA VENTOINHA DO RADIADOR)
+       </td>
+       <td align="left" class="R" valign="top" width="25%">
+        Acciona o relé da ventoinha do radiador
+       </td>
+       <td align="left" valign="top" width="25%">
+        Com a ventoinha do radiador a funcionar: cerca de 0 V
+        <br/>
+        Com a ventoinha do radiador parada: voltagem da bateria
+       </td>
+      </tr>
+     </tbody>
+    </table>
+   </p>
+   <a name="iS04">
+   </a>
+   <h3>
+    <b>
+     Sinais de Entrada e Saída do ECM na Ficha N.º 3 (52P)
+    </b>
+   </h3>
+   <p class="FIG">
+    <div class="FIG">
+     <script>
+      FIL(3,gESM.iDT[2],512);
+     </script>
+    </div>
+   </p>
+   NOTA: A voltagem standard da bateria é de 12 V.
+   <br/>
+   <br/>
+   <p>
+    <table cellspacing="0" class="All" width="100%">
+     <thead>
+      <tr>
+       <th align="center" class="RB" valign="top" width="8%">
+        Número do Terminal do ECM
+       </th>
+       <th align="center" class="RB" valign="top" width="8%">
+        Número do Terminal da Caixa de Terminais
+       </th>
+       <th align="center" class="RB" valign="top" width="8%">
+        Cor do fio
+       </th>
+       <th align="center" class="RB" valign="top" width="24%">
+        Nome do terminal
+       </th>
+       <th align="center" class="RB" valign="top" width="25%">
+        Descrição
+       </th>
+       <th align="center" class="B" valign="top" width="25%">
+        Sinal
+       </th>
+      </tr>
+     </thead>
+     <tbody>
+      <tr>
+       <td align="center" class="RB" valign="top" width="8%">
+        26
+       </td>
+       <td align="center" class="RB" valign="top" width="8%">
+        55
+       </td>
+       <td align="left" class="RB" valign="top" width="8%">
+        YEL/BLU
+       </td>
+       <td align="left" class="RB" valign="top" width="24%">
+        PCS (VÁLVULA DE PURGA DO RECIPIENTE DAS EMISSÕES POR EVAPORAÇÃO (EVAP))
+       </td>
+       <td align="left" class="RB" valign="top" width="25%">
+        Acciona a válvula de purga do recipiente EVAP
+       </td>
+       <td align="left" class="B" valign="top" width="25%">
+        Com o motor em funcionamento, líquido de arrefecimento do motor a uma temperatura inferior a 40°C: voltagem da bateria
+        <br/>
+        Com o motor em funcionamento, líquido de arrefecimento do motor superior a 40°C: controlada pelo funcionamento
+       </td>
+      </tr>
+      <tr>
+       <td align="center" class="RB" valign="top" width="8%">
+        29
+       </td>
+       <td align="center" class="RB" valign="top" width="8%">
+        58
+       </td>
+       <td align="left" class="RB" valign="top" width="8%">
+        GRN/BLK
+       </td>
+       <td align="left" class="RB" valign="top" width="24%">
+        SG3 (MASSA DO SENSOR)
+       </td>
+       <td align="left" class="RB" valign="top" width="25%">
+        Massa do sensor
+       </td>
+       <td align="left" class="B" valign="top" width="25%">
+        Menos de 1,0 V em todos os instantes
+       </td>
+      </tr>
+      <tr>
+       <td align="center" class="RB" valign="top" width="8%">
+        30
+       </td>
+       <td align="center" class="RB" valign="top" width="8%">
+        59
+       </td>
+       <td align="left" class="RB" valign="top" width="8%">
+        GRN/BLK
+       </td>
+       <td align="left" class="RB" valign="top" width="24%">
+        SG4 (MASSA DO SENSOR)
+       </td>
+       <td align="left" class="RB" valign="top" width="25%">
+        Massa do sensor
+       </td>
+       <td align="left" class="B" valign="top" width="25%">
+        Menos de 1,0 V em todos os instantes
+       </td>
+      </tr>
+      <tr>
+       <td align="center" class="RB" valign="top" width="8%">
+        31
+       </td>
+       <td align="center" class="RB" valign="top" width="8%">
+        60
+       </td>
+       <td align="left" class="RB" valign="top" width="8%">
+        GRN/WHT
+       </td>
+       <td align="left" class="RB" valign="top" width="24%">
+        SG1 (MASSA DO SENSOR)
+       </td>
+       <td align="left" class="RB" valign="top" width="25%">
+        Massa do sensor
+       </td>
+       <td align="left" class="B" valign="top" width="25%">
+        Menos de 1,0 V em todos os instantes
+       </td>
+      </tr>
+      <tr>
+       <td align="center" class="RB" valign="top" width="8%">
+        32
+       </td>
+       <td align="center" class="RB" valign="top" width="8%">
+        61
+       </td>
+       <td align="left" class="RB" valign="top" width="8%">
+        GRN/YEL
+       </td>
+       <td align="left" class="RB" valign="top" width="24%">
+        PHO2SG (MASSSA DO SENSOR PRIMÁRIO DO OXIGÉNIO AQUECIDO (HO2S PRIMÁRIO, SENSOR 1))
+       </td>
+       <td align="left" class="RB" valign="top" width="25%">
+        Massa para o HO2S primário (sensor 1)
+       </td>
+       <td align="left" class="B" valign="top" width="25%">
+        Menos de 1,0 V em todos os instantes
+       </td>
+      </tr>
+      <tr>
+       <td align="center" class="RB" valign="top" width="8%">
+        33
+       </td>
+       <td align="center" class="RB" valign="top" width="8%">
+        62
+       </td>
+       <td align="left" class="RB" valign="top" width="8%">
+        GRN/BLK
+       </td>
+       <td align="left" class="RB" valign="top" width="24%">
+        SG2 (MASSA DO SENSOR)
+       </td>
+       <td align="left" class="RB" valign="top" width="25%">
+        Massa do sensor
+       </td>
+       <td align="left" class="B" valign="top" width="25%">
+        Menos de 1,0 V em todos os instantes
+       </td>
+      </tr>
+      <tr>
+       <td align="center" class="RB" valign="top" width="8%">
+        34
+       </td>
+       <td align="center" class="RB" valign="top" width="8%">
+        63
+       </td>
+       <td align="left" class="RB" valign="top" width="8%">
+        GRN
+       </td>
+       <td align="left" class="RB" valign="top" width="24%">
+        APSA (SENSOR A DA POSIÇÃO DO PEDAL DO ACELERADOR (APP))
+       </td>
+       <td align="left" class="RB" valign="top" width="25%">
+        Detecta o sinal A do sensor APP
+       </td>
+       <td align="left" class="B" valign="top" width="25%">
+        Com a ignição LIGADA (II) e o pedal do acelerador carregado: 4,1 V
+        <br/>
+        Com a ignição LIGADA (II), o pedal do acelerador solto: 0,6 V
+       </td>
+      </tr>
+      <tr>
+       <td align="center" class="RB" valign="top" width="8%">
+        35
+       </td>
+       <td align="center" class="RB" valign="top" width="8%">
+        64
+       </td>
+       <td align="left" class="RB" valign="top" width="8%">
+        GRN/RED
+       </td>
+       <td align="left" class="RB" valign="top" width="24%">
+        MAP (SENSOR DA PRESSÃO ABSOLUTA NO COLECTOR (MAP))
+       </td>
+       <td align="left" class="RB" valign="top" width="25%">
+        Detecta o sinal do sensor MAP
+       </td>
+       <td align="left" class="B" valign="top" width="25%">
+        Com a ignição LIGADA (II): cerca de 3 V
+        <br/>
+        Ao ralenti: cerca de 1,0 V (consoante a rotação do motor)
+       </td>
+      </tr>
+      <tr>
+       <td align="center" class="RB" valign="top" width="8%">
+        36
+       </td>
+       <td align="center" class="RB" valign="top" width="8%">
+        65
+       </td>
+       <td align="left" class="RB" valign="top" width="8%">
+        BLU
+       </td>
+       <td align="left" class="RB" valign="top" width="24%">
+        TPSA (SENSOR A DA POSIÇÃO DA BORBOLETA (TPS))
+       </td>
+       <td align="left" class="RB" valign="top" width="25%">
+        Detecta o sinal do sensor A TPS
+       </td>
+       <td align="left" class="B" valign="top" width="25%">
+        Com a ignição LIGADA (II) e a borboleta completamente aberta: 4,7 V
+        <br/>
+        Com a ignição LIGADA (II) e a borboleta completamente fechada: 0,1 V
+       </td>
+      </tr>
+      <tr>
+       <td align="center" class="RB" valign="top" width="8%">
+        39
+       </td>
+       <td align="center" class="RB" valign="top" width="8%">
+        68
+       </td>
+       <td align="left" class="RB" valign="top" width="8%">
+        WHT/BLK
+       </td>
+       <td align="left" class="RB" valign="top" width="24%">
+        EGRP (SENSOR DA POSIÇÃO DA VÁLVULA DA RECIRCULAÇÃO DOS GASES DO ESCAPE (EGR))
+       </td>
+       <td align="left" class="RB" valign="top" width="25%">
+        Detecta o sinal do sensor da posição da válvula EGR
+       </td>
+       <td align="left" class="B" valign="top" width="25%">
+        Com o motor em funcionamento: 1,2 V-2,0 V (dependendo da elevação da válvula EGR)
+       </td>
+      </tr>
+      <tr>
+       <td align="center" class="RB" valign="top" width="8%">
+        40
+       </td>
+       <td align="center" class="RB" valign="top" width="8%">
+        69
+       </td>
+       <td align="left" class="RB" valign="top" width="8%">
+        YEL
+       </td>
+       <td align="left" class="RB" valign="top" width="24%">
+        KS1 (SENSOR DE DETONAÇÃO)
+       </td>
+       <td align="left" class="RB" valign="top" width="25%">
+        Detecta o sinal do sensor de detonação
+       </td>
+       <td align="left" class="B" valign="top" width="25%">
+        Com o motor a detonar: impulsos
+       </td>
+      </tr>
+      <tr>
+       <td align="center" class="RB" valign="top" width="8%">
+        41
+       </td>
+       <td align="center" class="RB" valign="top" width="8%">
+        70
+       </td>
+       <td align="left" class="RB" valign="top" width="8%">
+        GRY/RED
+       </td>
+       <td align="left" class="RB" valign="top" width="24%">
+        KS2 (SENSOR DE DETONAÇÃO)
+       </td>
+       <td align="left" class="RB" valign="top" width="25%">
+        Massa para o sensor de detonação.
+       </td>
+       <td align="left" class="B" valign="top" width="25%">
+        Menos de 1,0 V em todos os instantes
+       </td>
+      </tr>
+      <tr>
+       <td align="center" class="RB" valign="top" width="8%">
+        42
+       </td>
+       <td align="center" class="RB" valign="top" width="8%">
+        71
+       </td>
+       <td align="left" class="RB" valign="top" width="8%">
+        BLK
+       </td>
+       <td align="left" class="RB" valign="top" width="24%">
+        VSSG (MASSA DO SENSOR DA VELOCIDADE DO VEÍCULO (VSS))
+       </td>
+       <td align="left" class="RB" valign="top" width="25%">
+        Massa para o VSS
+       </td>
+       <td align="left" class="B" valign="top" width="25%">
+        Menos de 1,0 V em todos os instantes
+       </td>
+      </tr>
+      <tr>
+       <td align="center" class="RB" valign="top" width="8%">
+        44
+       </td>
+       <td align="center" class="RB" valign="top" width="8%">
+        73
+       </td>
+       <td align="left" class="RB" valign="top" width="8%">
+        WHT/GRN
+       </td>
+       <td align="left" class="RB" valign="top" width="24%">
+        VSS (SENSOR DA VELOCIDADE DO VEÍCULO (VSS))
+       </td>
+       <td align="left" class="RB" valign="top" width="25%">
+        Detecta o sinal do VSS
+       </td>
+       <td align="left" class="B" valign="top" width="25%">
+        Com a ignição LIGADA (II) e as rodas dianteiras a rodar: ciclos de 0 V-cerca de 5 V ou voltagem da bateria
+       </td>
+      </tr>
+      <tr>
+       <td align="center" class="RB" valign="top" width="8%">
+        46
+       </td>
+       <td align="center" class="RB" valign="top" width="8%">
+        75
+       </td>
+       <td align="left" class="RB" valign="top" width="8%">
+        BRN/YEL
+       </td>
+       <td align="left" class="RB" valign="top" width="24%">
+        CMPG (MASSA DO SENSOR DA POSIÇÃO DA ÁRVORE DE CAMES (CMP))
+       </td>
+       <td align="left" class="RB" valign="top" width="25%">
+        Massa para o sensor CMP
+       </td>
+       <td align="left" class="B" valign="top" width="25%">
+        Menos de 1,0 V em todos os instantes
+       </td>
+      </tr>
+      <tr>
+       <td align="center" class="R" valign="top" width="8%">
+        47
+       </td>
+       <td align="center" class="R" valign="top" width="8%">
+        76
+       </td>
+       <td align="left" class="R" valign="top" width="8%">
+        WHT
+       </td>
+       <td align="left" class="R" valign="top" width="24%">
+        PHO2S (SENSOR PRIMÁRIO DO OXIGÉNIO AQUECIDO (HO2S PRIMÁRIO), SENSOR 1)
+       </td>
+       <td align="left" class="R" valign="top" width="25%">
+        Detecta o sinal do sensor HO2S primário (sensor 1)
+       </td>
+       <td align="left" valign="top" width="25%">
+        Com a borboleta completamente aberta a partir do ralenti, com o motor totalmente aquecido: cerca de 0,6 V
+        <br/>
+        Com a borboleta rapidamente fechada: abaixo dos 0,4 V
+       </td>
+      </tr>
+     </tbody>
+    </table>
+   </p>
+   <a name="iS05">
+   </a>
+   <h3>
+    <b>
+     Sinais de Entrada e Saída do ECM na Ficha N.º 3 (52P)
+    </b>
+   </h3>
+   <p class="FIG">
+    <div class="FIG">
+     <script>
+      FIL(4,gESM.iDT[3],512);
+     </script>
+    </div>
+   </p>
+   NOTA: A voltagem standard da bateria é de 12 V.
+   <br/>
+   <br/>
+   <p>
+    <table cellspacing="0" class="All" width="100%">
+     <thead>
+      <tr>
+       <th align="center" class="RB" valign="top" width="8%">
+        Número do Terminal do ECM
+       </th>
+       <th align="center" class="RB" valign="top" width="8%">
+        Número do Terminal da Caixa de Terminais
+       </th>
+       <th align="center" class="RB" valign="top" width="8%">
+        Cor do fio
+       </th>
+       <th align="center" class="RB" valign="top" width="24%">
+        Nome do terminal
+       </th>
+       <th align="center" class="RB" valign="top" width="25%">
+        Descrição
+       </th>
+       <th align="center" class="B" valign="top" width="25%">
+        Sinal
+       </th>
+      </tr>
+     </thead>
+     <tbody>
+      <tr>
+       <td align="center" class="RB" valign="top" width="8%">
+        48
+       </td>
+       <td align="center" class="RB" valign="top" width="8%">
+        77
+       </td>
+       <td align="left" class="RB" valign="top" width="8%">
+        GRN/BLK
+       </td>
+       <td align="left" class="RB" valign="top" width="24%">
+        SG5 (MASSA DO SENSOR)
+       </td>
+       <td align="left" class="RB" valign="top" width="25%">
+        Massa do sensor
+       </td>
+       <td align="left" class="B" valign="top" width="25%">
+        Menos de 1,0 V em todos os instantes
+       </td>
+      </tr>
+      <tr>
+       <td align="center" class="RB" valign="top" width="8%">
+        49
+       </td>
+       <td align="center" class="RB" valign="top" width="8%">
+        78
+       </td>
+       <td align="left" class="RB" valign="top" width="8%">
+        YEL
+       </td>
+       <td align="left" class="RB" valign="top" width="24%">
+        TPSB (SENSOR B DA POSIÇÃO DA BORBOLETA (TPS))
+       </td>
+       <td align="left" class="RB" valign="top" width="25%">
+        Detecta o sinal do sensor B TPS
+       </td>
+       <td align="left" class="B" valign="top" width="25%">
+        Com a ignição LIGADA (II) e a borboleta completamente aberta: 4,9 V
+        <br/>
+        Com a ignição LIGADA (II) e a borboleta completamente fechada: 0,1 V
+       </td>
+      </tr>
+      <tr>
+       <td align="center" class="RB" valign="top" width="8%">
+        50
+       </td>
+       <td align="center" class="RB" valign="top" width="8%">
+        79
+       </td>
+       <td align="left" class="RB" valign="top" width="8%">
+        RED
+       </td>
+       <td align="left" class="RB" valign="top" width="24%">
+        APSB (SENSOR B DA POSIÇÃO DO PEDAL DO ACELERADOR (APP))
+       </td>
+       <td align="left" class="RB" valign="top" width="25%">
+        Detecta o sinal B do sensor APP
+       </td>
+       <td align="left" class="B" valign="top" width="25%">
+        Com a ignição LIGADA (II) e o pedal do acelerador carregado: 2,3 V
+        <br/>
+        Com a ignição LIGADA (II), o pedal do acelerador solto: 0,2 V
+       </td>
+      </tr>
+      <tr>
+       <td align="center" class="RB" valign="top" width="8%">
+        51
+       </td>
+       <td align="center" class="RB" valign="top" width="8%">
+        80
+       </td>
+       <td align="left" class="RB" valign="top" width="8%">
+        RED/YEL
+       </td>
+       <td align="left" class="RB" valign="top" width="24%">
+        IAT (SENSOR DA TEMPERATURA DO AR DA ADMISSÃO (IAT))
+       </td>
+       <td align="left" class="RB" valign="top" width="25%">
+        Detecta o sinal do sensor IAT
+       </td>
+       <td align="left" class="B" valign="top" width="25%">
+        Com a ignição LIGADA (II): cerca de 0,1-4,8 V (consoante a temperatura do ar da admissão)
+       </td>
+      </tr>
+      <tr>
+       <td align="center" class="R" valign="top" width="8%">
+        52
+       </td>
+       <td align="center" class="R" valign="top" width="8%">
+        81
+       </td>
+       <td align="left" class="R" valign="top" width="8%">
+        RED/WHT
+       </td>
+       <td align="left" class="R" valign="top" width="24%">
+        ECT (SENSOR DA TEMPERATURA DO LÍQUIDO DE ARREFECIMENTO DO MOTOR (ECT))
+       </td>
+       <td align="left" class="R" valign="top" width="25%">
+        Detecta o sinal do sensor ECT
+       </td>
+       <td align="left" valign="top" width="25%">
+        Com a ignição LIGADA (II): cerca de 0,1-4,8 V (consoante a temperatura do líquido de arrefecimento do motor)
+       </td>
+      </tr>
+     </tbody>
+    </table>
+   </p>
+   <a name="iS06">
+   </a>
+   <h3>
+    <b>
+     Sinais de Entrada e Saída do ECM na Ficha N.º 4 (40P)
+    </b>
+   </h3>
+   <p class="FIG">
+    <div class="FIG">
+     <script>
+      FIL(5,gESM.iDT[4],512);
+     </script>
+    </div>
+   </p>
+   NOTA: A voltagem standard da bateria é de 12 V.
+   <br/>
+   <br/>
+   <p>
+    <table cellspacing="0" class="All" width="100%">
+     <thead>
+      <tr>
+       <th align="center" class="RB" valign="top" width="8%">
+        Número do Terminal do ECM
+       </th>
+       <th align="center" class="RB" valign="top" width="8%">
+        Número do Terminal da Caixa de Terminais
+       </th>
+       <th align="center" class="RB" valign="top" width="8%">
+        Cor do fio
+       </th>
+       <th align="center" class="RB" valign="top" width="24%">
+        Nome do terminal
+       </th>
+       <th align="center" class="RB" valign="top" width="25%">
+        Descrição
+       </th>
+       <th align="center" class="B" valign="top" width="25%">
+        Sinal
+       </th>
+      </tr>
+     </thead>
+     <tbody>
+      <tr>
+       <td align="center" class="RB" valign="top" width="8%">
+        1
+       </td>
+       <td align="center" class="RB" valign="top" width="8%">
+        82
+       </td>
+       <td align="left" class="RB" valign="top" width="8%">
+        GRN/WHT
+       </td>
+       <td align="left" class="RB" valign="top" width="24%">
+        FUP (SINAL DE INJECÇÃO DE COMBUSTÍVEL)
+       </td>
+       <td align="left" class="RB" valign="top" width="25%">
+        Envia o sinal da injecção de combustível para o conjunto dos indicadores
+       </td>
+       <td align="left" class="B" valign="top" width="25%">
+        Com a ignição LIGADA (II): impulsos
+       </td>
+      </tr>
+      <tr>
+       <td align="center" class="RB" valign="top" width="8%">
+        2
+       </td>
+       <td align="center" class="RB" valign="top" width="8%">
+        83
+       </td>
+       <td align="left" class="RB" valign="top" width="8%">
+        GRN
+       </td>
+       <td align="left" class="RB" valign="top" width="24%">
+        MTRTW
+       </td>
+       <td align="left" class="RB" valign="top" width="25%">
+        Envia o sinal da temperatura do líquido de arrefecimento do motor
+       </td>
+       <td align="left" class="B" valign="top" width="25%">
+        Com a ignição LIGADA (II): impulsos
+       </td>
+      </tr>
+      <tr>
+       <td align="center" class="RB" valign="top" width="8%">
+        5
+       </td>
+       <td align="center" class="RB" valign="top" width="8%">
+        85
+       </td>
+       <td align="left" class="RB" valign="top" width="8%">
+        RED/WHT
+       </td>
+       <td align="left" class="RB" valign="top" width="24%">
+        LINHA K
+       </td>
+       <td align="left" class="RB" valign="top" width="25%">
+        Envia e recebe o sinal do HDS
+       </td>
+       <td align="left" class="B" valign="top" width="25%">
+        Com a ignição LIGADA (II): impulsos ou voltagem da bateria
+       </td>
+      </tr>
+      <tr>
+       <td align="center" class="RB" valign="top" width="8%">
+        6
+       </td>
+       <td align="center" class="RB" valign="top" width="8%">
+        87
+       </td>
+       <td align="left" class="RB" valign="top" width="8%">
+        RED/BLU
+       </td>
+       <td align="left" class="RB" valign="top" width="24%">
+        IMOCD (CÓDIGO DO IMOBILIZADOR)
+       </td>
+       <td align="left" class="RB" valign="top" width="25%">
+        Detecta o sinal do imobilizador
+       </td>
+       <td align="left" class="B" valign="top" width="25%">
+       </td>
+      </tr>
+      <tr>
+       <td align="center" class="RB" valign="top" width="8%">
+        9
+       </td>
+       <td align="center" class="RB" valign="top" width="8%">
+        90
+       </td>
+       <td align="left" class="RB" valign="top" width="8%">
+        GRN/YEL
+       </td>
+       <td align="left" class="RB" valign="top" width="24%">
+        IMOFPR (RELÉ DA BOMBA DO COMBUSTÍVEL DO IMOIBILIZADOR)
+       </td>
+       <td align="left" class="RB" valign="top" width="25%">
+        Acciona o relé principal 2 da PGM-FI
+       </td>
+       <td align="left" class="B" valign="top" width="25%">
+        0 V durante dois segundos, após LIGAR a ignição (II) e, em seguida, voltagem da bateria
+       </td>
+      </tr>
+      <tr>
+       <td align="center" class="RB" valign="top" width="8%">
+        10
+       </td>
+       <td align="center" class="RB" valign="top" width="8%">
+        91
+       </td>
+       <td align="left" class="RB" valign="top" width="8%">
+        GRN/ORN
+       </td>
+       <td align="left" class="RB" valign="top" width="24%">
+        MIL (LÂMPADA INDICADORA DE MAU FUNCIONAMENTO)
+       </td>
+       <td align="left" class="RB" valign="top" width="25%">
+        Acciona a MIL
+       </td>
+       <td align="left" class="B" valign="top" width="25%">
+        Com a MIL ACESA: cerca de 0 V
+        <br/>
+        Com a MIL APAGADA: voltagem da bateria
+       </td>
+      </tr>
+      <tr>
+       <td align="center" class="RB" valign="top" width="8%">
+        11
+       </td>
+       <td align="center" class="RB" valign="top" width="8%">
+        92
+       </td>
+       <td align="left" class="RB" valign="top" width="8%">
+        RED/YEL
+       </td>
+       <td align="left" class="RB" valign="top" width="24%">
+        MRLY (RELÉ PRINCIPAL DA PGM-FI)
+       </td>
+       <td align="left" class="RB" valign="top" width="25%">
+        Acciona a fonte de alimentação do relé principal 1 da PGM-FI para a memória DTC
+       </td>
+       <td align="left" class="B" valign="top" width="25%">
+        Com a ignição LIGADA (II): cerca de 0 V
+        <br/>
+        Com a ignição DESLIGADA: voltagem da bateria
+       </td>
+      </tr>
+      <tr>
+       <td align="center" class="RB" valign="top" width="8%">
+        17
+       </td>
+       <td align="center" class="RB" valign="top" width="8%">
+        98
+       </td>
+       <td align="left" class="RB" valign="top" width="8%">
+        BRN/YEL
+       </td>
+       <td align="left" class="RB" valign="top" width="24%">
+        LG1 (MASSA LÓGICA)
+       </td>
+       <td align="left" class="RB" valign="top" width="25%">
+        Massa para o circuito do ECM
+       </td>
+       <td align="left" class="B" valign="top" width="25%">
+        Menos de 1,0 V em todos os instantes
+       </td>
+      </tr>
+      <tr>
+       <td align="center" class="RB" valign="top" width="8%">
+        18
+       </td>
+       <td align="center" class="RB" valign="top" width="8%">
+        99
+       </td>
+       <td align="left" class="RB" valign="top" width="8%">
+        BLU
+       </td>
+       <td align="left" class="RB" valign="top" width="24%">
+        NEP (IMPULSO DA ROTAÇÃO DO MOTOR)
+       </td>
+       <td align="left" class="RB" valign="top" width="25%">
+        Envia o impulso da rotação do motor
+       </td>
+       <td align="left" class="B" valign="top" width="25%">
+        Com o motor em funcionamento: impulsos
+       </td>
+      </tr>
+      <tr>
+       <td align="center" class="RB" valign="top" width="8%">
+        19
+       </td>
+       <td align="center" class="RB" valign="top" width="8%">
+        100
+       </td>
+       <td align="left" class="RB" valign="top" width="8%">
+        RED
+       </td>
+       <td align="left" class="RB" valign="top" width="24%">
+        ACC (RELÉ DA EMBRAIAGEM DO A/C)
+       </td>
+       <td align="left" class="RB" valign="top" width="25%">
+        Acciona o relé da embreagem do A/C
+       </td>
+       <td align="left" class="B" valign="top" width="25%">
+        Com o compressor LIGADO: cerca de 0 V
+        <br/>
+        Com o compressor DESLIGADO: voltagem da bateria
+       </td>
+      </tr>
+      <tr>
+       <td align="center" class="RB" valign="top" width="8%">
+        21
+       </td>
+       <td align="center" class="RB" valign="top" width="8%">
+        102
+       </td>
+       <td align="left" class="RB" valign="top" width="8%">
+        PNK
+       </td>
+       <td align="left" class="RB" valign="top" width="24%">
+        SHO2SG (MASSA DO SENSOR SECUNDÁRIO DO OXIGÉNIO AQUECIDO (HO2S SECUNDÁRIO), SENSOR 2)
+       </td>
+       <td align="left" class="RB" valign="top" width="25%">
+        Massa para o HO2S secundário (sensor 2)
+       </td>
+       <td align="left" class="B" valign="top" width="25%">
+        Menos de 1,0 V em todos os instantes
+       </td>
+      </tr>
+      <tr>
+       <td align="center" class="RB" valign="top" width="8%">
+        22
+       </td>
+       <td align="center" class="RB" valign="top" width="8%">
+        103
+       </td>
+       <td align="left" class="RB" valign="top" width="8%">
+        WHT/BLU
+       </td>
+       <td align="left" class="RB" valign="top" width="24%">
+        BKPD (INTERRUPTOR DA POSIÇÃO DO PEDAL DOS TRAVÕES)
+       </td>
+       <td align="left" class="RB" valign="top" width="25%">
+        Detecta o sinal do interruptor da posição do pedal dos travões
+       </td>
+       <td align="left" class="B" valign="top" width="25%">
+        Com a ignição LIGADA (II) e o pedal do travão solto: voltagem da bateria
+        <br/>
+        Com a ignição LIGADA (II) e o pedal do travão carregado: cerca de 0 V
+       </td>
+      </tr>
+      <tr>
+       <td align="center" class="R" valign="top" width="8%">
+        23
+       </td>
+       <td align="center" class="R" valign="top" width="8%">
+        104
+       </td>
+       <td align="left" class="R" valign="top" width="8%">
+        WHT/RED
+       </td>
+       <td align="left" class="R" valign="top" width="24%">
+        SHO2S (SENSOR SECUNDÁRIO DO OXIGÉNIO AQUECIDO (HO2S SECUNDÁRIO, SENSOR 2)
+       </td>
+       <td align="left" class="R" valign="top" width="25%">
+        Detecta o sinal do HO2S secundário (sensor 2)
+       </td>
+       <td align="left" valign="top" width="25%">
+        Com a borboleta completamente aberta a partir do ralenti, com o motor totalmente aquecido: cerca de 0,6 V
+        <br/>
+        Com a borboleta rapidamente fechada: abaixo dos 0,4 V
+       </td>
+      </tr>
+     </tbody>
+    </table>
+   </p>
+   <a name="iS07">
+   </a>
+   <h3>
+    <b>
+     Sinais de Entrada e Saída do ECM na Ficha N.º 4 (40P)
+    </b>
+   </h3>
+   <p class="FIG">
+    <div class="FIG">
+     <script>
+      FIL(6,gESM.iDT[5],512);
+     </script>
+    </div>
+   </p>
+   NOTA: A voltagem standard da bateria é de 12 V.
+   <br/>
+   <br/>
+   <p>
+    <table cellspacing="0" class="All" width="100%">
+     <thead>
+      <tr>
+       <th align="center" class="RB" valign="top" width="8%">
+        Número do Terminal do ECM
+       </th>
+       <th align="center" class="RB" valign="top" width="8%">
+        Número do Terminal da Caixa de Terminais
+       </th>
+       <th align="center" class="RB" valign="top" width="8%">
+        Cor do fio
+       </th>
+       <th align="center" class="RB" valign="top" width="24%">
+        Nome do terminal
+       </th>
+       <th align="center" class="RB" valign="top" width="25%">
+        Descrição
+       </th>
+       <th align="center" class="B" valign="top" width="25%">
+        Sinal
+       </th>
+      </tr>
+     </thead>
+     <tbody>
+      <tr>
+       <td align="center" class="RB" valign="top" width="8%">
+        27
+       </td>
+       <td align="center" class="RB" valign="top" width="8%">
+        108
+       </td>
+       <td align="left" class="RB" valign="top" width="8%">
+        YEL/BLK
+       </td>
+       <td align="left" class="RB" valign="top" width="24%">
+        IG1 (SINAL DA IGNIÇÃO)
+       </td>
+       <td align="left" class="RB" valign="top" width="25%">
+        Detecta o sinal da ignição
+       </td>
+       <td align="left" class="B" valign="top" width="25%">
+        Com a ignição LIGADA (II): voltagem da bateria
+        <br/>
+        Com a ignição DESLIGADA:  0 V voltagem da bateria
+       </td>
+      </tr>
+      <tr>
+       <td align="center" class="RB" valign="top" width="8%">
+        31
+       </td>
+       <td align="center" class="RB" valign="top" width="8%">
+        112
+       </td>
+       <td align="left" class="RB" valign="top" width="8%">
+        BLU/WHT
+       </td>
+       <td align="left" class="RB" valign="top" width="24%">
+        ACS (SINAL DO INTERRUPTOR DO A/C)
+       </td>
+       <td align="left" class="RB" valign="top" width="25%">
+        Detecta o sinal do interruptor do A/C
+       </td>
+       <td align="left" class="B" valign="top" width="25%">
+        Com o A/C LIGADO: 0 V
+        <br/>
+        Com o interruptor do A/C DESLIGADO: cerca de 5 V
+       </td>
+      </tr>
+      <tr>
+       <td align="center" class="RB" valign="top" width="8%">
+        32
+       </td>
+       <td align="center" class="RB" valign="top" width="8%">
+        113
+       </td>
+       <td align="left" class="RB" valign="top" width="8%">
+        BRN
+       </td>
+       <td align="left" class="RB" valign="top" width="24%">
+        SCS (SINAL DE VERIFICAÇÃO DE SERVIÇO)
+       </td>
+       <td align="left" class="RB" valign="top" width="25%">
+        Detecta o sinal de verificação de serviço
+       </td>
+       <td align="left" class="B" valign="top" width="25%">
+        Com o sinal de verificação de serviço em curto-circuito com o HDS: cerca de 0 V
+        <br/>
+        Com o sinal de verificação de serviço aberto: cerca de 5 V de voltagem da bateria
+       </td>
+      </tr>
+      <tr>
+       <td align="center" class="RB" valign="top" width="8%">
+        34
+       </td>
+       <td align="center" class="RB" valign="top" width="8%">
+        115
+       </td>
+       <td align="left" class="RB" valign="top" width="8%">
+        GRN/RED
+       </td>
+       <td align="left" class="RB" valign="top" width="24%">
+        ELD (DETECTOR DE CARGA ELÉCTRICA)
+       </td>
+       <td align="left" class="RB" valign="top" width="25%">
+        Detecta o sinal do ELD
+       </td>
+       <td align="left" class="B" valign="top" width="25%">
+        Com a ignição LIGADA (II): cerca de 0,1-4,8 V (consoante a carga eléctrica)
+       </td>
+      </tr>
+      <tr>
+       <td align="center" class="RB" valign="top" width="8%">
+        36
+       </td>
+       <td align="center" class="RB" valign="top" width="8%">
+        117
+       </td>
+       <td align="left" class="RB" valign="top" width="8%">
+        WHT/BLK
+       </td>
+       <td align="left" class="RB" valign="top" width="24%">
+        BKSW (INTERRUPTOR DA POSIÇÃO DO PEDAL DOS TRAVÕES)
+       </td>
+       <td align="left" class="RB" valign="top" width="25%">
+        Detecta o sinal do interruptor da posição do pedal dos travões
+       </td>
+       <td align="left" class="B" valign="top" width="25%">
+        Com o pedal dos travões solto: cerca de 0 V
+        <br/>
+        Com o pedal dos travões pressionado: voltagem da bateria
+       </td>
+      </tr>
+      <tr>
+       <td align="center" class="R" valign="top" width="8%">
+        39
+       </td>
+       <td align="center" class="R" valign="top" width="8%">
+        120
+       </td>
+       <td align="left" class="R" valign="top" width="8%">
+        BRN/YEL
+       </td>
+       <td align="left" class="R" valign="top" width="24%">
+        LG2 (MASSA LÓGICA)
+       </td>
+       <td align="left" class="R" valign="top" width="25%">
+        Massa para o circuito do ECM
+       </td>
+       <td align="left" valign="top" width="25%">
+        Menos de 1,0 V em todos os instantes
+       </td>
+      </tr>
+     </tbody>
+    </table>
+   </p>
+   <a name="iS08">
+   </a>
+   <h3>
+    <b>
+     Sinais de Entrada e Saída do ECM na Ficha N.º 5 (9P)
+    </b>
+   </h3>
+   <p class="FIG">
+    <div class="FIG">
+     <script>
+      FIL(7,gESM.iDT[6],512);
+     </script>
+    </div>
+   </p>
+   NOTA: A voltagem standard da bateria é de 12 V.
+   <br/>
+   <br/>
+   <p>
+    <table cellspacing="0" class="All" width="100%">
+     <thead>
+      <tr>
+       <th align="center" class="RB" valign="top" width="8%">
+        Número do Terminal do ECM
+       </th>
+       <th align="center" class="RB" valign="top" width="8%">
+        Número do Terminal da Caixa de Terminais
+       </th>
+       <th align="center" class="RB" valign="top" width="8%">
+        Cor do fio
+       </th>
+       <th align="center" class="RB" valign="top" width="24%">
+        Nome do terminal
+       </th>
+       <th align="center" class="RB" valign="top" width="25%">
+        Descrição
+       </th>
+       <th align="center" class="B" valign="top" width="25%">
+        Sinal
+       </th>
+      </tr>
+     </thead>
+     <tbody>
+      <tr>
+       <td align="center" class="RB" valign="top" width="8%">
+        1
+       </td>
+       <td align="center" class="RB" valign="top" width="8%">
+        122
+       </td>
+       <td align="left" class="RB" valign="top" width="8%">
+        RED
+       </td>
+       <td align="left" class="RB" valign="top" width="24%">
+        ETC1 (SISTEMA 1 DE CONTROLO ELÉCTRICO DA BORBOLETA)
+       </td>
+       <td align="left" class="RB" valign="top" width="25%">
+        Acciona o actuador da borboleta
+       </td>
+       <td align="left" class="B" valign="top" width="25%">
+        Com a válvula da borboleta a deslocar-se: controlada pelo funcionamento
+        <br/>
+        Com a válvula da borboleta parada: não especificado
+       </td>
+      </tr>
+      <tr>
+       <td align="center" class="RB" valign="top" width="8%">
+        2
+       </td>
+       <td align="center" class="RB" valign="top" width="8%">
+        123
+       </td>
+       <td align="left" class="RB" valign="top" width="8%">
+        GRN
+       </td>
+       <td align="left" class="RB" valign="top" width="24%">
+        ETC2 (SISTEMA 2 DE CONTROLO ELÉCTRICO DA BORBOLETA)
+       </td>
+       <td align="left" class="RB" valign="top" width="25%">
+        Acciona o actuador da borboleta
+       </td>
+       <td align="left" class="B" valign="top" width="25%">
+        Com a válvula da borboleta a deslocar-se: controlada pelo funcionamento
+        <br/>
+        Com a válvula da borboleta parada: não especificado
+       </td>
+      </tr>
+      <tr>
+       <td align="center" class="RB" valign="top" width="8%">
+        3
+       </td>
+       <td align="center" class="RB" valign="top" width="8%">
+        124
+       </td>
+       <td align="left" class="RB" valign="top" width="8%">
+        BLU/RED
+       </td>
+       <td align="left" class="RB" valign="top" width="24%">
+        EGR (VÁLVULA DA RECIRCULAÇÃO DOS GASES DO ESCAPE (EGR))
+       </td>
+       <td align="left" class="RB" valign="top" width="25%">
+        Acciona a válvula EGR
+       </td>
+       <td align="left" class="B" valign="top" width="25%">
+        Com a EGR a funcionar: controlada pelo funcionamento
+        <br/>
+        Com a EGR inactiva: cerca de 0 V
+       </td>
+      </tr>
+      <tr>
+       <td align="center" class="RB" valign="top" width="8%">
+        4
+       </td>
+       <td align="center" class="RB" valign="top" width="8%">
+        125
+       </td>
+       <td align="left" class="RB" valign="top" width="8%">
+        BLK/WHT
+       </td>
+       <td align="left" class="RB" valign="top" width="24%">
+        SO2SHTC (CONTROLO DO AQUECEDOR DO SENSOR SECUNDÁRIO DO OXIGÉNIO AQUECIDO (HO2S SECUNDÁRIO))
+       </td>
+       <td align="left" class="RB" valign="top" width="25%">
+        Acciona o aquecedor do HO2S secundário
+       </td>
+       <td align="left" class="B" valign="top" width="25%">
+        Com a ignição LIGADA (II): voltagem da bateria
+        <br/>
+        Com o motor totalmente aquecido e em funcionamento: controlada pelo funcionamento
+       </td>
+      </tr>
+      <tr>
+       <td align="center" class="RB" valign="top" width="8%">
+        5
+       </td>
+       <td align="center" class="RB" valign="top" width="8%">
+        126
+       </td>
+       <td align="left" class="RB" valign="top" width="8%">
+        GRN/BLK
+       </td>
+       <td align="left" class="RB" valign="top" width="24%">
+        EGRG (MASSA DA VÁLVULA DA RECIRCULAÇÃO DOS GASES DO ESCAPE (EGR))
+       </td>
+       <td align="left" class="RB" valign="top" width="25%">
+        Massa para a válvula EGR.
+       </td>
+       <td align="left" class="B" valign="top" width="25%">
+        Menos de 1,0 V em todos os instantes
+       </td>
+      </tr>
+      <tr>
+       <td align="center" class="RB" valign="top" width="8%">
+        7
+       </td>
+       <td align="center" class="RB" valign="top" width="8%">
+        128
+       </td>
+       <td align="left" class="RB" valign="top" width="8%">
+        YEL/BLK
+       </td>
+       <td align="left" class="RB" valign="top" width="24%">
+        IGP1 (FONTE DE ALIMENTAÇÃO)
+       </td>
+       <td align="left" class="RB" valign="top" width="25%">
+        Fonte de alimentação para o circuito do ECM
+       </td>
+       <td align="left" class="B" valign="top" width="25%">
+        Com a ignição LIGADA (II): voltagem da bateria
+        <br/>
+        Com a ignição DESLIGADA: cerca de 0 V
+       </td>
+      </tr>
+      <tr>
+       <td align="center" class="RB" valign="top" width="8%">
+        8
+       </td>
+       <td align="center" class="RB" valign="top" width="8%">
+        129
+       </td>
+       <td align="left" class="RB" valign="top" width="8%">
+        YEL/BLK
+       </td>
+       <td align="left" class="RB" valign="top" width="24%">
+        IGP2 (FONTE DE ALIMENTAÇÃO)
+       </td>
+       <td align="left" class="RB" valign="top" width="25%">
+        Fonte de alimentação para o circuito do ECM
+       </td>
+       <td align="left" class="B" valign="top" width="25%">
+        Com a ignição LIGADA (II): voltagem da bateria
+        <br/>
+        Com a ignição DESLIGADA: cerca de 0 V
+       </td>
+      </tr>
+      <tr>
+       <td align="center" class="R" valign="top" width="8%">
+        9
+       </td>
+       <td align="center" class="R" valign="top" width="8%">
+        130
+       </td>
+       <td align="left" class="R" valign="top" width="8%">
+        BLK/WHT
+       </td>
+       <td align="left" class="R" valign="top" width="24%">
+        PO2SHTC (CONTROLO DO AQUECEDOR DO SENSOR PRIMÁRIO DO OXIGÉNIO AQUECIDO (HO2S PRIMÁRIO))
+       </td>
+       <td align="left" class="R" valign="top" width="25%">
+        Acciona o aquecedor do HO2S primário
+       </td>
+       <td align="left" valign="top" width="25%">
+        Com a ignição LIGADA (II): voltagem da bateria
+        <br/>
+        Com o motor totalmente aquecido e em funcionamento: controlada pelo funcionamento
+       </td>
+      </tr>
+     </tbody>
+    </table>
+   </p>
+   <a name="iS09">
+   </a>
+   <h3>
+    <b>
+     Encaminhamento dos Tubos Flexíveis de Vácuo
+    </b>
+   </h3>
+   <br/>
+   <p class="FIG">
+    <div class="FIG">
+     <script>
+      FIL(8,gESM.iDT[7],512);
+     </script>
+    </div>
+   </p>
+   <a name="iS10">
+   </a>
+   <h3>
+    <b>
+     Distribuição do Vácuo
+    </b>
+   </h3>
+   <br/>
+   <p class="FIG">
+    <div class="FIG">
+     <script>
+      FIL(9,gESM.iDT[8],512);
+     </script>
+    </div>
+   </p>
+   <a name="iS11">
+   </a>
+   <h3>
+    <b>
+     Sistema da PGM-FI
+    </b>
+   </h3>
+   <br/>
+   O sistema da Injecção Programada do Combustível (PGM-FI) é um sistema de injecção sequencial multi-ponto de combustível.
+   <br/>
+   <br/>
+   <a name="iT06">
+   </a>
+   <h4>
+    <b>
+     Relé da Embreagem do Compressor do Ar Condicionado (A/C)
+    </b>
+   </h4>
+   Quando o Módulo de Controlo do Motor (ECM) recebe um pedido de arrefecimento do sistema do A/C, este atrasa o fornecimento de energia ao compressor e enriquece a mistura, para assegurar uma transição suave para o modo do A/C.
+   <br/>
+   <br/>
+   <a name="iT07">
+   </a>
+   <h4>
+    <b>
+     Controlo do Alternador
+    </b>
+   </h4>
+   O alternador transmite o sinal ao ECM durante a carga.
+   <br/>
+   <br/>
+   <a name="iT08">
+   </a>
+   <h4>
+    <b>
+     Sensor da Pressão Barométrica (BARO)
+    </b>
+   </h4>
+   O sensor BARO encontra-se no interior do ECM. Converte pressão atmosférica num sinal de voltagem que altera a duração básica da descarga da injecção do combustível.
+   <br/>
+   <br/>
+   <a name="iT09">
+   </a>
+   <h4>
+    <b>
+     Sensor da Posição da Árvore de Cames (CMP)
+    </b>
+   </h4>
+   <p>
+    O sensor CMP detecta a posição do cilindro N.º 1 como referência para a injecção sequencial do combustível, para cada cilindro.
+    <br/>
+    <p class="FIG">
+     <div class="FIG">
+      <script>
+       FIL(10,gESM.iDT[9],gESM.iDT[9].Width);
+      </script>
+     </div>
+    </p>
+   </p>
+   <a name="iT10">
+   </a>
+   <h4>
+    <b>
+     Sensor da Posição da Cambota (CKP)
+    </b>
+   </h4>
+   <p>
+    O sensor CKP detecta a rotação do motor e determina o ponto de ignição e o ponto de injecção do combustível de cada cilindro.
+    <br/>
+    <p class="FIG">
+     <div class="FIG">
+      <script>
+       FIL(11,gESM.iDT[10],gESM.iDT[10].Width);
+      </script>
+     </div>
+    </p>
+   </p>
+   <a name="iT11">
+   </a>
+   <h4>
+    <b>
+     Sensor da Temperatura do Líquido de Arrefecimento do Motor (ECT)
+    </b>
+   </h4>
+   <p>
+    O sensor ECT é uma resistência sensível à temperatura (termistor). A resistência do termistor diminui à medida que a temperatura do líquido de arrefecimento aumenta.
+    <br/>
+    <p class="FIG">
+     <div class="FIG">
+      <script>
+       FIL(12,gESM.iDT[11],gESM.iDT[11].Width);
+      </script>
+     </div>
+    </p>
+   </p>
+   <a name="iT12">
+   </a>
+   <h4>
+    <b>
+     Sistema i-DSI
+    </b>
+   </h4>
+   <p>
+    O ECM controla o intervalo da fase de ignição entre as velas dianteiras e traseiras, de acordo com a rotação do motor e o vácuo no colector da admissão.
+    <br/>
+    <ul>
+     <li>
+      Ao ralenti, as velas dianteiras e traseiras inflamam em simultâneo para uma velocidade de combustão mais rápida e uma melhoria do consumo de combustível.
+      <br/>
+      <li>
+       A uma baixa velocidade, com uma carga de funcionamento reduzida, o ECM adia o ponto de ignição na vela dianteira, onde a temperatura da câmara de combustão é relativamente baixa, para melhorar o consumo de combustível.
+       <br/>
+       <li>
+        A uma baixa velocidade com uma carga de funcionamento elevada, o ponto de ignição é avançado na vela dianteira e é retardado na traseira para melhorar o aperto, enquanto controla a detonação do motor.
+        <br/>
+        <li>
+         A alta velocidade, as velas dianteiras e traseiras inflamam em simultâneo para uma velocidade de combustão mais rápida e para uma resultante melhoria da potência.
+         <br/>
+        </li>
+       </li>
+      </li>
+     </li>
+    </ul>
+    <p class="FIG">
+     <div class="FIG">
+      <script>
+       FIL(13,gESM.iDT[12],gESM.iDT[12].Width);
+      </script>
+     </div>
+    </p>
+   </p>
+   <a name="iT13">
+   </a>
+   <h4>
+    <b>
+     Controlo do Ponto de Ignição
+    </b>
+   </h4>
+   O ECM contém uma memória para o ponto de ignição básico a diversas rotações do motor e à pressão absoluta do colector. Também regula o ponto, de acordo com a temperatura do líquido de arrefecimento do motor.
+   <br/>
+   <br/>
+   <a name="iT14">
+   </a>
+   <h4>
+    <b>
+     Ponto e Duração do Injector
+    </b>
+   </h4>
+   O ECM contém a memória para a duração básica da descarga a diversas rotações do motor e pressões no colector. A duração básica da descarga, após ter sido lida da memória, é posteriormente modificada através de sinais enviados de diversos sensores, para obter a duração final da descarga.
+   <br/>
+   Ao monitorizar o equilíbrio do combustível a longo prazo, o ECM detecta avarias a longo prazo no sistema do combustível e irá definir um Código de Diagnóstico de Avarias (DTC).
+   <br/>
+   <br/>
+   <a name="iT15">
+   </a>
+   <h4>
+    <b>
+     Sensor da Pressão Absoluta no Colector/Temperatura do Ar da Admissão (IAT/MAP)
+    </b>
+   </h4>
+   <p>
+    O sensor IAT é uma resistência sensível à temperatura (termistor). A resistência do termistor diminui à medida que a temperatura do ar da admissão aumenta.
+    <br/>
+    <br/>
+    O sensor MAP converte a pressão absoluta no colector em sinais eléctricos para o ECM.
+    <br/>
+    <p class="FIG">
+     <div class="FIG">
+      <script>
+       FIL(14,gESM.iDT[13],gESM.iDT[13].Width);
+      </script>
+     </div>
+    </p>
+   </p>
+   <a name="iT16">
+   </a>
+   <h4>
+    <b>
+     Sensor de Detonação
+    </b>
+   </h4>
+   <p>
+    O sistema de controlo da detonação ajusta o ponto de ignição para minimizar a detonação.
+    <br/>
+    <br/>
+    <p class="FIG">
+     <div class="FIG">
+      <script>
+       FIL(15,gESM.iDT[14],gESM.iDT[14].Width);
+      </script>
+     </div>
+    </p>
+   </p>
+   <br/>
+   <a name="iT17">
+   </a>
+   <h4>
+    <b>
+     Sensor Primário do Oxigénio Aquecido (HO2S Primário)
+    </b>
+   </h4>
+   <p>
+    O HO2S primário detecta o teor de oxigénio nos gases do escape e, em seguida, transmite sinais ao ECM que faz variar, em conformidade, a duração da injecção do combustível. Para estabilizar a sua saída, o sensor dispõe de um aquecedor interno. O HO2S primário está instalado no colector de escape. Controlando a relação ar/combustível com o HO2S primário e o HO2S secundário, a deterioração do HO2S primário pode ser avaliada pelo respectivo período de feedback. Quando o período de feedback excede um certo valor em condições de condução estáveis, o sensor é considerado deteriorado e o ECM faz com que seja indicado um DTC.
+    <br/>
+    <p class="FIG">
+     <div class="FIG">
+      <script>
+       FIL(16,gESM.iDT[15],gESM.iDT[15].Width);
+      </script>
+     </div>
+    </p>
+   </p>
+   <a name="iT18">
+   </a>
+   <h4>
+    <b>
+     Sensor Secundário do Oxigénio Aquecido (HO2S Secundário)
+    </b>
+   </h4>
+   <p>
+    O HO2S secundário detecta o teor de oxigénio nos gases do escape abaixo do Catalisador de Três Vias (TWC) e, em seguida, transmite sinais ao ECM que faz variar a duração da injecção de combustível em conformidade. Para estabilizar a sua saída, o sensor dispõe de um aquecedor interno. O HO2S secundário está instalado no TWC.
+    <br/>
+    <p class="FIG">
+     <div class="FIG">
+      <script>
+       FIL(17,gESM.iDT[16],gESM.iDT[16].Width);
+      </script>
+     </div>
+    </p>
+   </p>
+   <a name="iT19">
+   </a>
+   <h4>
+    <b>
+     Controlo de Arranque
+    </b>
+   </h4>
+   Quando o motor arranca, o ECM assegura uma mistura rica aumentando a duração do injector.
+   <br/>
+   <br/>
+   <a name="iT20">
+   </a>
+   <h4>
+    <b>
+     Sensor da Velocidade do Veículo (VSS)
+    </b>
+   </h4>
+   O VSS é accionado pelo diferencial. Gera um sinal de impulso a partir de uma alimentação de 5 volts. O número de impulsos por minuto aumenta/diminui com a velocidade do veículo.
+   <br/>
+   <a name="iS12">
+   </a>
+   <h3>
+    <b>
+     Sistema de Controlo Electrónico da Borboleta
+    </b>
+   </h3>
+   <br/>
+   A borboleta é controlada electronicamente pelo sistema de controlo da borboleta electrónico. Consulte o Diagrama do Circuito, para ver a disposição funcional do sistema.
+   <br/>
+   <br/>
+   Controlo do ralenti: Quando o motor estiver ao ralenti, o ECM controla o actuador da borboleta para manter a velocidade do ralenti adequada de acordo as cargas do motor.
+   <br/>
+   <br/>
+   Controlo da aceleração: Quando o pedal do acelerador é carregado, o ECM abre a válvula da borboleta, dependendo do sinal do sensor da posição do pedal do acelerador (APP).
+   <br/>
+   <br/>
+   <a name="iT22">
+   </a>
+   <h4>
+    <b>
+     Sensor (APP) da Posição do Pedal do Acelerador
+    </b>
+   </h4>
+   <p>
+    À medida que a posição do pedal do acelerador se altera, o sensor faz variar a voltagem do sinal para o ECM.
+    <br/>
+    <p class="FIG">
+     <div class="FIG">
+      <script>
+       FIL(18,gESM.iDT[17],gESM.iDT[17].Width);
+      </script>
+     </div>
+    </p>
+   </p>
+   <a name="iT23">
+   </a>
+   <h4>
+    <b>
+     Corpo da Borboleta
+    </b>
+   </h4>
+   <p>
+    O corpo da borboleta é do tipo monocilíndrico e de aspiração lateral. A parte inferior da válvula da borboleta é aquecida pelo líquido de arrefecimento do motor a partir da cabeça do motor, para evitar o congelamento da placa da borboleta.
+    <br/>
+    <p class="FIG">
+     <div class="FIG">
+      <script>
+       FIL(19,gESM.iDT[18],gESM.iDT[18].Width);
+      </script>
+     </div>
+    </p>
+   </p>
+   <a name="iS13">
+   </a>
+   <h3>
+    <b>
+     Sistema de Controlo do Ralenti
+    </b>
+   </h3>
+   <br/>
+   Quando o motor está frio, o compressor do A/C ligado, a transmissão engrenada, o pedal do travão carregado ou o alternador a carregar, o ECM controla a corrente para o actuador da  borboleta para manter a velocidade correcta do ralenti.
+   <br/>
+   <br/>
+   <a name="iT24">
+   </a>
+   <h4>
+    <b>
+     Interruptor da Posição do Pedal dos Travões
+    </b>
+   </h4>
+   Os sinais do interruptor da posição do pedal dos travões avisam o ECM, quando o pedal dos travões é accionado.
+   <br/>
+   <br/>
+   <a name="iS14">
+   </a>
+   <h3>
+    <b>
+     Sistema de Alimentação do Combustível
+    </b>
+   </h3>
+   <br/>
+   <a name="iT25">
+   </a>
+   <h4>
+    <b>
+     Controlo do Corte do Combustível
+    </b>
+   </h4>
+   Durante a desaceleração, com a válvula da borboleta fechada, a corrente para os injectores do combustível é cortada, para melhorar a economia de combustível a velocidades superiores a 1.160 rpm (min.
+   <sup>
+    <small>
+     -1
+    </small>
+   </sup>
+   ). O corte do combustível também ocorre quando a rotação do motor excede as 6.200 rpm (mín.
+   <sup>
+    <small>
+     -1
+    </small>
+   </sup>
+   ), independentemente da posição da válvula da borboleta, para proteger o motor da sobrerotação. Quando o veículo fica imobilizado, o ECM corta o combustível em rotações superiores a 6.200 rpm (min
+   <sup>
+    <small>
+     -1
+    </small>
+   </sup>
+   ).
+   <br/>
+   <br/>
+   <a name="iT26">
+   </a>
+   <h4>
+    <b>
+     Controlo da Bomba do Combustível
+    </b>
+   </h4>
+   Quando se liga a ignição, o ECM liga o relé principal da PGM-FI à massa, que fornece corrente à bomba do combustível durante dois segundos, para pressurizar o sistema do combustível. Com o motor a trabalhar, o ECM liga o relé principal da PGM-FI à massa e fornece corrente à bomba do combustível. Quando o motor não está a trabalhar e a ignição está ligada, o ECM corta a massa ao relé principal da PGM-FI, que corta a corrente à bomba do combustível.
+   <br/>
+   <br/>
+   <a name="iT27">
+   </a>
+   <h4>
+    <b>
+     Relés Principais 1 e 2 da PGM-FI
+    </b>
+   </h4>
+   O relé da PGM-FI é composto por dois relés em separado. O relé principal 1 da PGM-FI recebe energia, sempre que a ignição estiver LIGADA (II); fornece voltagem da bateria ao ECM, potência aos injectores e potência ao relé principal 2 da PGM-FI. O relé principal 2 da PGM-FI recebe energia para fornecer potência à bomba do combustível durante 2 segundos, quando a ignição está LIGADA (II) e quando o motor estiver em funcionamento.
+   <br/>
+   <a name="iS15">
+   </a>
+   <h3>
+    <b>
+     Sistema do Catalisador
+    </b>
+   </h3>
+   <br/>
+   <a name="iT28">
+   </a>
+   <h4>
+    <b>
+     Catalisador de Três Vias (TWC)
+    </b>
+   </h4>
+   <p>
+    O TWC converte os hidrocarbonetos (HC), o monóxido de carbono (CO) e os óxidos de nitrogénio (NOx) nos gases do escape em dióxido de carbono (CO2), diazoto (N2) e vapor de água.
+    <br/>
+    <br/>
+    <p class="FIG">
+     <div class="FIG">
+      <script>
+       FIL(20,gESM.iDT[19],gESM.iDT[19].Width);
+      </script>
+     </div>
+    </p>
+   </p>
+   <a name="iS16">
+   </a>
+   <h3>
+    <b>
+     Sistema da Recirculação dos Gases do Escape (EGR)
+    </b>
+   </h3>
+   <br/>
+   Consulte o Diagrama do Circuito, para ver a disposição funcional do sistema.
+   <br/>
+   <br/>
+   <a name="iT29">
+   </a>
+   <h4>
+    <b>
+     Válvula EGR
+    </b>
+   </h4>
+   A válvula EGR reduz as temperaturas superiores na combustão e reduz as emissões de óxidos de nitrogénio (NOx), recirculando o gás do escape através do colector da admissão e para dentro das câmaras de combustão.
+   <br/>
+   <a name="iS17">
+   </a>
+   <h3>
+    <b>
+     Sistema da Ventilação Positiva do Cárter (PCV)
+    </b>
+   </h3>
+   <br/>
+   <p>
+    A válvula PCV evita que os gases se escapem para a atmosfera, ventilando-os para o colector da admissão.
+    <br/>
+    <p class="FIG">
+     <div class="FIG">
+      <script>
+       FIL(21,gESM.iDT[20],gESM.iDT[20].Width);
+      </script>
+     </div>
+    </p>
+   </p>
+   <a name="iS18">
+   </a>
+   <h3>
+    <b>
+     Sistema de Controlo das Emissões por Evaporação (EVAP)
+    </b>
+   </h3>
+   <br/>
+   Consulte o Diagrama do Circuito, para ver a disposição funcional do sistema.
+   <br/>
+   <br/>
+   <a name="iT30">
+   </a>
+   <h4>
+    <b>
+     Recipiente EVAP
+    </b>
+   </h4>
+   O recipiente EVAP armazena temporariamente o vapor do combustível do depósito do combustível, até este puder ser purgado de regresso ao motor e queimado (consulte o diagrama do sistema para ver a disposição funcional do sistema)
+   <br/>
+   <br/>
+   <a name="iT31">
+   </a>
+   <h4>
+    <b>
+     Válvula de Purga do Recipiente EVAP
+    </b>
+   </h4>
+   Quando a temperatura do líquido de arrefecimento do motor for inferior a 40°C, o ECM desliga a válvula de purga do recipiente EVAP, que corta o vácuo do recipiente EVAP.
+   <br/>
+   <a name="iS19">
+   </a>
+   <h3>
+    <b>
+     Diagrama do Sistema de Controlo Electrónico da Borboleta
+    </b>
+   </h3>
+   <br/>
+   <p>
+    O sistema de controlo electrónico da borboleta consiste num actuador da borboleta, sensor da posição da borboleta (TP), sensor do pedal do acelerador (APP), módulo do controlo do actuador da borboleta e ECM. A borboleta é controlada electronicamente por este sistema.
+    <br/>
+    <p class="FIG">
+     <div class="FIG">
+      <script>
+       FIL(22,gESM.iDT[21],512);
+      </script>
+     </div>
+    </p>
+   </p>
+   <a name="iS20">
+   </a>
+   <h3>
+    <b>
+     Diagrama do Sistema da Recirculação dos Gases do Escape (EGR)
+    </b>
+   </h3>
+   <br/>
+   <p>
+    O sistema EGR reduz as emissões de óxidos de nitrogénio (NOx), recirculando o gás do escape através da válvula EGR e do colector da admissão, para dentro das câmaras da combustão. A memória ECM inclui a posição ideal da válvula EGR, para diversas condições de funcionamento.
+    <br/>
+    <br/>
+    O sensor da posição da válvula EGR detecta a quantidade de elevação da válvula EGR e envia-a para o ECM. Em seguida, o ECM compara-a com a elevação ideal na respectiva memória (baseado nos sinais enviados por outros sensores). Se existir alguma diferença entre os dois, o ECM corta a corrente para a válvula EGR.
+    <br/>
+    <br/>
+    <p class="FIG">
+     <div class="FIG">
+      <script>
+       FIL(23,gESM.iDT[22],512);
+      </script>
+     </div>
+    </p>
+   </p>
+   <a name="iS21">
+   </a>
+   <h3>
+    <b>
+     Diagrama de Controlo das Emissões por Evaporação (EVAP)
+    </b>
+   </h3>
+   <br/>
+   <p>
+    Os controlos EVAP minimizam a quantidade de vapor do combustível que se escapa para a atmosfera. O vapor do depósito do combustível é temporariamente armazenado no recipiente EVAP até poder ser purgado do recipiente EVAP para dentro do motor e queimado.
+    <br/>
+    <br/>
+    <ul>
+     <li>
+      O recipiente EVAP é purgado fazendo com que entre ar fresco através deste e para dentro de uma abertura no colector da admissão.
+      <br/>
+      O vácuo de purga é controlado pela válvula de purga do recipiente EVAP, que funciona sempre que a temperatura do líquido de arrefecimento do motor for superior a 40ºC.
+      <br/>
+      <li>
+       Quando a pressão do vapor no depósito do combustível for superior ao valor estipulado da válvula de duas vias EVAP, a válvula abre-se e regula o fluxo de vapor do combustível para o recipiente EVAP.
+       <br/>
+      </li>
+     </li>
+    </ul>
+    <br/>
+    <p class="FIG">
+     <div class="FIG">
+      <script>
+       FIL(24,gESM.iDT[23],512);
+      </script>
+     </div>
+    </p>
+   </p>
+   <script>
+    Array.from(document.querySelectorAll("input[type=image]")).map(item=>{item.click(); item.remove()})
+   </script>
+  </body>
+ </head>
+</html>

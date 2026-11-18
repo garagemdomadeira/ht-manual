@@ -1,0 +1,1 @@
+function ISAA4EF5A20300000000CAPD07(){var i=0;this.Title=" Sinais de Entrada e Saída do ECM na Ficha N.&ordm; 5 (9P)";this.Name="SAA4EF5A20300000000CAPD07";this.Width=950;this.Height=319;this.CallOut=new Array;this.CallOut[i++]=FS4(352,272,12,0,"'Arial','sans-serif'",0,"<b></b>Lado do terminal dos terminais fêmea");}

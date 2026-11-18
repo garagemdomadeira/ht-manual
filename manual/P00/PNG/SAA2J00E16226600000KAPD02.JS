@@ -1,0 +1,1 @@
+function ISAA2J00E16226600000KAPD02(){var i=0;this.Title="Remoção dos Veios da Caixa de Velocidades";this.Name="SAA2J00E16226600000KAPD02";this.Width=475;this.Height=426;this.CallOut=new Array;this.CallOut[i++]=FS4(43,150,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(295,288,13,0,"'Arial','sans-serif'",0,"<b>B</b>");}

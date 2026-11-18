@@ -1,0 +1,1 @@
+function ISAA4EQ0B44100013601KBPD05(){var i=0;this.Title=" Disco do Travão";this.Name="SAA4EQ0B44100013601KBPD05";this.Width=475;this.Height=491;this.CallOut=new Array;this.CallOut[i++]=FS4(132,14,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(69,446,13,0,"'Arial','sans-serif'",0,"<b>12 x 1,25 mm<br>69 N&middot;m (7,0 kgf&middot;m)</b>");}

@@ -1,0 +1,17 @@
+{
+  "name": "honda_jazz_fit-esm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "translate": "node translate.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "glob": "10.3.3",
+    "openai": "4.0.0"
+  }
+}

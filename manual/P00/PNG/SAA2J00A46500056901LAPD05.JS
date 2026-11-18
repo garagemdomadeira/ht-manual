@@ -1,0 +1,1 @@
+function ISAA2J00A46500056901LAPD05(){var i=0;this.Title=" Inspecção e Ensaio do Induzido";this.Name="SAA2J00A46500056901LAPD05";this.Width=475;this.Height=388;this.CallOut=new Array;this.CallOut[i++]=FS4(334,16,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(16,207,13,0,"'Arial','sans-serif'",0,"<b>B</b>");}

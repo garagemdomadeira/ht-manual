@@ -1,0 +1,1 @@
+function ISAA5ES5D52100000000CAPD01(){var i=0;this.Title=" Entradas e Saídas de Sinais da Unidade de Controlo do VSA para a Ficha de 46P";this.Name="SAA5ES5D52100000000CAPD01";this.Width=950;this.Height=319;this.CallOut=new Array;this.CallOut[i++]=FS4(371,274,12,0,"'Arial','sans-serif'",0,"<b></b>Lado dos fios dos terminais fêmea");}

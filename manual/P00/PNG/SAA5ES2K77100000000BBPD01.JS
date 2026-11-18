@@ -1,0 +1,1 @@
+function ISAA5ES2K77100000000BBPD01(){var i=0;this.Title=" Como Verificar por DTC com o Sistema de Diagnóstico Honda/Ferramenta de Pesquisa";this.Name="SAA5ES2K77100000000BBPD01";this.Width=475;this.Height=385;this.CallOut=new Array;this.CallOut[i++]=FS4(271,339,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(234,16,13,0,"'Arial','sans-serif'",0,"<b>B</b>");}

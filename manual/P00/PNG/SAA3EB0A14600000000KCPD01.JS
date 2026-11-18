@@ -1,0 +1,1 @@
+function ISAA3EB0A14600000000KCPD01(){var i=0;this.Title="Instalação da Cabeça do Motor";this.Name="SAA3EB0A14600000000KCPD01";this.Width=475;this.Height=417;this.CallOut=new Array;this.CallOut[i++]=FS4(39,16,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(374,63,13,0,"'Arial','sans-serif'",0,"<b>B</b>");}

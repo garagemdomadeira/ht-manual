@@ -1,0 +1,1 @@
+function ISAA5ES0B00000000000MBPD05(){var i=0;this.Title=" Afinação do Sopé Dianteiro";this.Name="SAA5ES0B00000000000MBPD05";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(294,29,13,0,"'Arial','sans-serif'",0,"<b>A<br>12 x 1,25 mm<br>69 N&middot;m<br>(7,0 kgf&middot;m)</b>");}

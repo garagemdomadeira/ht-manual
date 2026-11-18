@@ -1,0 +1,1 @@
+function ISAA4EF6A20300000000CAPD20(){var i=0;this.Title=" Sensor da Temperatura do Ar da Admissão (IAT)";this.Name="SAA4EF6A20300000000CAPD20";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(338,65,13,0,"'Arial','sans-serif'",0,"<b>TERMISTOR</b>");this.CallOut[i++]=FS4(26,244,13,0,"'Arial','sans-serif'",0,"<b>TERMINAL</b>");}

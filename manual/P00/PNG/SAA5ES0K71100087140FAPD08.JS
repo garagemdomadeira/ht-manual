@@ -1,0 +1,1 @@
+function ISAA5ES0K71100087140FAPD08(){var i=0;this.Title="Diagnóstico de Avarias por DTC: N";this.Name="SAA5ES0K71100087140FAPD08";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(106,33,13,0,"'Arial','sans-serif'",0,"<b>TOMADA DE 5P DO RELÉ DO MOTOR DO VENTILADOR</b>");this.CallOut[i++]=FS4(272,106,13,0,"'Arial','sans-serif'",0,"<b>WHT/BLU</b>");}

@@ -1,0 +1,1 @@
+function ISAA2J20A14680263001KBPD01(){var i=0;this.Title="Substituição da Guia da Válvula";this.Name="SAA2J20A14680263001KBPD01";this.Width=475;this.Height=359;this.CallOut=new Array;this.CallOut[i++]=FS4(65,50,13,0,"'Arial','sans-serif'",0,"<b>07742-0010100</b>");}

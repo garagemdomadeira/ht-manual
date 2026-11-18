@@ -1,0 +1,1 @@
+function ISAA2J00B20200019101MEPD07(){var i=0;this.Title=" Desmontagem/Inspecção";this.Name="SAA2J00B20200019101MEPD07";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(343,38,13,0,"'Arial','sans-serif'",0,"<b>B</b>");this.CallOut[i++]=FS4(366,260,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

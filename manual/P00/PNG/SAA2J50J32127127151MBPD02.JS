@@ -1,0 +1,1 @@
+function ISAA2J50J32127127151MBPD02(){var i=0;this.Title="Ajuste das Luzes Dianteiras de Nevoeiro";this.Name="SAA2J50J32127127151MBPD02";this.Width=475;this.Height=545;this.CallOut=new Array;this.CallOut[i++]=FS4(392,136,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

@@ -1,0 +1,1 @@
+function ISAA2J20A14600017811KCPD03(){var i=0;this.Title="Instalação da Tampa da Cabeça do Motor";this.Name="SAA2J20A14600017811KCPD03";this.Width=475;this.Height=449;this.CallOut=new Array;this.CallOut[i++]=FS4(16,53,13,0,"'Arial','sans-serif'",0,"<b>B</b>");this.CallOut[i++]=FS4(391,232,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

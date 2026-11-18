@@ -1,0 +1,1 @@
+function ISAA5ES2A20300000000CAPD12(){var i=0;this.Title=" Sistema i-DSI";this.Name="SAA5ES2A20300000000CAPD12";this.Width=475;this.Height=353;this.CallOut=new Array;this.CallOut[i++]=FS4(20,118,13,0,"'Arial','sans-serif'",0,"<b>VELA<br>TRASEIRA</b>");this.CallOut[i++]=FS4(379,285,13,0,"'Arial','sans-serif'",0,"<b>VELA <br>DIANTEI<br>RA</b>");}

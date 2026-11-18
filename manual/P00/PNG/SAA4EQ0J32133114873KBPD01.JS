@@ -1,0 +1,1 @@
+function ISAA4EQ0J32133114873KBPD01(){var i=0;this.Title="Substituição da Lâmpada HID";this.Name="SAA4EQ0J32133114873KBPD01";this.Width=475;this.Height=369;this.CallOut=new Array;this.CallOut[i++]=FS4(436,68,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

@@ -1,0 +1,1 @@
+function ISAA3EDLK72100091684FAPD01(){var i=0;this.Title="Diagnóstico de Avarias por DTC: P1684 (40)";this.Name="SAA3EDLK72100091684FAPD01";this.Width=475;this.Height=353;this.CallOut=new Array;}

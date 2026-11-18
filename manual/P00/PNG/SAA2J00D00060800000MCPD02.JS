@@ -1,0 +1,1 @@
+function ISAA2J00D00060800000MCPD02(){var i=0;this.Title=" Afinação";this.Name="SAA2J00D00060800000MCPD02";this.Width=475;this.Height=320;this.CallOut=new Array;}

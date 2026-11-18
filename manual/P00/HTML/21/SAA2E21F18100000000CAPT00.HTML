@@ -1,0 +1,602 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN""http://www.w3.org/TR/html4/frameset.dtd">
+<html lang="pt">
+ <head>
+  <meta content="HONDA MOTOR Co.,Ltd." name="author"/>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+  <meta content="text/css" http-equiv="Content-Style-Type"/>
+  <meta content="text/javascript" http-equiv="Content-Script-Type"/>
+  <title>
+   Descrição do Sistema EPS (Excepto Modelo HATC)
+  </title>
+  <link href="../CTL/ESM_DISP.CSS" media="screen" rel="stylesheet"/>
+  <link href="../CTL/ESM_PRIN.CSS" media="print" rel="stylesheet"/>
+  <script src="../CTL/ILLUST.JS">
+  </script>
+  <script>
+   FIC();
+  </script>
+  <script src="../../PNG/SAA2E21F18100000000CAPD01.JS">
+  </script>
+  <script src="../../PNG/S3YYE00F18100000000CAPD02.JS">
+  </script>
+  <script>
+   <!--
+with(document){ESM.iDT[0]=new ISAA2E21F18100000000CAPD01();ESM.iDT[1]=new IS3YYE00F18100000000CAPD02();}//-->
+  </script>
+  <link href="https://unpkg.com/skeleton-css@2.0.4/css/skeleton.css" rel="stylesheet"/>
+  <body class="container">
+   <h2>
+    Descrição do Sistema EPS
+   </h2>
+   <h3>
+    <b>
+     Entradas e Saídas de Sinais da Unidade de Controlo EPS na Ficha A (2P)
+    </b>
+   </h3>
+   <p class="FIG">
+    <div class="FIG">
+     <script>
+      FIL(1,gESM.iDT[0],512);
+     </script>
+    </div>
+   </p>
+   <p>
+    <table cellspacing="0" class="All" width="100%">
+     <thead>
+      <tr>
+       <th align="center" class="RB" rowspan="2" valign="middle" width="11%">
+        Número do terminal
+       </th>
+       <th align="center" class="RB" rowspan="2" valign="middle" width="11%">
+        Cor do fio
+       </th>
+       <th align="center" class="RB" rowspan="2" valign="middle" width="19%">
+        Símbolo do terminal
+        <br/>
+        (Nome do terminal)
+       </th>
+       <th align="center" class="RB" rowspan="2" valign="middle" width="15%">
+        Descrição
+       </th>
+       <th align="center" class="B" colspan="3" valign="top" width="45%">
+        Medição
+       </th>
+      </tr>
+      <tr>
+       <th align="center" class="RB" valign="top" width="11%">
+        Terminais
+       </th>
+       <th align="center" class="RB" valign="top" width="23%">
+        Condições
+        <br/>
+        Ignição LIGADA (II)
+       </th>
+       <th align="center" class="B" valign="top" width="11%">
+        Voltagem
+       </th>
+      </tr>
+     </thead>
+     <tbody>
+      <tr>
+       <td align="center" class="RB" valign="top" width="11%">
+        1
+       </td>
+       <td align="center" class="RB" valign="top" width="11%">
+        RED
+       </td>
+       <td align="left" class="RB" valign="top" width="19%">
+        M +
+        <br/>
+        (Motor plus)
+       </td>
+       <td align="left" class="RB" valign="top" width="15%">
+        Acciona o motor do actuador
+       </td>
+       <td align="left" class="RB" valign="top" width="11%">
+        1-Massa
+       </td>
+       <td align="center" class="RB" valign="top" width="23%">
+        ———
+       </td>
+       <td align="center" class="B" valign="top" width="11%">
+        ———
+       </td>
+      </tr>
+      <tr>
+       <td align="center" class="RB" valign="top" width="11%">
+        2
+       </td>
+       <td align="center" class="RB" valign="top" width="11%">
+        WHT/ BLU
+       </td>
+       <td align="left" class="RB" valign="top" width="19%">
+        + B
+        <br/>
+        (Positivo da bateria)
+       </td>
+       <td align="left" class="RB" valign="top" width="15%">
+        Fonte de alimentação para o motor do actuador
+       </td>
+       <td align="left" class="RB" valign="top" width="11%">
+        2-Massa
+       </td>
+       <td align="center" class="RB" valign="top" width="23%">
+        Sempre
+       </td>
+       <td align="center" class="B" valign="top" width="11%">
+        Voltagem da bateria
+       </td>
+      </tr>
+      <tr>
+       <td align="center" class="RB" valign="top" width="11%">
+        3
+       </td>
+       <td align="center" class="RB" valign="top" width="11%">
+        GRN
+       </td>
+       <td align="left" class="RB" valign="top" width="19%">
+        M -
+        <br/>
+        (Motor minus)
+       </td>
+       <td align="left" class="RB" valign="top" width="15%">
+        Acciona o motor do actuador
+       </td>
+       <td align="left" class="RB" valign="top" width="11%">
+        3-Massa
+       </td>
+       <td align="center" class="RB" valign="top" width="23%">
+        ———
+       </td>
+       <td align="center" class="B" valign="top" width="11%">
+        ———
+       </td>
+      </tr>
+      <tr>
+       <td align="center" class="R" valign="top" width="11%">
+        4
+       </td>
+       <td align="center" class="R" valign="top" width="11%">
+        BLK
+       </td>
+       <td align="left" class="R" valign="top" width="19%">
+        GND
+        <br/>
+        (massa da alimentação)
+       </td>
+       <td align="left" class="R" valign="top" width="15%">
+        Massa para o motor do actuador
+       </td>
+       <td align="left" class="R" valign="top" width="11%">
+        4-Massa
+       </td>
+       <td align="center" class="R" valign="top" width="23%">
+        ———
+       </td>
+       <td align="center" valign="top" width="11%">
+        ———
+       </td>
+      </tr>
+     </tbody>
+    </table>
+   </p>
+   <h3>
+    <b>
+     Entradas e Saídas de Sinais da Unidade de Controlo EPS na Ficha B (14P)
+    </b>
+   </h3>
+   <p class="FIG">
+    <div class="FIG">
+     <script>
+      FIL(2,gESM.iDT[1],512);
+     </script>
+    </div>
+   </p>
+   <p>
+    <table cellspacing="0" class="All" width="100%">
+     <thead>
+      <tr>
+       <th align="center" class="RB" rowspan="2" valign="middle" width="9%">
+        Número do terminal
+       </th>
+       <th align="center" class="RB" rowspan="2" valign="middle" width="9%">
+        Cor do fio
+       </th>
+       <th align="center" class="RB" rowspan="2" valign="middle" width="18%">
+        Símbolo do terminal
+        <br/>
+        (Nome do terminal)
+       </th>
+       <th align="center" class="RB" rowspan="2" valign="middle" width="21%">
+        Descrição
+       </th>
+       <th align="center" class="B" colspan="4" valign="top" width="44%">
+        Medição
+       </th>
+      </tr>
+      <tr>
+       <th align="center" class="RB" valign="top" width="9%">
+        Terminais
+       </th>
+       <th align="center" class="RB" colspan="2" valign="top" width="18%">
+        Condições
+        <br/>
+        (Ignição LIGADA (II))
+       </th>
+       <th align="center" class="B" valign="top" width="18%">
+        Voltagem
+       </th>
+      </tr>
+     </thead>
+     <tbody>
+      <tr>
+       <td align="center" class="RB" rowspan="2" valign="middle" width="9%">
+        1
+       </td>
+       <td align="center" class="RB" rowspan="2" valign="middle" width="9%">
+        WHT
+       </td>
+       <td align="left" class="RB" rowspan="2" valign="middle" width="18%">
+        Vcc
+        <br/>
+        (Voltagem comum)
+       </td>
+       <td align="left" class="RB" rowspan="2" valign="middle" width="21%">
+        Fonte de alimentação para o sensor de binário
+       </td>
+       <td align="center" class="RB" rowspan="2" valign="middle" width="9%">
+        1-Massa
+       </td>
+       <td align="left" class="RB" colspan="2" valign="top" width="18%">
+        Ignição LIGADA (II)
+       </td>
+       <td align="center" class="B" valign="top" width="18%">
+        Cerca de 9 V
+       </td>
+      </tr>
+      <tr>
+       <td align="left" class="RB" colspan="2" valign="top" width="18%">
+        Ignição DESLIGADA
+       </td>
+       <td align="center" class="B" valign="top" width="18%">
+        0 V
+       </td>
+      </tr>
+      <tr>
+       <td align="center" class="RB" valign="top" width="9%">
+        2
+       </td>
+       <td align="center" class="RB" valign="top" width="9%">
+        YEL
+       </td>
+       <td align="left" class="RB" valign="top" width="18%">
+        V-ref
+        <br/>
+        (Referência voltagem)
+       </td>
+       <td align="left" class="RB" valign="top" width="21%">
+        Voltagem de referência para sensor de binário
+       </td>
+       <td align="center" class="RB" valign="top" width="9%">
+        2-Massa
+       </td>
+       <td align="left" class="RB" colspan="2" valign="top" width="18%">
+        Ignição LIGADA (II)
+       </td>
+       <td align="center" class="B" valign="top" width="18%">
+        3,3 V
+       </td>
+      </tr>
+      <tr>
+       <td align="center" class="RB" rowspan="2" valign="middle" width="9%">
+        3
+       </td>
+       <td align="center" class="RB" rowspan="2" valign="middle" width="9%">
+        PNK/BLU
+       </td>
+       <td align="left" class="RB" rowspan="2" valign="middle" width="18%">
+        RY+
+        <br/>
+        (Relé disparo plus)
+       </td>
+       <td align="left" class="RB" rowspan="2" valign="middle" width="21%">
+        Acciona o relé do motor
+        <br/>
+        (o relé do motor é DESLIGADO quando ocorre o problema)
+       </td>
+       <td align="center" class="RB" rowspan="2" valign="middle" width="9%">
+        3-Massa
+       </td>
+       <td align="left" class="RB" colspan="2" valign="top" width="18%">
+        Arranque o motor
+       </td>
+       <td align="center" class="B" valign="top" width="18%">
+        Voltagem da bateria
+       </td>
+      </tr>
+      <tr>
+       <td align="left" class="RB" colspan="2" valign="top" width="18%">
+        Ignição DESLIGADA
+       </td>
+       <td align="center" class="B" valign="top" width="18%">
+        0 V
+       </td>
+      </tr>
+      <tr>
+       <td align="center" class="RB" valign="top" width="9%">
+        4
+       </td>
+       <td align="center" class="RB" valign="top" width="9%">
+        BLU/YEL
+       </td>
+       <td align="left" class="RB" valign="top" width="18%">
+        VSP
+        <br/>
+        (Impulso da velocidade do veículo)
+       </td>
+       <td align="left" class="RB" valign="top" width="21%">
+        Detecta o sinal da velocidade do veículo para o sensor de velocidade ou o ECM/PCM (impulso/Rotação 4).
+       </td>
+       <td align="center" class="RB" valign="top" width="9%">
+        4-Massa
+       </td>
+       <td align="left" class="RB" colspan="2" valign="top" width="18%">
+        Eleve o veículo do piso e e rode a roda da frente
+       </td>
+       <td align="center" class="B" valign="top" width="18%">
+        Alternando  voltagem cerca de   0 V-5 V-0 V-5 V
+       </td>
+      </tr>
+      <tr>
+       <td align="center" class="RB" valign="top" width="9%">
+        5
+       </td>
+       <td align="center" class="RB" valign="top" width="9%">
+        BLU
+       </td>
+       <td align="left" class="RB" valign="top" width="18%">
+        NEP
+        <br/>
+        (Impulso do motor)
+       </td>
+       <td align="left" class="RB" valign="top" width="21%">
+        Detecta o impulso do motor
+       </td>
+       <td align="center" class="RB" valign="top" width="9%">
+        5-Massa
+       </td>
+       <td align="left" class="RB" colspan="2" valign="top" width="18%">
+        Arranque o motor
+       </td>
+       <td align="center" class="B" valign="top" width="18%">
+        Cerca de  0 V-Voltagem da Bateria
+       </td>
+      </tr>
+      <tr>
+       <td align="center" class="RB" rowspan="2" valign="middle" width="9%">
+        6
+       </td>
+       <td align="center" class="RB" rowspan="2" valign="middle" width="9%">
+        YEL
+       </td>
+       <td align="left" class="RB" rowspan="2" valign="middle" width="18%">
+        IG1
+        <br/>
+        (Ignição 1)
+       </td>
+       <td align="left" class="RB" rowspan="2" valign="middle" width="21%">
+        Fonte de alimentação para a activação do sistema
+       </td>
+       <td align="center" class="RB" rowspan="2" valign="middle" width="9%">
+        6-Massa
+       </td>
+       <td align="left" class="RB" colspan="2" valign="top" width="18%">
+        Ignição LIGADA (II)
+       </td>
+       <td align="center" class="B" valign="top" width="18%">
+        Voltagem da bateria
+       </td>
+      </tr>
+      <tr>
+       <td align="left" class="RB" colspan="2" valign="top" width="18%">
+        Ignição DESLIGADA
+       </td>
+       <td align="center" class="B" valign="top" width="18%">
+        0 V
+       </td>
+      </tr>
+      <tr>
+       <td align="center" class="RB" valign="top" width="9%">
+        7
+       </td>
+       <td align="center" class="RB" valign="top" width="9%">
+        GRY/BLU
+       </td>
+       <td align="left" class="RB" valign="top" width="18%">
+        SG
+        <br/>
+        (Massa vedada)
+       </td>
+       <td align="left" class="RB" valign="top" width="21%">
+        Massa para linha vedada
+       </td>
+       <td align="center" class="RB" valign="top" width="9%">
+        7-Massa
+       </td>
+       <td align="center" class="RB" colspan="2" valign="top" width="18%">
+        ———
+       </td>
+       <td align="center" class="B" valign="top" width="18%">
+        ———
+       </td>
+      </tr>
+      <tr>
+       <td align="center" class="RB" valign="top" width="9%">
+        8
+       </td>
+       <td align="center" class="RB" valign="top" width="9%">
+        BRN
+       </td>
+       <td align="left" class="RB" valign="top" width="18%">
+        SE
+        <br/>
+        (Sensor terra)
+       </td>
+       <td align="left" class="RB" valign="top" width="21%">
+        Massa para o sensor de binário
+       </td>
+       <td align="center" class="RB" valign="top" width="9%">
+        8-Massa
+       </td>
+       <td align="center" class="RB" colspan="2" valign="top" width="18%">
+        ———
+       </td>
+       <td align="center" class="B" valign="top" width="18%">
+        ———
+       </td>
+      </tr>
+      <tr>
+       <td align="center" class="RB" valign="top" width="9%">
+        9
+       </td>
+       <td align="center" class="RB" valign="top" width="9%">
+        RED
+       </td>
+       <td align="left" class="RB" valign="top" width="18%">
+        Sub
+        <br/>
+        (Sub voltagem)
+       </td>
+       <td align="left" class="RB" valign="top" width="21%">
+        Detecta o sinal do sensor de binário
+       </td>
+       <td align="center" class="RB" valign="top" width="9%">
+        9-Massa
+       </td>
+       <td align="left" class="RB" colspan="2" rowspan="2" valign="middle" width="18%">
+        Arranque o motor e vire o volante
+       </td>
+       <td align="center" class="B" rowspan="2" valign="middle" width="18%">
+        Cerca
+        <br/>
+        0,5 V
+        <span style="font-family:Symbol;">
+         «
+        </span>
+        4,5 V
+       </td>
+      </tr>
+      <tr>
+       <td align="center" class="RB" valign="top" width="9%">
+        10
+       </td>
+       <td align="center" class="RB" valign="top" width="9%">
+        BLU
+       </td>
+       <td align="left" class="RB" valign="top" width="18%">
+        Principal
+        <br/>
+        (Voltagem principal)
+       </td>
+       <td align="left" class="RB" valign="top" width="21%">
+        Detecta o sinal do sensor de binário
+       </td>
+       <td align="center" class="RB" valign="top" width="9%">
+        10-Massa
+       </td>
+      </tr>
+      <tr>
+       <td align="center" class="RB" valign="top" width="9%">
+        11
+       </td>
+       <td align="center" class="RB" valign="top" width="9%">
+        BRN
+       </td>
+       <td align="left" class="RB" valign="top" width="18%">
+        SCS
+        <br/>
+        (Sinal de verificação de serviço)
+       </td>
+       <td align="left" class="RB" valign="top" width="21%">
+        Detecta o sinal da ficha de verificação de serviço
+       </td>
+       <td align="center" class="RB" valign="top" width="9%">
+        ———
+       </td>
+       <td align="center" class="RB" colspan="2" valign="top" width="18%">
+        ———
+       </td>
+       <td align="center" class="B" valign="top" width="18%">
+        ———
+       </td>
+      </tr>
+      <tr>
+       <td align="center" class="RB" rowspan="2" valign="middle" width="9%">
+        13
+       </td>
+       <td align="center" class="RB" rowspan="2" valign="middle" width="9%">
+        YEL/RED
+       </td>
+       <td align="left" class="RB" rowspan="2" valign="middle" width="18%">
+        WAP
+        <br/>
+        (Lâmpada de aviso)
+       </td>
+       <td align="left" class="RB" rowspan="2" valign="middle" width="21%">
+        Acciona a luz indicadora da EPS
+       </td>
+       <td align="center" class="RB" rowspan="2" valign="middle" width="9%">
+        13-Massa
+       </td>
+       <td align="left" class="RB" rowspan="2" valign="middle" width="11%">
+        Indicador EPS
+       </td>
+       <td align="center" class="RB" valign="top" width="7%">
+        LIGADO
+       </td>
+       <td align="center" class="B" valign="top" width="18%">
+        Voltagem da bateria
+       </td>
+      </tr>
+      <tr>
+       <td align="center" class="RB" valign="top" width="7%">
+        DESLIGADO
+       </td>
+       <td align="center" class="B" valign="top" width="18%">
+        0 V
+       </td>
+      </tr>
+      <tr>
+       <td align="center" class="R" valign="top" width="9%">
+        14
+       </td>
+       <td align="center" class="R" valign="top" width="9%">
+        GRY
+       </td>
+       <td align="left" class="R" valign="top" width="18%">
+        DIAG-H
+        <br/>
+        (Diagnóstico-H)
+       </td>
+       <td align="left" class="R" valign="top" width="21%">
+        Comunica com o PGM Tester Honda
+       </td>
+       <td align="center" class="R" valign="top" width="9%">
+        ———
+       </td>
+       <td align="center" class="R" colspan="2" valign="top" width="18%">
+        ———
+       </td>
+       <td align="center" valign="top" width="18%">
+        ———
+       </td>
+      </tr>
+     </tbody>
+    </table>
+   </p>
+   <script>
+    Array.from(document.querySelectorAll("input[type=image]")).map(item=>{item.click(); item.remove()})
+   </script>
+  </body>
+ </head>
+</html>

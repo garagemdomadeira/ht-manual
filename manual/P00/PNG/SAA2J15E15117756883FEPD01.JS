@@ -1,0 +1,1 @@
+function ISAA2J15E15117756883FEPD01(){var i=0;this.Title="Ensaio da Válvula de Controlo da Pressão da Embraiagem de Arranque da CVT";this.Name="SAA2J15E15117756883FEPD01";this.Width=475;this.Height=369;this.CallOut=new Array;this.CallOut[i++]=FS4(351,13,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

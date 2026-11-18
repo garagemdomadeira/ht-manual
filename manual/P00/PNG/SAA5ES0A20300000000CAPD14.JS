@@ -1,0 +1,1 @@
+function ISAA5ES0A20300000000CAPD14(){var i=0;this.Title=" Sensor da Pressão Absoluta no Colector (MAP)";this.Name="SAA5ES0A20300000000CAPD14";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(311,23,13,0,"'Arial','sans-serif'",0,"<b>UNIDADE DO SENSOR</b>");this.CallOut[i++]=FS4(67,214,13,0,"'Arial','sans-serif'",0,"<b>TERMINAL</b>");}

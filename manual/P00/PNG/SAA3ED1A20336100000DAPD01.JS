@@ -1,0 +1,1 @@
+function ISAA3ED1A20336100000DAPD01(){var i=0;this.Title="Localizações dos Componentes do Sistema de Controlo do Ralenti";this.Name="SAA3ED1A20336100000DAPD01";this.Width=950;this.Height=559;this.CallOut=new Array;this.CallOut[i++]=FS4(633,531,12,0,"'Arial','sans-serif'",0,"<b>VÁLVULA DE CONTROLO DO AR DO RALENTI (IAC)</b>");}

@@ -1,0 +1,1 @@
+function ISAA2J00J26216516401KDPD01(){var i=0;this.Title="Remoção/Instalação da Consola Central";this.Name="SAA2J00J26216516401KDPD01";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(358,85,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

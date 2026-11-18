@@ -1,0 +1,1 @@
+function ISAA3EB0A14666300000KAPD03(){var i=0;this.Title="Remoção do Conjunto do Balanceiro";this.Name="SAA3EB0A14666300000KAPD03";this.Width=475;this.Height=449;this.CallOut=new Array;this.CallOut[i++]=FS4(435,56,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(41,85,13,0,"'Arial','sans-serif'",0,"<b>B</b>");}

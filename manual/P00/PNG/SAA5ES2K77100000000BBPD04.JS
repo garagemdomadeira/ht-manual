@@ -1,0 +1,1 @@
+function ISAA5ES2K77100000000BBPD04(){var i=0;this.Title=" Como Eliminar os DTC da A/T removendo o fusível";this.Name="SAA5ES2K77100000000BBPD04";this.Width=475;this.Height=336;this.CallOut=new Array;this.CallOut[i++]=FS4(262,302,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(76,283,13,0,"'Arial','sans-serif'",0,"<b>B</b>");}

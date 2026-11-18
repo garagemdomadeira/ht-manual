@@ -1,0 +1,1 @@
+function ISAA4EQ0F00000057161KAPD07(){var i=0;this.Title=" Sem SRS";this.Name="SAA4EQ0F00000057161KAPD07";this.Width=475;this.Height=320;this.CallOut=new Array;}

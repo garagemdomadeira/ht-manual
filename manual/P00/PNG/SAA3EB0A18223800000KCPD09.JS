@@ -1,0 +1,1 @@
+function ISAA3EB0A18223800000KCPD09(){var i=0;this.Title="Instalação do Motor";this.Name="SAA3EB0A18223800000KCPD09";this.Width=475;this.Height=353;this.CallOut=new Array;this.CallOut[i++]=FS4(22,16,13,0,"'Arial','sans-serif'",0,"<b>B</b>");this.CallOut[i++]=FS4(443,160,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

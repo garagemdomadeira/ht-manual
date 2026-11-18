@@ -1,0 +1,1 @@
+function ISAA2J00A32200000000FEPD01(){var i=0;this.Title="Ensaio da Pressão do Óleo do Motor";this.Name="SAA2J00A32200000000FEPD01";this.Width=475;this.Height=401;this.CallOut=new Array;this.CallOut[i++]=FS4(262,16,13,0,"'Arial','sans-serif'",0,"<b>07406-0030000</b>");this.CallOut[i++]=FS4(287,358,13,0,"'Arial','sans-serif'",0,"<b>07506-3000001</b>");}

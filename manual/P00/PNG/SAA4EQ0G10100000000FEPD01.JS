@@ -1,0 +1,1 @@
+function ISAA4EQ0G10100000000FEPD01(){var i=0;this.Title=" Ensaio do Funcionamento";this.Name="SAA4EQ0G10100000000FEPD01";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(16,64,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(227,288,13,0,"'Arial','sans-serif'",0,"<b>B</b>");}

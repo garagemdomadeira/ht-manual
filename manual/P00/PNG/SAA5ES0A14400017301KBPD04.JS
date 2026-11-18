@@ -1,0 +1,1 @@
+function ISAA5ES0A14400017301KBPD04(){var i=0;this.Title="Substituição do Líquido de Arrefecimento - Excepto L12A4, L13A6, L15A1 (Modelo IN) e L15A6";this.Name="SAA5ES0A14400017301KBPD04";this.Width=475;this.Height=320;this.CallOut=new Array;}

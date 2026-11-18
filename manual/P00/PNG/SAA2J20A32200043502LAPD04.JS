@@ -1,0 +1,1 @@
+function ISAA2J20A32200043502LAPD04(){var i=0;this.Title=" Inspecção da Bomba do Óleo";this.Name="SAA2J20A32200043502LAPD04";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(211,285,13,0,"'Arial','sans-serif'",0,"<b>B</b>");this.CallOut[i++]=FS4(385,231,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

@@ -1,0 +1,1 @@
+function ISAA5ES6A20300000000CAPD19(){var i=0;this.Title=" Sistema i-DSI (Excepto motores L15A1, L15A5)";this.Name="SAA5ES6A20300000000CAPD19";this.Width=475;this.Height=353;this.CallOut=new Array;this.CallOut[i++]=FS4(16,105,13,0,"'Arial','sans-serif'",0,"<b>VELA <br>TRASEI<br>RA</b>");this.CallOut[i++]=FS4(379,285,13,0,"'Arial','sans-serif'",0,"<b>VELA <br>DIANTEI<br>RA</b>");}

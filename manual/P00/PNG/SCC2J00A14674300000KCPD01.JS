@@ -1,0 +1,1 @@
+function ISCC2J00A14674300000KCPD01(){var i=0;this.Title="Instalação da Corrente da Árvore de Cames";this.Name="SCC2J00A14674300000KCPD01";this.Width=475;this.Height=336;this.CallOut=new Array;this.CallOut[i++]=FS4(161,307,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(396,13,13,0,"'Arial','sans-serif'",0,"<b>B</b>");}

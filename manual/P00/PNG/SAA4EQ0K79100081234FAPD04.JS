@@ -1,0 +1,1 @@
+function ISAA4EQ0K79100081234FAPD04(){var i=0;this.Title="Diagnóstico de Avarias por DTC: 23-4";this.Name="SAA4EQ0K79100081234FAPD04";this.Width=475;this.Height=417;this.CallOut=new Array;this.CallOut[i++]=FS4(16,16,13,0,"'Arial','sans-serif'",0,"<b>FICHA DE 2P DA CABLAGEM DO PISO</b>");this.CallOut[i++]=FS4(108,276,13,0,"'Arial','sans-serif'",0,"<b>07XAZ-S1A0200</b>");}

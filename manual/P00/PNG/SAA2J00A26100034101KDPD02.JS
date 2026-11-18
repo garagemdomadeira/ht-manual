@@ -1,0 +1,1 @@
+function ISAA2J00A26100034101KDPD02(){var i=0;this.Title="Remoção/Instalação da Bobina da Ignição";this.Name="SAA2J00A26100034101KDPD02";this.Width=475;this.Height=385;this.CallOut=new Array;}

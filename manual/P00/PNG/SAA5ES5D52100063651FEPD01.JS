@@ -1,0 +1,1 @@
+function ISAA5ES5D52100063651FEPD01(){var i=0;this.Title="Ensaio do Interruptor de DESLIGAR o VSA";this.Name="SAA5ES5D52100063651FEPD01";this.Width=475;this.Height=417;this.CallOut=new Array;this.CallOut[i++]=FS4(432,355,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

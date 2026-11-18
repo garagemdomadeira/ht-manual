@@ -1,0 +1,1 @@
+function ISAA2EK0J54300065722FEPD01(){var i=0;this.Title=" Vidro Traseiro:";this.Name="SAA2EK0J54300065722FEPD01";this.Width=475;this.Height=353;this.CallOut=new Array;this.CallOut[i++]=FS4(359,95,13,0,"'Arial','sans-serif'",0,"<b>B</b>");this.CallOut[i++]=FS4(410,311,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

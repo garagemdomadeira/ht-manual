@@ -1,0 +1,1 @@
+function ISAA2J15K77100000000BBPD03(){var i=0;this.Title=" Como Diagnosticar Circuitos no PCM";this.Name="SAA2J15K77100000000BBPD03";this.Width=475;this.Height=513;this.CallOut=new Array;this.CallOut[i++]=FS4(284,483,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(416,350,13,0,"'Arial','sans-serif'",0,"<b>B</b>");}

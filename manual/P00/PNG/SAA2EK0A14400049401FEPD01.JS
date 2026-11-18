@@ -1,0 +1,1 @@
+function ISAA2EK0A14400049401FEPD01(){var i=0;this.Title="Ensaio do Motor da Ventoinha";this.Name="SAA2EK0A14400049401FEPD01";this.Width=475;this.Height=394;this.CallOut=new Array;this.CallOut[i++]=FS4(298,33,12,0,"'Arial','sans-serif'",0,"<b></b>Lado do terminal<br>dos terminais macho.");}

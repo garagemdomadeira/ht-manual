@@ -1,0 +1,1 @@
+function ISAA5ES2E15110757156FEPD03(){var i=0;this.Title="Para os modelos KB, KE, KG e KQ (Motor L15A1) (CVT de 6 posições+Modo de 7 Velocidades)";this.Name="SAA5ES2E15110757156FEPD03";this.Width=475;this.Height=481;this.CallOut=new Array;this.CallOut[i++]=FS4(266,159,13,0,"'Arial','sans-serif'",0,"<b></b>Lado dos fios<br>dos terminais fêmea");}

@@ -1,0 +1,1 @@
+function ISAA2J20A14674300000KAPD09(){var i=0;this.Title="Remoção da Corrente da Árvore de Cames";this.Name="SAA2J20A14674300000KAPD09";this.Width=475;this.Height=401;this.CallOut=new Array;this.CallOut[i++]=FS4(257,371,13,0,"'Arial','sans-serif'",0,"<b>B</b>");this.CallOut[i++]=FS4(82,95,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

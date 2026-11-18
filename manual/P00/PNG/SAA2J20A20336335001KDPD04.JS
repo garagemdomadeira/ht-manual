@@ -1,0 +1,1 @@
+function ISAA2J20A20336335001KDPD04(){var i=0;this.Title=" Aquando da Substituição do Colector da Admissão:";this.Name="SAA2J20A20336335001KDPD04";this.Width=475;this.Height=353;this.CallOut=new Array;}

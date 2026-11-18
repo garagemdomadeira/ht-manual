@@ -1,0 +1,1 @@
+function ISAA4EQ0J46643436101FEPD02(){var i=0;this.Title=" Substituição da Bateria";this.Name="SAA4EQ0J46643436101FEPD02";this.Width=475;this.Height=369;this.CallOut=new Array;}
